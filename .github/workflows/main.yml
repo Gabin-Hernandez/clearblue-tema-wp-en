@@ -19,7 +19,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: 217.196.57.131  # IP sacada de tu imagen
-        username: u676347305.gustavogravagna.com  # Usuario sacado de tu imagen
+        username: u676347305.gaboprueba  # Usuario sacado de tu imagen
         password: ${{ secrets.FTP_PASSWORD }} # Lee la contraseña segura
         # IMPORTANTE: Confirma que esta ruta exista en tu Hostinger o el deploy fallará
         server-dir: ./dominioprueba/wp-content/themes/child-theme/
