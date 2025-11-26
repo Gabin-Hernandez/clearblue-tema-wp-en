@@ -1,27 +1,40 @@
 # Página "Qué Ofrecemos" - Instrucciones de Instalación
 
-## ✅ Archivos Creados
+## ✅ Archivos Creados y Subidos a Hostinger
 
 1. `page-que-ofrecemos.php` - Template de la página
-2. `crear-pagina-que-ofrecemos.php` - Script para crear la página automáticamente
-3. `header.php` - Actualizado con el enlace al menú
+2. `header.php` - Actualizado con el enlace al menú
+3. `functions.php` - Actualizado con estilos adicionales
 
-## 📋 Pasos para Activar la Página
+## 📋 Pasos para Activar la Página en tu WordPress (Hostinger)
 
-### Opción 1: Crear la página automáticamente (Recomendado)
+### ⚠️ IMPORTANTE: Crear la página desde WordPress Admin
 
-1. Visita en tu navegador: `http://tu-sitio.com/wp-content/themes/tema-hijo/crear-pagina-que-ofrecemos.php`
-2. La página se creará automáticamente
-3. Elimina el archivo `crear-pagina-que-ofrecemos.php` después de ejecutarlo
+Ya que los archivos están en Hostinger vía GitHub/FTP, ahora debes:
 
-### Opción 2: Crear la página manualmente desde WordPress
+1. **Ingresa al panel de administración de WordPress** en Hostinger
+   - URL: `https://tu-dominio.com/wp-admin`
 
-1. Ve al panel de administración de WordPress
-2. Ve a **Páginas > Añadir nueva**
-3. Título: `Qué Ofrecemos`
-4. URL: `que-ofrecemos`
-5. En el panel derecho, en **Plantilla**, selecciona: **Qué Ofrecemos**
-6. Publica la página
+2. **Ve a Páginas > Añadir nueva**
+
+3. **Configura la página:**
+   - **Título:** `Qué Ofrecemos`
+   - **Contenido:** Déjalo vacío (el template tiene todo el contenido)
+   - **URL/Slug:** `que-ofrecemos` (WordPress lo generará automáticamente)
+
+4. **En el panel lateral derecho, busca "Atributos de página" o "Plantilla":**
+   - Selecciona: **"Qué Ofrecemos"** (aparecerá en el dropdown)
+
+5. **Publica la página**
+
+6. **Verifica la página:**
+   - Visita: `https://tu-dominio.com/que-ofrecemos`
+
+### 🔍 Si no aparece la plantilla "Qué Ofrecemos" en el dropdown:
+
+1. Verifica que el archivo `page-que-ofrecemos.php` esté en la carpeta del tema hijo en Hostinger
+2. Limpia la caché de WordPress (si usas un plugin de caché)
+3. Ve a **Apariencia > Temas** y asegúrate de que el tema hijo esté activado
 
 ## 🎨 Características de la Página
 
