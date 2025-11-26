@@ -8,50 +8,90 @@ get_header();
 ?>
 
 <!-- Hero Section -->
-<section class="relative min-h-[70vh] bg-gradient-to-br from-gray-50 to-gray-100 pt-32 pb-20">
+<section class="relative min-h-[80vh] bg-gradient-to-br from-gray-50 to-gray-100 pt-32 pb-20 overflow-hidden">
     <div class="container mx-auto px-6">
-        <div class="max-w-4xl">
-            <!-- Badge -->
-            <div class="inline-block mb-6">
-                <span class="bg-[#849dfa] text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
-                    CB RECLUTAMIENTO + SELECCIÓN
-                </span>
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Columna izquierda - Contenido de texto -->
+            <div class="max-w-xl">
+                <!-- Badge -->
+                <div class="inline-block mb-6">
+                    <span class="bg-[#849dfa] text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
+                        CB RECLUTAMIENTO + SELECCIÓN
+                    </span>
+                </div>
+                
+                <!-- Título principal -->
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    Estrategias efectivas de reclutamiento y selección de personal para 
+                    <span class="text-[#849dfa]">IMPULSAR</span> tu capital humano
+                </h1>
+                
+                <!-- CTA Button -->
+                <button class="bg-[#849dfa] hover:bg-[#6b7fd8] text-white px-8 py-4 rounded-lg transition font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 duration-300">
+                    ACCIÓN BT
+                </button>
             </div>
             
-            <!-- Título principal -->
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                Estrategias efectivas de reclutamiento y selección de personal para 
-                <span class="text-[#849dfa]">IMPULSAR</span> tu capital humano
-            </h1>
+            <!-- Columna derecha - Grid de imágenes desordenado -->
+            <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
+                <!-- Imagen 1 - Superior izquierda -->
+                <div class="absolute top-0 left-0 w-48 h-48 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
+                         alt="Trabajador 1" 
+                         class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 2 - Superior derecha -->
+                <div class="absolute top-0 right-0 w-56 h-40 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
+                         alt="Trabajador 2" 
+                         class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
+                <div class="absolute top-32 left-12 w-52 h-56 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30">
+                    <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
+                         alt="Trabajador 3" 
+                         class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Imagen 4 - Inferior derecha -->
+                <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
+                         alt="Trabajador 4" 
+                         class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Elementos decorativos (cuadrados morados como en la imagen) -->
+                <div class="absolute top-24 right-32 w-20 h-20 bg-[#849dfa] rounded-lg opacity-80 z-0"></div>
+                <div class="absolute bottom-32 left-32 w-16 h-16 bg-[#849dfa] rounded-lg opacity-60 z-0"></div>
+            </div>
             
-            <!-- CTA Button -->
-            <button class="bg-[#849dfa] hover:bg-[#6b7fd8] text-white px-8 py-4 rounded-lg transition font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 duration-300">
-                ACCIÓN BT
-            </button>
-        </div>
-        
-        <!-- Grid de imágenes -->
-        <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="rounded-2xl overflow-hidden shadow-lg">
-                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
-                     alt="Trabajador 1" 
-                     class="w-full h-48 object-cover">
+            <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
+            <div class="grid grid-cols-2 gap-4 lg:hidden">
+                <div class="rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
+                         alt="Trabajador 1" 
+                         class="w-full h-48 object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
+                         alt="Trabajador 2" 
+                         class="w-full h-48 object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
+                         alt="Trabajador 3" 
+                         class="w-full h-48 object-cover">
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
+                         alt="Trabajador 4" 
+                         class="w-full h-48 object-cover">
+                </div>
             </div>
-            <div class="rounded-2xl overflow-hidden shadow-lg">
-                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
-                     alt="Trabajador 2" 
-                     class="w-full h-48 object-cover">
-            </div>
-            <div class="rounded-2xl overflow-hidden shadow-lg">
-                <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
-                     alt="Trabajador 3" 
-                     class="w-full h-48 object-cover">
-            </div>
-            <div class="rounded-2xl overflow-hidden shadow-lg">
-                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
-                     alt="Trabajador 4" 
-                     class="w-full h-48 object-cover">
-            </div>
+            
         </div>
     </div>
 </section>
