@@ -42,7 +42,7 @@
                         <a href="<?php echo esc_url(home_url('/')); ?>" class="text-white hover:text-blue-300 transition">Quiénes somos</a>
                         <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="text-white hover:text-blue-300 transition">Qué ofrecemos</a>
                         <a href="#" class="text-white hover:text-blue-300 transition">Camino zum talent</a>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Contáctanos</a>
+                        <a href="#" class="text-white hover:text-blue-300 transition">Contacto</a>
                         <a href="#" class="text-white hover:text-blue-300 transition">Bolsa de trabajo</a>
                         <?php
                     },
