@@ -9,7 +9,7 @@
 <?php wp_body_open(); ?>
 
 <!-- Header/Nav sticky con efecto glassmorphism -->
-<header class="sticky top-0 left-0 right-0 z-50 backdrop-blur-md bg-blue-900/30 border-b border-white/10 shadow-lg" id="main-header">
+<header class="sticky top-0 left-0 right-0 z-50 backdrop-blur-md bg-primary/30 border-b border-white/10 shadow-lg" id="main-header">
     <nav class="container mx-auto px-6 py-4">
         <div class="flex items-center justify-between">
             <!-- Logo -->

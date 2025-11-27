@@ -3,6 +3,11 @@
  Template:     twentytwentyfour
 */
 
+:root {
+    --color-primario: #1c1e33;
+    --color-secundario: #85abff;
+}
+
 /* Efecto glassmorphism para la navbar */
 #main-header {
     background: rgba(30, 58, 138, 0.3); /* bg-blue-900 con transparencia */
