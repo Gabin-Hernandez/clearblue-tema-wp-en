@@ -37,6 +37,22 @@ function add_tailwind_css() {
         }
     </script>
     <style>
+        /* Anular fuentes por defecto de WordPress */
+        body, 
+        .wp-site-blocks,
+        .editor-styles-wrapper,
+        .wp-block,
+        h1, h2, h3, h4, h5, h6,
+        p, span, div, a {
+            font-family: 'Lato', sans-serif !important;
+        }
+        
+        /* Anular variables CSS de WordPress */
+        :root {
+            --wp--preset--font-family--body: 'Lato', sans-serif;
+            --wp--preset--font-family--heading: 'Lato', sans-serif;
+        }
+        
         @layer utilities {
             .bg-gradient-radial {
                 background-image: radial-gradient(var(--tw-gradient-stops));
