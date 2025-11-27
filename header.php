@@ -28,7 +28,6 @@
                     </a>
                 <?php endif; ?>
             </div>
-            
             <!-- Menú Central y botón móvil -->
             <div class="flex items-center space-x-8">
                 <!-- Menú Central -->
