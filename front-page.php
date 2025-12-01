@@ -247,11 +247,11 @@ get_header();
             <div class="flex flex-col md:flex-row items-center justify-between gap-8 p-10 md:p-12 relative z-10">
                 <!-- Contenido de texto -->
                 <div class="text-white">
-                    <p class="text-xs uppercase tracking-widest mb-3 text-blue-200 font-semibold">BLOG | NEWSLETTER</p>
-                    <h3 class="text-4xl md:text-5xl font-bold mb-3">
-                        Camino<span class="italic font-light">zum</span> talent
+                    <p class="text-md uppercase tracking-widest mb-3 text-secondary font-black">BLOG | NEWSLETTER</p>
+                    <h3 class="text-white text-2xl md:text-5xl font-black mb-3">
+                        Camino<span class="italic font-normal">zum</span> talent
                     </h3>
-                    <p class="text-blue-100 text-lg">
+                    <p class="text-gray-200 text-base">
                         No te pierdas de la mejor información dentro del sector
                     </p>
                 </div>
