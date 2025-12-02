@@ -40,14 +40,14 @@
                     'items_wrap' => '%3$s',
                     'fallback_cb' => function() {
                         ?>
-                        <a href="<?php echo esc_url(home_url('/')); ?>" class="text-white hover:text-blue-300 transition">Quiénes somos</a>
-                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="text-white hover:text-blue-300 transition">Qué ofrecemos</a>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Camino zum talent</a>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Contacto</a>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Bolsa de trabajo</a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="text-white hover:text-secondary transition">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="text-white hover:text-secondary transition">Qué ofrecemos</a>
+                        <a href="#" class="text-white hover:text-secondary transition">Camino zum talent</a>
+                        <a href="#" class="text-white hover:text-secondary transition">Contacto</a>
+                        <a href="#" class="text-white hover:text-secondary transition">Bolsa de trabajo</a>
                         <?php
                     },
-                    'link_before' => '<span class="text-white hover:text-blue-300 transition">',
+                    'link_before' => '<span class="text-white hover:text-secondary transition">',
                     'link_after' => '</span>',
                 ));
                 ?>
@@ -72,15 +72,15 @@
                 'fallback_cb' => function() {
                     ?>
                     <div class="space-y-3">
-                        <a href="<?php echo esc_url(home_url('/')); ?>" class="block text-white hover:text-blue-300 transition py-2">Quiénes somos</a>
-                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="block text-white hover:text-blue-300 transition py-2">Qué ofrecemos</a>
-                        <a href="#" class="block text-white hover:text-blue-300 transition py-2">Camino zum talent</a>
-                        <a href="#" class="block text-white hover:text-blue-300 transition py-2">Contáctanos</a>
-                        <a href="#" class="block text-white hover:text-blue-300 transition py-2">Bolsa de trabajo</a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="block text-white hover:text-secondary transition py-2">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="block text-white hover:text-secondary transition py-2">Qué ofrecemos</a>
+                        <a href="#" class="block text-white hover:text-secondary transition py-2">Camino zum talent</a>
+                        <a href="#" class="block text-white hover:text-secondary transition py-2">Contáctanos</a>
+                        <a href="#" class="block text-white hover:text-secondary transition py-2">Bolsa de trabajo</a>
                     </div>
                     <?php
                 },
-                'link_before' => '<span class="block text-white hover:text-blue-300 transition py-2">',
+                'link_before' => '<span class="block text-white hover:text-secondary transition py-2">',
                 'link_after' => '</span>',
             ));
             ?>

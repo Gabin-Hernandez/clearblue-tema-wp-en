@@ -6,9 +6,9 @@
             <div>
                 <h4 class="font-black text-secondary mb-4">Acerca de nosotros</h4>
                 <ul class="space-y-2">
-                    <li><a href="<?php echo esc_url(home_url('/quienes-somos')); ?>" class="text-gray-600 hover:text-blue-600 transition">Quiénes somos</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/blog')); ?>" class="text-gray-600 hover:text-blue-600 transition">Blog</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-gray-600 hover:text-blue-600 transition">Contacto</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/quienes-somos')); ?>" class="text-gray-600 hover:text-secondary transition">Quiénes somos</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/blog')); ?>" class="text-gray-600 hover:text-secondary transition">Blog</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-gray-600 hover:text-secondary transition">Contacto</a></li>
                 </ul>
             </div>
             
@@ -23,14 +23,14 @@
                     'fallback_cb' => function() {
                         ?>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition">Entrenamiento</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition">Reclutamiento +</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition">Selección</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition">Consultoría</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Entrenamiento</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Reclutamiento +</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Selección</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Consultoría</a></li>
                         </ul>
                         <?php
                     },
-                    'link_before' => '<span class="text-gray-600 hover:text-blue-600 transition">',
+                    'link_before' => '<span class="text-gray-600 hover:text-secondary transition">',
                     'link_after' => '</span>',
                 ));
                 ?>
@@ -41,12 +41,12 @@
                 <h4 class="font-black text-secondary mb-4">Ventas</h4>
                 <ul class="space-y-2">
                     <li>
-                        <a href="mailto:info@creatblue.com" class="text-gray-600 hover:text-blue-600 transition">
+                        <a href="mailto:info@creatblue.com" class="text-gray-600 hover:text-secondary transition">
                             info@creatblue.com
                         </a>
                     </li>
                     <li>
-                        <a href="tel:8001121050" class="text-gray-600 hover:text-blue-600 transition">
+                        <a href="tel:8001121050" class="text-gray-600 hover:text-secondary transition">
                            800 112 1050
                         </a>
                     </li>
@@ -57,7 +57,7 @@
             <div>
                 <h4 class="font-black text-secondary mb-4">Candidatos</h4>
                 <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-600 hover:text-blue-600 transition">Bolsa de trabajo</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-secondary transition">Bolsa de trabajo</a></li>
                 </ul>
             </div>
         </div>
