@@ -265,7 +265,7 @@ get_header();
             </div>
             
             <!-- Imagen de fondo a la derecha -->
-            <div class="absolute right-0 top-0 bottom-0 w-full opacity-30">
+            <div class="absolute right-0 top-0 bottom-0 w-full opacity-20">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo2.jpg" 
                      alt="Worker background" 
                      class="w-full h-full object-cover">
