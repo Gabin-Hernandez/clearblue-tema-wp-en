@@ -237,22 +237,23 @@ get_header();
 <!-- Sección WORKFORCE ready to go! -->
 <section class="relative overflow-hidden py-20 bg-gradient-to-br from-[#1e2847] via-[#2a2d5a] to-[#0f1229]">
     <!-- Efectos de fondo -->
-    <div class="absolute inset-0 opacity-30">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-radial from-purple-600/30 via-indigo-700/20 to-transparent rounded-full blur-3xl"></div>
+    <div class="absolute inset-0 opacity-40">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-b from-[#2f3082]/30 to-primary/20 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-b from-[#2f3082]/20 to-primary/10 rounded-full blur-2xl"></div>
     </div>
     
     <div class="container mx-auto px-6 relative z-10">
         <!-- Header -->
         <div class="grid max-w-5xl mx-auto md:grid-cols-2 gap-8 items-center mb-16">
             <!-- Columna 1: Logo WORKFORCE -->
-            <div>
+            <div class="opacity-0 translate-x-8 animate-on-scroll" data-delay="200">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
                      alt="WORKFORCE" 
                      class="w-full max-w-[400px] h-auto">
             </div>
             
             <!-- Columna 2: Título y texto -->
-            <div class="text-right">
+            <div class="text-right opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
                     Reclutamiento + Entrenamiento
                 </h2>
@@ -266,7 +267,7 @@ get_header();
         <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             
             <!-- Imagen grande izquierda: Reduce la curva de aprendizaje -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group md:row-span-2 h-96 md:h-[500px]">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group md:row-span-2 h-96 md:h-[500px] opacity-0 scale-75 animate-on-scroll" data-delay="600">
                 <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800" 
                      alt="Reduce la curva de aprendizaje" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -279,7 +280,7 @@ get_header();
             </div>
             
             <!-- Imagen pequeña superior derecha: Disminuye la accidentabilidad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-60">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-60 opacity-0 scale-75 animate-on-scroll" data-delay="800">
                 <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=600" 
                      alt="Disminuye la accidentabilidad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -292,7 +293,7 @@ get_header();
             </div>
             
             <!-- Imagen pequeña inferior derecha: Aumenta la productividad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-56">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-56 opacity-0 scale-75 animate-on-scroll" data-delay="1000">
                 <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=600" 
                      alt="Aumenta la productividad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">

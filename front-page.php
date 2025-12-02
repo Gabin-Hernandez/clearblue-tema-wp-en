@@ -165,9 +165,6 @@ get_header();
             <!-- Lado derecho - Imagen del trabajador -->
             <div class="relative h-[400px] md:h-[400px] lg:h-[400px] opacity-0 scale-75 animate-on-scroll" data-delay="800">
                 <div class="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
-                    <!-- Overlay sutil -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent z-10"></div>
-                    
                     <!-- Imagen -->
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo3.jpg" 
                          alt="Trabajador profesional con tablet" 
