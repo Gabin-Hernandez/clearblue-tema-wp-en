@@ -50,7 +50,7 @@ get_header();
                 </div>
                 
                 <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
-                <div class="absolute top-32 left-12 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="700" data-speed="0.2">
+                <div class="absolute top-60 left-24 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="700" data-speed="0.2">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
                          alt="Trabajador 3" 
                          class="w-full h-full object-cover">
@@ -64,8 +64,8 @@ get_header();
                 </div>
                 
                 <!-- Elementos decorativos (cuadrados morados como en la imagen) -->
-                <div class="absolute top-24 right-32 w-20 h-20 bg-secondary rounded-lg opacity-80 z-0 particle-float" data-speed="0.6"></div>
-                <div class="absolute bottom-32 left-32 w-16 h-16 bg-primary rounded-lg opacity-60 z-0 particle-float" data-speed="0.7"></div>
+                <div class="absolute top-64 right-32 w-20 h-20 bg-secondary rounded-lg opacity-80 z-0 particle-float" data-speed="0.6"></div>
+                <div class="absolute bottom-32 left-4 w-16 h-16 bg-primary rounded-lg opacity-60 z-0 particle-float" data-speed="0.7"></div>
             </div>
             
             <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
