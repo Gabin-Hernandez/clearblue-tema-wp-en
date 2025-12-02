@@ -196,11 +196,11 @@ get_header();
         <!-- Cards mejoradas -->
         <div class="grid md:grid-cols-3 gap-6">
             <!-- Card 1 - Mejoramos la productividad -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                 <div class="flex items-center gap-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-blue-600" viewBox="0 0 24 24" fill="currentColor">
-                            <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm4.5 7.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V14.25a.75.75 0 0 1 .75-.75Zm3.75-1.5a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0V12Zm3.75-3a.75.75 0 0 0-1.5 0v7.5a.75.75 0 0 0 1.5 0V9Zm3.75-1.5a.75.75 0 0 0-1.5 0v9a.75.75 0 0 0 1.5 0v-9Z" clip-rule="evenodd" />
+                        <svg class="w-8 h-8 text-secondary" viewBox="0 0 24 24" fill="currentColor">
+                            <path fill-rule="evenodd" d="M2.25 2.25a.75.75 0 0 0 0 1.5H3v10.5a3 3 0 0 0 3 3h1.21l-1.172 3.513a.75.75 0 0 0 1.424.474l.329-.987h8.418l.33.987a.75.75 0 0 0 1.422-.474L15.79 17H18a3 3 0 0 0 3-3V3.75h.75a.75.75 0 0 0 0-1.5H2.25ZM6.54 17h10.92l.5 1.5H6.04l.5-1.5Zm11.46-8.25a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h1.5a.75.75 0 0 0 .75-.75v-4.5Zm-9 2.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75V11Zm6-2.25a.75.75 0 0 0-.75-.75h-1.5a.75.75 0 0 0-.75.75v4.5c0 .414.336.75.75.75h1.5a.75.75 0 0 0 .75-.75v-4.5Z" clip-rule="evenodd" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
@@ -210,11 +210,15 @@ get_header();
             </div>
             
             <!-- Card 2 - Disminuimos la rotación -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 <div class="flex items-center gap-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-blue-600" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157l.001.003Z" />
+                        <svg class="w-8 h-8 text-secondary" viewBox="0 0 24 24" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.5 2.25a.75.75 0 0 0 0 1.5v16.5c0 1.085.46 2.085 1.2 2.8.74.715 1.74 1.2 2.8 1.2h8.25a.75.75 0 0 0 0-1.5H8.5a1.75 1.75 0 0 1-1.75-1.75V3.75a.75.75 0 0 0 0-1.5h-.25ZM21 6.75a.75.75 0 0 1 .75.75v10.5c0 1.519-1.231 2.75-2.75 2.75H8.5a.75.75 0 0 1 0-1.5H19a1.25 1.25 0 0 0 1.25-1.25V7.5A.75.75 0 0 1 21 6.75Z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="m15.22 2.47 3.25 3.25a.75.75 0 0 1-1.06 1.06L14.16 3.53a.75.75 0 0 1 1.06-1.06Z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="m2.47 8.78 3.25-3.25a.75.75 0 0 1 1.06 1.06L3.53 9.84a.75.75 0 0 1-1.06-1.06Z" clip-rule="evenodd" />
+                            <path d="M18.75 8.25V12a5.25 5.25 0 0 1-5.25 5.25H9.75L12 19.5l-2.25 2.25H13.5A7.5 7.5 0 0 0 21 14.25V8.25h-2.25Z" />
+                            <path d="M5.25 15.75V12A5.25 5.25 0 0 1 10.5 6.75h3.75L12 4.5l2.25-2.25H10.5A7.5 7.5 0 0 0 3 9.75v6h2.25Z" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
@@ -224,10 +228,10 @@ get_header();
             </div>
             
             <!-- Card 3 - Optimizamos costos -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
                 <div class="flex items-center gap-6">
                     <div class="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-blue-600" viewBox="0 0 24 24" fill="currentColor">
+                        <svg class="w-8 h-8 text-secondary" viewBox="0 0 24 24" fill="currentColor">
                             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM9 7a1 1 0 0 1 2 0v1.068A2.25 2.25 0 0 1 13.25 10.5h.25a.75.75 0 0 1 0 1.5h-.25a.25.25 0 0 1-.25-.25v-.75a.75.75 0 0 1-.75-.75.75.75 0 0 0-1.5 0c0 .69.56 1.25 1.25 1.25h.75A1.75 1.75 0 0 1 14.5 13v.25c0 .966-.784 1.75-1.75 1.75h-.318A2.25 2.25 0 0 1 10.182 17H9a1 1 0 1 1 0-2h1.068c.133 0 .26-.053.354-.146A.5.5 0 0 0 10.5 14.5H10a1 1 0 1 1 0-2h.5a.5.5 0 0 0 .5-.5V11a1 1 0 1 1 2 0v.068A2.25 2.25 0 0 1 10.75 13.5H10a.75.75 0 0 1 0-1.5h.75c.69 0 1.25-.56 1.25-1.25V10a1 1 0 1 1 2 0v1c0 .966-.784 1.75-1.75 1.75H12a.25.25 0 0 1-.25-.25V11a.75.75 0 0 1 .75-.75.75.75 0 0 0 0-1.5A2.25 2.25 0 0 1 10.25 7H9Z" clip-rule="evenodd" />
                         </svg>
                     </div>
