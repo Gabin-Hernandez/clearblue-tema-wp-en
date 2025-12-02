@@ -243,7 +243,7 @@ get_header();
     
     <div class="container mx-auto px-6 relative z-10">
         <!-- Header -->
-        <div class="grid md:grid-cols-2 gap-8 items-center mb-16">
+        <div class="grid max-w-5xl mx-auto md:grid-cols-2 gap-8 items-center mb-16">
             <!-- Columna 1: Logo WORKFORCE -->
             <div>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
@@ -253,7 +253,7 @@ get_header();
             
             <!-- Columna 2: Título y texto -->
             <div class="text-right">
-                <h2 class="text-secondary uppercase tracking-[0.2em] font-bold mb-4">
+                <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
                     Reclutamiento + Entrenamiento
                 </h2>
                 <p class="text-white text-base max-w-2xl ml-auto">
