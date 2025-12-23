@@ -205,19 +205,9 @@ get_header();
                     <p class="text-white text-base max-w-2xl ml-auto">
                     Descripción de Gaming diferenciada para creatblue
                     </p>
-                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-3 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1 animate-on-scroll animate-in" data-delay="400">
-                        <div class="flex items-center space-x-3 md:space-x-4">
-                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300 flex-shrink-0">
-                                <svg class="w-5 h-5 md:w-6 md:h-6 text-primary group-hover:text-[#1e3a8a] transition-colors duration-300" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .708A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z"></path>
-                                </svg>
-                            </div>
-                            <span class="font-semibold text-gray-800 group-hover:text-white transition-colors duration-300 text-lg md:text-lg">Entrenamiento</span>
-                        </div>
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
-                            <path fillrule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" cliprule="evenodd"></path>
-                        </svg>
-                    </div>
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 animate-on-scroll animate-in" data-delay="400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" /></svg> Ver cómo funciona CREATplay
+                    </button>
                 </div>
             </div>
             
