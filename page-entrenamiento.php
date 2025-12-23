@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Entrenamiento
- * Description: Página de servicios de entrenamiento
+ * Description: Página de servicios de entrenamientoE
  */
 
 get_header();
@@ -246,8 +246,8 @@ get_header();
         <div class="grid max-w-5xl mx-auto md:grid-cols-2 gap-8 items-center mb-16">
             <!-- Columna 1: Logo WORKFORCE -->
             <div class="opacity-0 translate-x-8 animate-on-scroll" data-delay="200">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/creatblue_asset.png" 
-                     alt="CREATBLUE" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/creatmap_asset.png" 
+                     alt="CREATMAP" 
                      class="w-full max-w-[400px] h-auto">
             </div>
             
@@ -262,49 +262,6 @@ get_header();
             </div>
         </div>
         
-        <!-- Grid de imágenes tipo collage: 1 grande a la izquierda, 2 pequeñas apiladas a la derecha -->
-        <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            
-            <!-- Imagen grande izquierda: Reduce la curva de aprendizaje -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group md:row-span-2 h-96 md:h-[500px] opacity-0 scale-75 animate-on-scroll" data-delay="600">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima6.jpg" 
-                     alt="Reduce la curva de aprendizaje" 
-                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 class="text-white text-2xl md:text-3xl font-bold leading-tight">
-                        Reduce la curva de aprendizaje.
-                    </h3>
-                </div>
-            </div>
-            
-            <!-- Imagen pequeña superior derecha: Disminuye la accidentabilidad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-60 opacity-0 scale-75 animate-on-scroll" data-delay="800">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
-                     alt="Disminuye la accidentabilidad" 
-                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 class="text-white text-xl md:text-2xl font-bold leading-tight">
-                        Disminuye la accidentabilidad y pérdidas de material.
-                    </h3>
-                </div>
-            </div>
-            
-            <!-- Imagen pequeña inferior derecha: Aumenta la productividad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-56 opacity-0 scale-75 animate-on-scroll" data-delay="1000">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima7.jpg" 
-                     alt="Aumenta la productividad" 
-                     class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-6">
-                    <h3 class="text-white text-xl md:text-2xl font-bold leading-tight">
-                        Aumenta la productividad desde el primer día.
-                    </h3>
-                </div>
-            </div>
-            
-        </div>
     </div>
 </section>
 
