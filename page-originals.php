@@ -108,20 +108,13 @@ get_header();
 </section>
 
 <!-- Sección Decisiones respaldadas por estrategia - Banner Badge -->
-<section class="py-20 bg-gradient-to-br from-[#849dfa]/20 to-[#6b7fd8]/30">
+<section class="py-20 bg-white">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto">
             <!-- Badge elegante con sombra -->
-            <div class="bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <div class="px-8 py-12 md:px-16 md:py-16 text-center">
-                    <!-- Badge superior opcional -->
-                    <div class="inline-block mb-6">
-                        <span class="bg-gradient-to-r from-[#849dfa] to-[#6b7fd8] text-white text-xs font-bold px-6 py-2 rounded-full uppercase tracking-wider shadow-lg">
-                            Estrategia
-                        </span>
-                    </div>
-                    
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-[#2f3082] to-[#849dfa] bg-clip-text text-transparent leading-tight">
+            <div class="bg-[#849dfa] rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <div class="px-6 py-8 md:px-16 md:py-16 text-center">                    
+                    <h2 class="text-3xl md:text-4xl lg:text-3xl font-bold bg-gradient-to-r from-[#2f3082] to-[#849dfa] bg-clip-text text-transparent leading-tight">
                         Decisiones respaldadas por estrategia
                     </h2>
                 </div>
