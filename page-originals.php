@@ -107,14 +107,23 @@ get_header();
     </div>
 </section>
 
-<!-- Sección Decisiones respaldadas por estrategia - Banner Badge -->
+<!-- Sección Decisiones respaldadas por estrategia - Banner Badge con Glassmorphism -->
 <section class="py-20 bg-gradient-to-br from-[#849dfa]/20 to-[#6b7fd8]/30">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto">
-            <!-- Badge elegante con sombra -->
-            <div class="bg-white rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <div class="px-6 py-8 md:px-16 md:py-16 text-center">                    
-                    <h2 class="text-3xl md:text-4xl lg:text-3xl font-bold bg-gradient-to-r from-[#2f3082] to-[#849dfa] bg-clip-text text-transparent leading-tight">
+            <!-- Badge con imagen de fondo y efecto glassmorphism -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <!-- Imagen de fondo -->
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
+                     alt="Background" 
+                     class="absolute inset-0 w-full h-full object-cover">
+                
+                <!-- Overlay oscuro -->
+                <div class="absolute inset-0 bg-gradient-to-br from-[#2f3082]/60 to-[#0f1229]/60"></div>
+                
+                <!-- Contenedor con efecto glassmorphism -->
+                <div class="relative backdrop-blur-md bg-white/10 border border-white/20 px-6 py-8 md:px-16 md:py-16 text-center">                    
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-2xl">
                         Decisiones respaldadas por estrategia
                     </h2>
                 </div>
