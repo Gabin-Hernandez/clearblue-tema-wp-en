@@ -153,15 +153,30 @@ get_header();
 </section>
 
 <!-- Sección Transforma el talento en resultados -->
-<section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-        <div class="text-center max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Transforma el talento en resultados
-            </h2>
+<section class="relative py-20 overflow-hidden">
+    <!-- Imagen de fondo de la sección -->
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
+         alt="Background" 
+         class="absolute inset-0 w-full h-full object-cover">
+    
+    <!-- Overlay oscuro sobre la imagen -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#2f3082]/70 to-[#0f1229]/70"></div>
+    
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-4xl mx-auto">
+            <!-- Badge con efecto glassmorphism -->
+            <div class="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <div class="px-6 py-8 md:px-14 md:py-14 text-center">                    
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight drop-shadow-2xl">
+                    Transforma el talento en resultados
+                    </h2>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+
 
 <!-- Sección CREATPLAY -->
 <section class="relative overflow-hidden py-20 bg-gradient-to-br from-[#2f3082] to-[#0f1229]">
