@@ -13,8 +13,8 @@ get_header();
         
         <!-- Título principal -->
         <div class="text-center mb-16">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                CREADORES DE TALENTO <span class="text-[#849dfa]">Human Talent Solutions</span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                CREADORES DE TALENTO <span class="text-secondary">Human Talent Solutions</span>
             </h1>
         </div>
         
@@ -26,10 +26,10 @@ get_header();
                 
                 <!-- Título de selección -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
                         Selecciona tu país para comenzar
                     </h2>
-                    <p class="text-gray-600 text-lg italic">
+                    <p class="text-primary text-lg italic">
                         Select your country to start / Wählen sie ihr land zum starten
                     </p>
                 </div>
@@ -40,8 +40,8 @@ get_header();
                     <a href="<?php echo esc_url(home_url('/mx')); ?>" 
                        class="group flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-transparent hover:border-secondary">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-secondary transition-colors">
-                                Creatblue <span class="text-[#849dfa]">México</span>
+                            <h3 class="text-2xl font-bold text-primary group-hover:text-secondary transition-colors">
+                                Creatblue <span class="text-secondary">México</span>
                             </h3>
                         </div>
                         <svg class="w-6 h-6 text-secondary transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,8 +53,8 @@ get_header();
                     <a href="<?php echo esc_url(home_url('/us')); ?>" 
                        class="group flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-transparent hover:border-secondary">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-secondary transition-colors">
-                                Creatblue <span class="text-[#849dfa]">United States of America</span>
+                            <h3 class="text-2xl font-bold text-primary group-hover:text-secondary transition-colors">
+                                Creatblue <span class="text-secondary">United States of America</span>
                             </h3>
                         </div>
                         <svg class="w-6 h-6 text-secondary transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -66,8 +66,8 @@ get_header();
                     <a href="<?php echo esc_url(home_url('/de')); ?>" 
                        class="group flex items-center gap-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-transparent hover:border-secondary">
                         <div class="flex-1">
-                            <h3 class="text-2xl font-bold text-gray-900 group-hover:text-secondary transition-colors">
-                                Creatblue <span class="text-[#849dfa]">Deutschland</span>
+                            <h3 class="text-2xl font-bold text-primary group-hover:text-secondary transition-colors">
+                                Creatblue <span class="text-secondary">Deutschland</span>
                             </h3>
                         </div>
                         <svg class="w-6 h-6 text-secondary transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -88,21 +88,21 @@ get_header();
                 <div class="absolute top-[15%] left-[10%] transform animate-float" style="animation-delay: 0s;">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/usa_l.webp" 
                          alt="USA" 
-                         class="w-32 h-32 md:w-40 md:h-40 drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
+                         class="w-32 h-auto md:w-40 md:h-auto drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
                 </div>
                 
                 <!-- Icono México - Abajo izquierda -->
                 <div class="absolute bottom-[20%] left-[5%] transform animate-float" style="animation-delay: 1s;">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/mexico_l.webp" 
                          alt="México" 
-                         class="w-32 h-32 md:w-40 md:h-40 drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
+                         class="w-32 h-auto md:w-40 md:h-auto drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
                 </div>
                 
                 <!-- Icono Alemania - Centro derecha -->
                 <div class="absolute top-[35%] right-[5%] transform animate-float" style="animation-delay: 2s;">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/deutschland_l.webp" 
                          alt="Deutschland" 
-                         class="w-32 h-32 md:w-40 md:h-40 drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
+                         class="w-32 h-auto md:w-40 md:h-auto drop-shadow-2xl hover:scale-110 transition-transform duration-300 cursor-pointer">
                 </div>
             </div>
             
