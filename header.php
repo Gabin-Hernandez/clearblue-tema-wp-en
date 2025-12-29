@@ -40,7 +40,7 @@
                     'items_wrap' => '%3$s',
                     'fallback_cb' => function() {
                         ?>
-                        <a href="<?php echo esc_url(home_url('/')); ?>" class="text-white hover:text-secondary transition">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/acerca')); ?>" class="text-white hover:text-secondary transition">Quiénes somos</a>
                         
                         <!-- Dropdown: ¿Qué ofrecemos? -->
                         <div class="relative dropdown-container">
