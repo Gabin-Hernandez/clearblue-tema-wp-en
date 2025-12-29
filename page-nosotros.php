@@ -10,14 +10,14 @@ get_header();
 
 <!-- Nosotros section -->
 <!-- Sección Hero - Título principal -->
-<section class="pt-32 pb-20 bg-white">
+<section class="pt-32 pb-20py-20 bg-white">
     <div class="container mx-auto px-6">
         <div class="text-center max-w-4xl mx-auto mb-8">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                 CREAT<span class="font-normal">alento</span> idóneo en el menor tiempo posible.
             </h1>
             <p class="text-lg text-primary opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                Promesa Creatblue que se cumple.
+                Promesa <span class="font-bold">Creatblue</span> que se cumple.
             </p>
         </div>
     </div>
@@ -31,7 +31,7 @@ get_header();
             <!-- Columna izquierda - Texto -->
             <div class="space-y-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide">
-                    QUIÉNES SOMOS
+                    ¿QUIÉNES SOMOS?
                 </h2>
                 
                 <div class="space-y-4 text-primary">
@@ -62,37 +62,28 @@ get_header();
     </div>
 </section>
 
-<!-- Sección: La Importancia de Creatblue -->
-<section class="py-20 bg-white">
-    <div class="container mx-auto px-6">
-        <div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
-            
-            <!-- Columna izquierda - Contenedor de imagen -->
-            <div class="opacity-0 scale-75 animate-on-scroll" data-delay="400">
-                <div class="w-full h-[400px] bg-gradient-to-br from-primary to-[#1a1d4a] rounded-2xl shadow-2xl">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full flex items-center justify-center">
-                        <span class="text-white/20 text-xl">Imagen placeholder</span>
-                    </div>
+<!-- Sección Promesa Creatblue cumplida. -->
+<section class="relative py-20 overflow-hidden">
+    <!-- Imagen de fondo de la sección -->
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
+         alt="Background" 
+         class="absolute inset-0 w-full h-full object-cover">
+    
+    <!-- Overlay oscuro sobre la imagen -->
+    <div class="absolute inset-0 bg-gradient-to-br from-[#2f3082]/70 to-[#0f1229]/70"></div>
+    
+    <div class="container mx-auto px-6 relative z-10">
+        <div class="max-w-4xl mx-auto">
+            <!-- Badge con efecto glassmorphism -->
+            <div class="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <div class="px-6 py-8 md:px-14 md:py-14 text-center">                    
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight drop-shadow-2xl">
+                    Promesa Creatblue cumplida.
+                    </h2>
+                    <p class="text-white text-lg">Creamos talento idóneo en el menor tiempo
+                    posible enfocado en productividad.</p>
                 </div>
             </div>
-            
-            <!-- Columna derecha - Texto -->
-            <div class="space-y-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="600">
-                <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide">
-                    LA IMPORTANCIA DE CREATBLUE PARA LAS EMPRESAS
-                </h2>
-                
-                <div class="space-y-4 text-primary">
-                    <p class="leading-relaxed">
-                        En el mercado laboral existe una alta demanda de personal calificado que crece día con día, sin que esta necesidad pueda ser atendida eficientemente,
-                    </p>
-                    <p class="text-right italic">
-                        hasta ahora...
-                    </p>
-                </div>
-            </div>
-            
         </div>
     </div>
 </section>
