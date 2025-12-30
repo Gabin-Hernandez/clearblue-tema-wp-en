@@ -60,7 +60,7 @@
                         </div>
                         
                         <a href="#" class="text-white hover:text-secondary transition">Camino zum talent</a>
-                        <a href="#" class="text-white hover:text-secondary transition">Contact</a>
+                        <a href="#" class="text-white hover:text-secondary transition">Contacto</a>
                         <a href="#" class="text-white hover:text-secondary transition">Bolsa de trabajo</a>
                         <?php
                     },
