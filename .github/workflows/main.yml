@@ -9,17 +9,24 @@ jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🚚 Obtener código más reciente
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    - name: 🚚 Obtener código más reciente
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
-      - name: 📂 Sincronizar archivos FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: 195.35.33.109
-          username: u947001429.gaboprueba
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: wp-content/themes/nombre-de-tu-child-theme/
+    - name: 📂 Sincronizar archivos FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        # IP extraída de tu imagen "Cuentas FTP" (darkseagreen...)
+        server: 195.35.33.109
+        
+        # Usuario específico que aparece en tu imagen (termina en 'en')
+        username: u947001429.gabopruebaen
+        
+        # ¡IMPORTANTE! Tienes que crear el secreto FTP_PASSWORD en este repositorio también
+        password: ${{ secrets.FTP_PASSWORD }}
+        
+        # RUTA: Al usar el usuario 'gabopruebaen', tu raíz ya es public_html.
+        # Solo asegúrate de cambiar "child-theme" por el nombre real de tu carpeta.
+        server-dir: ./wp-content/themes/child-theme/
