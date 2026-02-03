@@ -1,14 +1,30 @@
 <?php
 /**
- * Template Name: Home Page
+ * Template Name: Home Page - pagina de incicio MX
  * Description: Página principal con diseño personalizado usando Tailwind CSS
+ * 
+ * SEO:
+ * - Title: Creatblue® México | Entrenamiento Industrial, Reclutamiento, Capacitación y Consultoría Empresarial
+ * - Meta Description: Incrementamos la productividad de las empresas en México con entrenamiento industrial, reclutamiento especializado y consultoría estratégica en talento humano.
  */
 
+// SEO manejado dinámicamente desde functions.php
 get_header();
 ?>
 
-<!-- Hero Section con fondo de imagen -->
-<section class="relative min-h-screen bg-cover bg-center" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg');">
+<!-- Hero Section con fondo de video -->
+<section class="relative min-h-screen overflow-hidden">
+    <!-- Video de fondo -->
+    <video 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover"
+    >
+        <source src="<?php echo get_stylesheet_directory_uri(); ?>/public/video/home.mp4" type="video/mp4">
+    </video>
+    
     <!-- Overlay oscuro -->
     <div class="absolute inset-0 bg-black/50"></div>
     
@@ -16,14 +32,70 @@ get_header();
     <div class="relative z-10 container mx-auto px-6 flex items-center" style="min-height: 100vh; padding-top: 80px;">
         <div class="max-w-2xl">
             <h1 class="text-white text-5xl md:text-6xl font-bold leading-tight mb-6">
-                CAMBIO <span class="font-light">ejemplo2</span> is simply dummy text of the printing and typesetting industry. Lorem has been the industry's
+                Creatblue® México: Creamos talento que impulsa <span id="typewriter" class="font-black text-secondary"></span><span class="typewriter-cursor text-secondary">|</span>
             </h1>
             <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                ACTION BT
+                Cotiza ahora
             </button>
         </div>
     </div>
 </section>
+
+<!-- Typewriter Effect Styles -->
+<style>
+.typewriter-cursor {
+    animation: blink 0.7s infinite;
+    font-weight: 100;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+</style>
+
+<!-- Typewriter Effect Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const words = ['productividad', 'estrategia', 'innovación', 'talento'];
+    const typewriterElement = document.getElementById('typewriter');
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typeSpeed = 100;
+    
+    function type() {
+        const currentWord = words[wordIndex];
+        
+        if (isDeleting) {
+            // Borrando
+            typewriterElement.textContent = currentWord.substring(0, charIndex - 1);
+            charIndex--;
+            typeSpeed = 50;
+        } else {
+            // Escribiendo
+            typewriterElement.textContent = currentWord.substring(0, charIndex + 1);
+            charIndex++;
+            typeSpeed = 100;
+        }
+        
+        // Palabra completa
+        if (!isDeleting && charIndex === currentWord.length) {
+            typeSpeed = 2000; // Pausa al final de la palabra
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            typeSpeed = 500; // Pausa antes de la siguiente palabra
+        }
+        
+        setTimeout(type, typeSpeed);
+    }
+    
+    // Iniciar el efecto
+    setTimeout(type, 1000);
+});
+</script>
 
 <!-- Sección Nuestras Soluciones -->
 <section class="py-20 bg-gray-50 relative overflow-hidden">
@@ -36,7 +108,7 @@ get_header();
                 <!-- Card de texto a la izquierda -->
                 <div class="w-full md:w-auto md:max-w-md z-10 p-8 md:p-10">
                     <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-3 md:mb-4 leading-tight">
-                        Nuestras Soluciones
+                        Soluciones integrales para el desarrollo del talento.
                     </h3>
                     <p class="text-white text-lg md:text-lg leading-relaxed">
                         Encuentra el camino correcto con nosotros.
@@ -84,7 +156,7 @@ get_header();
                                     <path d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157l.001.003Z" />
                                 </svg>
                             </div>
-                            <span class="font-semibold text-gray-800 group-hover:text-white transition-colors duration-300 text-lg md:text-lg">Reclutamiento + Selección</span>
+                            <span class="font-semibold text-gray-800 group-hover:text-white transition-colors duration-300 text-lg md:text-lg">Reclutamiento y Selección</span>
                         </div>
                         <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                             <path fillRule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clipRule="evenodd" />
@@ -143,11 +215,11 @@ get_header();
             
             <!-- Lado izquierdo - Texto y logos -->
             <div class="space-y-8">
-                <p class="text-secondary uppercase tracking-[0.2em] text-lg font-black mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">CREATBLUE ORIGINALS</p>
+                <p class="text-secondary uppercase tracking-[0.2em] text-lg font-black mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">Creatblue Originals | <span class="text-white">Soluciones innovadoras para tu negocio.</span></p>
                  <!-- Logo WorkForce -->
                   <div class="opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                     <div>
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png"     
                              alt="WORKFORCE" 
                              class="block mb-3 w-full max-w-[400px] h-auto">
                     </div>
@@ -181,9 +253,9 @@ get_header();
     <div class="container mx-auto px-6">
         <!-- Título -->
         <div class="mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <p class="text-secondary uppercase tracking-wide text-2xl font-black mb-3">DIFERENCIADOR CREATBLUE</p>
+            <p class="text-secondary uppercase tracking-wide text-2xl font-black mb-3">DIFERENCIADOR CREATBLUE®</p>
             <p class="text-gray-700 text-lg max-w-2xl leading-relaxed">
-                En Creatblue México nos caracterizamos por incrementar la productividad en todas las zonas que trabajamos, por medio de la capacitación y entrenamiento de los trabajadores y gerentes de los negocios.
+            En Creatblue® México incrementamos la rentabilidad de nuestros clientes mediante soluciones especializadas en talento humano, sin comprometer la calidad ni la plusvalía de sus negocios.
             </p>
         </div>
         
@@ -226,7 +298,7 @@ get_header();
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                        Optimizamos tus costos operativos
+                    Optimizamos los costos operativos
                     </h3>
                 </div>
             </div>
@@ -246,14 +318,14 @@ get_header();
                         Camino<span class="italic font-normal">zum</span> talent
                     </h3>
                     <p class="text-gray-200 text-base">
-                        No te pierdas de la mejor información dentro del sector
+                    La mejor información dentro del sector industrial y corporativo.
                     </p>
                 </div>
                 
                 <!-- Botón CTA -->
                 <div class="flex-shrink-0">
                     <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
-                        ACTION BT
+                        Ponte al día
                     </button>
                 </div>
             </div>

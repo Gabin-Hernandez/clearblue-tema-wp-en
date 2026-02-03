@@ -2,8 +2,13 @@
 /**
  * Template Name: Acerca de nosotros
  * Description: Página de Acerca de nosotros
+ * 
+ * SEO:
+ * - Title: Quiénes Somos | Creatblue® México
+ * - Meta Description: Somos una empresa de origen alemán especializada en CREAR Talento Humano calificado para el sector industrial y corporativo en México.
  */
 
+// SEO manejado dinámicamente desde functions.php
 get_header();
 ?>
 
@@ -17,8 +22,47 @@ get_header();
                 CREAT<span class="font-normal">alento</span> idóneo en el menor tiempo posible.
             </h1>
             <p class="text-lg text-primary opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                Promesa <span class="font-bold">Creatblue</span> que se cumple.
+                Promesa <span class="font-bold">Creatblue®</span> que se cumple.
             </p>
+        </div>
+    </div>
+</section>
+
+<!-- Dos banners con dato duro -->
+<section class="py-12 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            <!-- Banner 1: Vacantes cubiertas -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 flex items-center gap-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <!-- Icono placeholder -->
+                <div class="flex-shrink-0 w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center">
+                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                </div>
+                <!-- Contenido -->
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-primary mb-1">+2K</h3>
+                    <p class="text-gray-600 text-sm md:text-base">vacantes cubiertas en lo que fue del 2025</p>
+                </div>
+            </div>
+            
+            <!-- Banner 2: Efectividad -->
+            <div class="bg-white rounded-2xl shadow-xl p-8 flex items-center gap-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <!-- Icono placeholder -->
+                <div class="flex-shrink-0 w-16 h-16 bg-secondary/10 rounded-xl flex items-center justify-center">
+                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <!-- Contenido -->
+                <div>
+                    <h3 class="text-4xl md:text-5xl font-black text-primary mb-1">+250%</h3>
+                    <p class="text-gray-600 text-sm md:text-base">de efectividad e impacto en los reportes de entrenamiento del 2025</p>
+                </div>
+            </div>
+            
         </div>
     </div>
 </section>
@@ -26,35 +70,37 @@ get_header();
 <!-- Sección: Quiénes Somos -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
+        <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide text-center mb-12">Quiénes somos como Creatblue® México</h2>
+    </div>
+    <div class="container mx-auto px-6">
         <div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
             
             <!-- Columna izquierda - Texto -->
             <div class="space-y-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide">
-                    ¿QUIÉNES SOMOS?
+                Nuestro Origen
                 </h2>
-                
                 <div class="space-y-4 text-primary">
                     <p class="text-lg">
-                        <span class="font-bold">Creatblue México</span> una nueva división de Grupo Schnellecke.
+                    Creatblue® México es la nueva división de Grupo Schnellecke, empresa de clase mundial especializada en la gestión de cadenas de suministro para el sector industrial.
                     </p>
-                    
-                    <div>
-                        <p class="font-bold mb-2">¿Nuestra misión?</p>
-                        <p class="leading-relaxed">
-                            Crear talento humano altamente calificado con las habilidades y actitudes correctas para despegar el potencial de tu empresa.
-                        </p>
-                    </div>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide">
+                Nuestra Misión
+                </h2>
+                <div class="space-y-4 text-primary">
+                    <p class="text-lg">
+                    Crear talento humano altamente calificado con las habilidades y actitudes correctas para despegar el potencial de tu empresa.
+                    </p>
                 </div>
             </div>
             
             <!-- Columna derecha - Contenedor de imagen -->
             <div class="opacity-0 scale-75 animate-on-scroll" data-delay="600">
-                <div class="w-full h-[400px] bg-gradient-to-br from-primary to-[#1a1d4a] rounded-2xl shadow-2xl">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full flex items-center justify-center">
-                        <span class="text-white/20 text-xl">Imagen placeholder</span>
-                    </div>
+                <div class="w-full h-[400px] rounded-2xl shadow-2xl overflow-hidden">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/acerca/1.webp" 
+                         alt="Quiénes somos - Creatblue México" 
+                         class="w-full h-full object-cover">
                 </div>
             </div>
             
@@ -69,18 +115,17 @@ get_header();
             
             <!-- Columna izquierda - Contenedor de imagen -->
             <div class="opacity-0 scale-75 animate-on-scroll" data-delay="400">
-                <div class="w-full h-[400px] bg-gradient-to-br from-primary to-[#1a1d4a] rounded-2xl shadow-2xl">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full flex items-center justify-center">
-                        <span class="text-white/20 text-xl">Imagen placeholder</span>
-                    </div>
+                <div class="w-full h-[400px] rounded-2xl shadow-2xl overflow-hidden">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/acerca/2.webp" 
+                         alt="La importancia de Creatblue para el mercado mexicano" 
+                         class="w-full h-full object-cover">
                 </div>
             </div>
             
             <!-- Columna derecha - Texto -->
             <div class="space-y-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="600">
                 <h2 class="text-2xl md:text-3xl font-bold text-primary uppercase tracking-wide">
-                    LA IMPORTANCIA DE CREATBLUE PARA LAS EMPRESAS
+                La impotancia de CREATBLUE® para el mercado mexicano
                 </h2>
                 
                 <div class="space-y-4 text-primary">

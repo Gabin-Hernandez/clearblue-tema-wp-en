@@ -2,19 +2,23 @@
 /**
  * Template Name: Welcome Page
  * Description: Página de bienvenida con diseño personalizado usando Tailwind CSS
+ * 
+ * Esta página utiliza un header minimalista (sin navegación) y un footer global
+ * con información general de la empresa, ya que es la página de selección de país.
  */
 
-get_header();
+// Usar header especial sin navegación (header-welcome.php)
+get_header('welcome');
 ?>
 
 <!-- Welcome section - Selección de País/Idioma -->
-<section class="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+<section class="min-h-screen pt-44 md:pt-48 pb-20 bg-gradient-to-br from-gray-50 to-gray-100">
     <div class="container mx-auto px-6">
         
-        <!-- Título principal -->
+        <!-- Título principal H1 -->
         <div class="text-center mb-16">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                CREADORES DE TALENTO <span class="text-secondary">Human Talent Solutions</span>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                Bienvenidos a Creatblue<sup>®</sup> <span class="text-secondary">Group</span>
             </h1>
         </div>
         
@@ -24,13 +28,13 @@ get_header();
             <!-- Columna izquierda - Texto y enlaces (40%) -->
             <div class="space-y-8 opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 
-                <!-- Título de selección -->
+                <!-- Título de selección H2 -->
                 <div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">
-                        Selecciona tu país para comenzar
+                    <h2 class="text-2xl md:text-3xl font-bold text-primary mb-4">
+                        Selecciona tu país para comenzar.
                     </h2>
-                    <p class="text-primary text-lg italic">
-                        Select your country to start / Wählen sie ihr land zum starten
+                    <p class="text-primary/70 text-base italic">
+                        Select your country to start / Wählen Sie Ihr Land zum Starten
                     </p>
                 </div>
                 
@@ -107,6 +111,21 @@ get_header();
             </div>
             
         </div>
+        
+        <!-- Badge informativo -->
+        <div class="mt-16 max-w-4xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4 p-6 bg-primary rounded-2xl text-center md:text-left">
+                <div class="flex-shrink-0 w-14 h-14 bg-secondary/20 rounded-full flex items-center justify-center">
+                    <svg class="w-7 h-7 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <p class="text-white text-lg md:text-xl font-medium">
+                    Adaptamos nuestras soluciones de acuerdo con tu ubicación, industria y necesidades operativas.
+                </p>
+            </div>
+        </div>
+        
     </div>
 </section>
 
@@ -168,5 +187,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 
 <?php
-get_footer();
+// Usar footer global especial (footer-welcome.php)
+get_footer('welcome');
 ?>

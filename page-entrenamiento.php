@@ -1,9 +1,14 @@
 <?php
 /**
- * Template Name: Entrenamiento
- * Description: Página de servicios de entrenamientoE
+ * Template Name: Entrenamiento MX
+ * Description: Página de servicios de entrenamiento
+ * 
+ * SEO:
+ * - Title: Entrenamiento Industrial en México | Creatblue® México
+ * - Meta Description: Modelos de entrenamiento industrial diseñados para aumentar la productividad, eficiencia operativa y desempeño del talento humano.
  */
 
+// SEO manejado dinámicamente desde functions.php
 get_header();
 ?>
 
@@ -26,24 +31,32 @@ get_header();
                 Entrenamiento industrial para <span class="text-secondary font-black">AUMENTAR</span> la productividad de tu equipo
                 </h1>
                 
-                <!-- CTA Button -->
-                <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    ACCIÓN BT
-                </button>
+                <!-- CTA Buttons -->
+                <div class="flex flex-wrap gap-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
+                        Cotizar ahora
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-3">
+                        <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        Ver cómo funciona
+                    </button>
+                </div>
             </div>
             
             <!-- Columna derecha - Grid de imágenes desordenado -->
             <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
                 <!-- Imagen 1 - Superior izquierda -->
                 <div class="absolute top-0 left-0 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="300" data-speed="0.3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e8.webp" 
                          alt="Trabajador 1" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 2 - Superior derecha -->
                 <div class="absolute top-0 right-0 w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="500" data-speed="0.5">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e7.webp" 
                          alt="Trabajador 2" 
                          class="w-full h-full object-cover">
                 </div>
@@ -57,7 +70,7 @@ get_header();
                 
                 <!-- Imagen 4 - Inferior derecha -->
                 <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="900" data-speed="0.4">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e6.webp" 
                          alt="Trabajador 4" 
                          class="w-full h-full object-cover">
                 </div>
@@ -70,12 +83,12 @@ get_header();
             <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
             <div class="grid grid-cols-2 gap-4 lg:hidden">
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e8.webp" 
                          alt="Trabajador 1" 
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e7.webp" 
                          alt="Trabajador 2" 
                          class="w-full h-48 object-cover">
                 </div>
@@ -85,7 +98,7 @@ get_header();
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e6.webp" 
                          alt="Trabajador 4" 
                          class="w-full h-48 object-cover">
                 </div>
@@ -100,8 +113,9 @@ get_header();
     <div class="container mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Diseñamos programas de entrenamiento profesional enfocados en productividad, ideales para empresas que buscan optimizar, mejorar la eficiencia operativa y el desarrollo de soft skills.
+            Diseñamos modelos de entrenamiento profesionales, ideales para empresas que buscan optimizar, mejorar la eficiencia operativa y el desarrollo de soft skills en su equipo.
             </h2>
+            <p>BENEFICIOS CREATBLUE®</p>
         </div>
         
         <!-- Grid de 3 columnas con iconos -->
@@ -115,7 +129,7 @@ get_header();
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                        Mejora de productividad y eficiencia.
+                    Mejora de productividad y eficiencia
                     </h3>
                 </div>
             </div>
@@ -156,7 +170,7 @@ get_header();
     <div class="container mx-auto px-6">
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                ¿Te ha pasado?
+            ¿Te ha pasado? Principales problemas en la operación industrial
             </h2>
         </div>
         
@@ -172,10 +186,10 @@ get_header();
                     </div>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                    Paros en línea de producción
+                Paros en línea de producción
                 </h3>
                 <p class="text-gray-700 text-center leading-relaxed">
-                    Una hora de paro en línea puede costar entre <span class="font-bold">$10,000 y $50,000 USD.</span> Dependiendo de la empresa.
+                Una hora de paro en línea puede costar entre 10K y 50K USD. Dependiendo de la empresa. 
                 </p>
             </div>
             
@@ -189,10 +203,10 @@ get_header();
                     </div>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                    Daños en las instalaciones
+                Daños en las instalaciones
                 </h3>
                 <p class="text-gray-700 text-center leading-relaxed">
-                    El <span class="font-bold">60%</span> de los incidentes industriales se deben a malas prácticas operativas.
+                El 60% de los incidentes industriales se deben a malas prácticas operativas y falta de capacitación del personal.
                 </p>
             </div>
             
@@ -206,10 +220,10 @@ get_header();
                     </div>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                    Accidentes e incidentes en el área operativa
+                Accidentes e incidentes en el área operativa
                 </h3>
                 <p class="text-gray-700 text-center leading-relaxed">
-                    El <span class="font-bold">38%</span> de los accidentes por mantenimiento implican daños a infraestructura (fugas, incas, paredes/ o barreras de seguridad) enfermedos.
+                El 38% de los accidentes por mantenimiento generan daños a infraestructura, equipos y barreras de seguridad.
                 </p>
             </div>
             
@@ -223,12 +237,18 @@ get_header();
                     </div>
                 </div>
                 <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                    Scrap de materiales
+                Scrap de materiales
                 </h3>
                 <p class="text-gray-700 text-center leading-relaxed">
-                    El scrap puede representar entre el <span class="font-bold">2% y 10%</span> de los ingresos totales por ventas de línea de producción.
+                El scrap puede representar entre el 2% y el 10% de los ingresos totales por ventas de una línea de producción.
                 </p>
             </div>
+        </div>
+        <!-- BADGE Reclutamiento y selección para prevenir rotación de personal -->
+        <div class="text-center mt-12">
+            <p class="inline-block text-white/90 text-base md:text-lg bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+            Entrenamiento industrial para prevenir paros, accidentes y scrap de materiales
+            </p>
         </div>
     </div>
 </section>
@@ -264,7 +284,6 @@ get_header();
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-b from-[#2f3082]/30 to-primary/20 rounded-full blur-3xl"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-b from-[#2f3082]/20 to-primary/10 rounded-full blur-2xl"></div>
     </div>
-
     <div class="container mx-auto px-6 relative z-10">
         <!-- Header -->
         <div class="grid max-w-5xl mx-auto md:grid-cols-2 gap-8 items-center mb-16">
@@ -278,14 +297,88 @@ get_header();
             <!-- Columna 2: Título y texto -->
             <div class="text-right opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
-                mapea.
+                CREATmap:
                 </h2>
-                <p class="text-white text-base max-w-2xl ml-auto">
-                Cada persona de su equipo será evaluada previo y posterior al entrenamiento con nuestros medidores de rendimiento.
+                <p class="text-white text-base max-w-2xl ml-auto mb-6">
+                modelo de entrenamiento industrial para optimizar la productividad
                 </p>
+                <!-- botones de como funciona y descarga brochure -->
+                <div class="flex flex-wrap gap-3 justify-end opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        Ver cómo funciona
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar brochure
+                    </button>
+                </div>
             </div>
         </div>
-        
+    </div>
+</section>
+
+<!-- 3 Banners: Mapea, Entrena, Optimiza -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            
+            <!-- Tarjeta 1: Mapea -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <!-- Imagen -->
+                <div class="bg-gray-100">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e1.webp" 
+                         alt="Mapea - Evaluación de rendimiento" 
+                         class="w-full h-auto">
+                </div>
+                <!-- Contenido -->
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-primary mb-3">Mapea</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Tarjeta 2: Entrena -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <!-- Imagen -->
+                <div class="bg-gray-100">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e2.webp" 
+                         alt="Entrena - Capacitación del equipo" 
+                         class="w-full h-auto">
+                </div>
+                <!-- Contenido -->
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-primary mb-3">Entrena</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Tarjeta 3: Optimiza -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <!-- Imagen -->
+                <div class="bg-gray-100">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e3.webp" 
+                         alt="Optimiza - Mejora del rendimiento" 
+                         class="w-full h-auto">
+                </div>
+                <!-- Contenido -->
+                <div class="p-6">
+                    <h3 class="text-2xl font-bold text-primary mb-3">Optimiza</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
     </div>
 </section>
 
@@ -295,52 +388,48 @@ get_header();
         <!-- Título principal -->
         <div class="mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                LUGARES DE ENTRENAMIENTO
+            Modalidades de Entrenamiento Creatblue® México
             </h2>
         </div>
         
-        <!-- Grid de 2 columnas -->
-        <div class="grid md:grid-cols-2 gap-8 lg:gap-12 mb-20">
-            
-            <!-- Elemento 1: Conoce CREATmobil -->
-            <div class="flex gap-6 items-start opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <!-- Contenedor de imagen -->
-                <div class="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-2xl overflow-hidden">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400"></div>
-                </div>
-                
-                <!-- Contenido de texto -->
-                <div class="flex-1">
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                        Conoce <span class="font-black">CREAT</span>mobil
+        <!-- Banner 1: CREATmobil - Ancho completo -->
+        <div class="grid lg:grid-cols-2 gap-8 items-center mb-12 bg-gray-50 rounded-3xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+            <!-- Texto a la izquierda -->
+            <div class="p-8 lg:p-12">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                    CREATmobil: entrenamiento en tus instalaciones
+                </h3>
+                <p class="text-gray-700 leading-relaxed text-lg">
+                    Llevamos todo nuestro equipo de entrenamiento directamente a tus instalaciones, adaptándonos a tus procesos y operación.
+                </p>
+            </div>
+            <!-- Imagen a la derecha -->
+            <div class="h-64 lg:h-80">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e4.webp" 
+                     alt="CREATmobil - Entrenamiento en tus instalaciones" 
+                     class="w-full h-full object-cover">
+            </div>
+        </div>
+        
+        <!-- Banner 2: CEC - Imagen de fondo con texto encima -->
+        <div class="relative rounded-3xl overflow-hidden mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+            <!-- Imagen de fondo -->
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e5.webp" 
+                 alt="CEC - Centros de Entrenamiento Creatblue" 
+                 class="w-full h-64 lg:h-80 object-cover">
+            <!-- Overlay oscuro -->
+            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
+            <!-- Texto encima -->
+            <div class="absolute inset-0 flex items-center">
+                <div class="p-8 lg:p-12 max-w-2xl">
+                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
+                        CEC: Centros de Entrenamiento Creatblue®
                     </h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Llevamos todo nuestro equipo de entrenamiento hasta tus instalaciones
+                    <p class="text-white/90 leading-relaxed text-lg">
+                        <strong>SLP Y SILAO con una capacidad de 1,050 m²</strong> — Prepara a tu equipo en nuestros Centros de Entrenamiento Creatblue®, diseñados para simular entornos operativos reales.
                     </p>
                 </div>
             </div>
-            
-            <!-- Elemento 2: Conoce nuestros CEC -->
-            <div class="flex gap-6 items-start opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <!-- Contenedor de imagen -->
-                <div class="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-2xl overflow-hidden">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400"></div>
-                </div>
-                
-                <!-- Contenido de texto -->
-                <div class="flex-1">
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                        Conoce nuestros CEC<br>
-                        <span class="text-lg font-normal">(Centro de Entrenamiento Creatblue)</span>
-                    </h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Descripción de reclutamiento puro diferenciada para creatblue
-                    </p>
-                </div>
-            </div>
-            
         </div>
     </div>
 </section>
@@ -351,49 +440,38 @@ get_header();
         <!-- Título principal -->
         <div class="mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                MATERIALES DE ENTRENAMIENTO
+            Materiales y Equipos de Entrenamiento Industrial
             </h2>
         </div>
         
         <!-- Grid de 2 columnas -->
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
             
-            <!-- Elemento 3: Catálogo equipo móvil -->
-            <div class="flex gap-6 items-start opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <!-- Contenedor de imagen -->
-                <div class="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-2xl overflow-hidden">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400"></div>
-                </div>
-                
-                <!-- Contenido de texto -->
-                <div class="flex-1">
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                        Catálogo equipo móvil
-                    </h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Descripción de los equipos móviles que tenemos diferenciada para creatblue
-                    </p>
-                </div>
+            <!-- Elemento 1: Preparación de materiales para entrenamiento operativo -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
+                    Preparación de materiales para entrenamiento operativo
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Diseñamos y preparamos materiales de entrenamiento para picking, kitting y simulaciones reales de operación.
+                </p>
             </div>
             
-            <!-- Elemento 4: Preparación de Materiales -->
-            <div class="flex gap-6 items-start opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <!-- Contenedor de imagen -->
-                <div class="flex-shrink-0 w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-2xl overflow-hidden">
-                    <!-- Placeholder para imagen - cambiar después -->
-                    <div class="w-full h-full bg-gradient-to-br from-gray-300 to-gray-400"></div>
-                </div>
-                
-                <!-- Contenido de texto -->
-                <div class="flex-1">
-                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                        Preparación de Materiales
-                    </h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Descripción de los equipos móviles que tenemos diferenciada para creatblue
-                    </p>
-                </div>
+            <!-- Elemento 2: Catálogo de equipo móvil industrial y operativo -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
+                    Catálogo de equipo móvil industrial y operativo
+                </h3>
+                <p class="text-gray-700 leading-relaxed">
+                    Contamos con equipos móviles especializados para entrenamiento operativo adaptado a cada industria y giro empresarial
+                </p>
+                <!-- Boton de descargar catalogo-->
+                <button class="mt-4 bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                    Descargar catálogo
+                </button>
             </div>
             
         </div>

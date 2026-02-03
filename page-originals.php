@@ -27,69 +27,25 @@ get_header();
                     <span class="text-secondary font-black">DIFERENCIAN</span> a tu empresa
                 </h1>
                 
-                <!-- CTA Button -->
-                <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    ACCIÓN BT
-                </button>
+                 <!-- CTA Buttons -->
+                 <div class="flex flex-wrap gap-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
+                        Cotizar ahora
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-3">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar brochure
+                    </button>
+                </div>
             </div>
             
-            <!-- Columna derecha - Grid de imágenes desordenado -->
-            <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
-                <!-- Imagen 1 - Superior izquierda -->
-                <div class="absolute top-0 left-0 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="300" data-speed="0.3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
-                         alt="Trabajador 1" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 2 - Superior derecha -->
-                <div class="absolute top-0 right-0 w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="500" data-speed="0.5">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
-                         alt="Trabajador 2" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
-                <div class="absolute top-60 left-24 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="700" data-speed="0.2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
-                         alt="Trabajador 3" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 4 - Inferior derecha -->
-                <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="900" data-speed="0.4">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
-                         alt="Trabajador 4" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Elementos decorativos (cuadrados morados como en la imagen) -->
-                <div class="absolute top-64 right-32 w-20 h-20 bg-secondary rounded-lg opacity-80 z-0 particle-float" data-speed="0.6"></div>
-                <div class="absolute bottom-32 left-4 w-16 h-16 bg-primary rounded-lg opacity-60 z-0 particle-float" data-speed="0.7"></div>
-            </div>
-            
-            <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
-            <div class="grid grid-cols-2 gap-4 lg:hidden">
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
-                         alt="Trabajador 1" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
-                         alt="Trabajador 2" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
-                         alt="Trabajador 3" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
-                         alt="Trabajador 4" 
-                         class="w-full h-48 object-cover">
-                </div>
+            <!-- Columna derecha - Imagen única -->
+            <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 scale-95 animate-on-scroll" data-delay="400">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/or1.webp" 
+                     alt="Creatblue Originals México" 
+                     class="w-full h-auto object-cover">
             </div>
             
         </div>
@@ -101,8 +57,57 @@ get_header();
     <div class="container mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Creamos talento desarrollando soluciones de marca propia para aportar un valor único y adpatado a las necesidades de cada empresa.
+            Adaptamos nuestros modelos, metodologías y programas para potencializar el exito de cada empresa en México con el talento humano
             </h2>
+            <p>BENEFICIOS CREATBLUE®</p>
+        </div>
+        
+        <!-- Grid de 3 columnas con iconos -->
+        <div class="grid md:grid-cols-3 gap-6 mb-20">
+            <!-- Card 1: Soluciones creadas desde el éxito -->
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <div class="flex items-center gap-6">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
+                        <!-- Icono de bombilla/idea -->
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
+                    Soluciones creadas desde el éxito y la experiencia real
+                    </h3>
+                </div>
+            </div>
+            
+            <!-- Card 2: Alineación personas y objetivos -->
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <div class="flex items-center gap-6">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
+                        <!-- Icono de diana/objetivo -->
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
+                    Alineación entre personas y objetivos organizacionales
+                    </h3>
+                </div>
+            </div>
+            
+            <!-- Card 3: Flexibilidad y adaptación -->
+            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                <div class="flex items-center gap-6">
+                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
+                        <!-- Icono de puzzle/adaptación -->
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
+                    Flexibilidad y adaptación a cada empresa
+                    </h3>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -123,7 +128,7 @@ get_header();
             <div class="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                 <div class="px-6 py-8 md:px-14 md:py-14 text-center">                    
                     <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight drop-shadow-2xl">
-                        Decisiones respaldadas por estrategia
+                    Modelos creados desde la experiencia
                     </h2>
                 </div>
             </div>
@@ -131,7 +136,7 @@ get_header();
     </div>
 </section>
 
-<!-- Sección WORKFORCE y CREATPLAY ready to go! -->
+<!-- Sección Soluciones Creatblue Originals -->
 <section class="relative overflow-hidden py-20 bg-gradient-to-br from-[#2f3082] to-[#0f1229]">
     <!-- Efectos de fondo -->
     <div class="absolute inset-0 opacity-40">
@@ -139,68 +144,93 @@ get_header();
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-b from-[#2f3082]/20 to-primary/10 rounded-full blur-2xl"></div>
     </div>
 
-        <!-- Grid de 2 banners horizontales Workforce y CreatPlay  -->
-        <div class="container mx-auto px-6 relative z-10">
-            <!-- Grid de 2 columnas -->
-            <div class="grid lg:grid-cols-2 gap-8">
-                
-                <!-- Banner 1: WORKFORCE - Reclutamiento + Entrenamiento -->
-                <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    <!-- Imagen arriba -->
-                    <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
-                             alt="WORKFORCE ready to go" 
-                             class="w-full max-w-[300px] h-auto">
-                    </div>
-                    
-                    <!-- Contenido abajo -->
-                    <div class="p-8 md:p-10">
-                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4 leading-tight">
-                            Reclutamiento + Entrenamiento
-                        </h3>
-                        <p class="text-white/90 text-base md:text-lg mb-6">
-                            Reclutamiento y entrenamiento de personal sin experiencia.
-                        </p>
-                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-sm md:text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
-                            </svg>
-                            <span>Ver cómo funciona</span>
-                        </button>
-                    </div>
+    <!-- Grid de 3 banners -->
+    <div class="container mx-auto px-6 relative z-10">
+        <!-- Grid de 3 columnas -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Banner 1: WORKFORCE Ready to Go -->
+            <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <!-- Imagen arriba -->
+                <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/wforce_light.webp" 
+                         alt="Workforce Ready to Go" 
+                         class="w-full max-w-[250px] h-auto">
                 </div>
                 
-                <!-- Banner 2: CREATPLAY - Desarrollo de VIDEO GAMING -->
-                <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                    <!-- Imagen arriba -->
-                    <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/creatplay_asset.png" 
-                             alt="CREATPLAY" 
-                             class="w-full max-w-[300px] h-auto">
-                    </div>
-                    
-                    <!-- Contenido abajo -->
-                    <div class="p-8 md:p-10">
-                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4 leading-tight">
-                            Desarrollo de VIDEO GAMING
-                        </h3>
-                        <p class="text-white/90 text-base md:text-lg mb-6">
-                            Desarrollo para capacitaciones empresariales.
-                        </p>
-                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-sm md:text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
-                            </svg>
-                            <span>Ver cómo funciona</span>
-                        </button>
-                    </div>
+                <!-- Contenido abajo -->
+                <div class="p-6 md:p-8">
+                    <h3 class="text-white text-xl md:text-2xl font-bold mb-3 leading-tight">
+                        Workforce Ready to Go Creatblue® México
+                    </h3>
+                    <p class="text-white/90 text-base mb-6">
+                        Reclutamiento y entrenamiento de personal sin experiencia.
+                    </p>
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-5 py-3 rounded-xl transition-all duration-300 font-bold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                        </svg>
+                        <span>Ver cómo funciona</span>
+                    </button>
                 </div>
-                
             </div>
+            
+            <!-- Banner 2: CREATmap -->
+            <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <!-- Imagen arriba -->
+                <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/cmap_light.webp" 
+                         alt="CREATmap" 
+                         class="w-full max-w-[250px] h-auto">
+                </div>
+                
+                <!-- Contenido abajo -->
+                <div class="p-6 md:p-8">
+                    <h3 class="text-white text-xl md:text-2xl font-bold mb-3 leading-tight">
+                        CREATmap Creatblue® México
+                    </h3>
+                    <p class="text-white/90 text-base mb-6">
+                        Modelo de entrenamiento industrial para optimizar la productividad.
+                    </p>
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-5 py-3 rounded-xl transition-all duration-300 font-bold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                        </svg>
+                        <span>Ver cómo funciona</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Banner 3: Creatblue Learning -->
+            <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                <!-- Imagen arriba -->
+                <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/clea_light.webp" 
+                         alt="Creatblue Learning" 
+                         class="w-full max-w-[250px] h-auto">
+                </div>
+                
+                <!-- Contenido abajo -->
+                <div class="p-6 md:p-8">
+                    <h3 class="text-white text-xl md:text-2xl font-bold mb-3 leading-tight">
+                        Creatblue Learning Creatblue® México
+                    </h3>
+                    <p class="text-white/90 text-base mb-6">
+                        Desarrollo de video gaming para capacitaciones empresariales.
+                    </p>
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-5 py-3 rounded-xl transition-all duration-300 font-bold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
+                        </svg>
+                        <span>Ver cómo funciona</span>
+                    </button>
+                </div>
+            </div>
+            
         </div>
-        
     </div>
 </section>
 

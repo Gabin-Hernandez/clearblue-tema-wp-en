@@ -27,24 +27,32 @@ get_header();
                     <span class="text-secondary font-black">FORTALECER</span> tu talento humano
                 </h1>
                 
-                <!-- CTA Button -->
-                <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    ACCIÓN BT
-                </button>
+                <!-- CTA Buttons -->
+                <div class="flex flex-wrap gap-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
+                        Cotizar ahora
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-3">
+                        <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar catálogo
+                    </button>
+                </div>
             </div>
             
             <!-- Columna derecha - Grid de imágenes desordenado -->
             <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
                 <!-- Imagen 1 - Superior izquierda -->
                 <div class="absolute top-0 left-0 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="300" data-speed="0.3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c1.webp" 
                          alt="Trabajador 1" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 2 - Superior derecha -->
                 <div class="absolute top-0 right-0 w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="500" data-speed="0.5">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c2.webp" 
                          alt="Trabajador 2" 
                          class="w-full h-full object-cover">
                 </div>
@@ -58,7 +66,7 @@ get_header();
                 
                 <!-- Imagen 4 - Inferior derecha -->
                 <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="900" data-speed="0.4">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c3.webp" 
                          alt="Trabajador 4" 
                          class="w-full h-full object-cover">
                 </div>
@@ -71,12 +79,12 @@ get_header();
             <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
             <div class="grid grid-cols-2 gap-4 lg:hidden">
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c1.webp" 
                          alt="Trabajador 1" 
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c2.webp" 
                          alt="Trabajador 2" 
                          class="w-full h-48 object-cover">
                 </div>
@@ -86,7 +94,7 @@ get_header();
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c3.webp" 
                          alt="Trabajador 4" 
                          class="w-full h-48 object-cover">
                 </div>
@@ -101,8 +109,9 @@ get_header();
     <div class="container mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Entendemos que el éxito de una organización depende del desarrollo de su equipo. Por eso, diseñamos programas de capacitación especializados que impulsan la productividad, mejoran las habilidades profesionales y generan un impacto directo en los resultaos de tu negocio.
+            Diseñamos programas de capacitación empresarial que impulsan la productividad, fortalecen habilidades clave y generan resultados reales en tu equipo
             </h2>
+            <p>BENEFICIOS CREATBLUE®</p>
         </div>
         
         <!-- Grid de 3 columnas con iconos -->
@@ -116,7 +125,7 @@ get_header();
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                    Contenidos prácticos y adaptados a las necesidades de tu sector.
+                    Aumento de la productividad operativa
                     </h3>
                 </div>
             </div>
@@ -130,7 +139,7 @@ get_header();
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                    Capacitación en liderazgo, recursos humanos, seguridad, etc.
+                    Desarrollo de habilidades personalizadas clave
                     </h3>
                 </div>
             </div>
@@ -144,10 +153,99 @@ get_header();
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                    Metodologías innovadoras apoyadas en tecnología y casos reales.
+                    Resultados medibles para las áreas administrativas y de operación
                     </h3>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección ¿Te ha pasado? -->
+<section class="py-20 bg-gradient-to-br from-[#849dfa] to-[#6b7fd8]">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                ¿Te ha pasado? Principales problemas en las empresas al capacitar equipos
+            </h2>
+        </div>
+        
+        <!-- Grid de 4 cards -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1: Retrabajo y errores -->
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <div class="flex justify-center mb-6">
+                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
+                    Retrabajo y errores por capacitaciones ineficientes
+                </h3>
+                <p class="text-gray-700 text-center leading-relaxed">
+                    Los costos se elevan hasta 25% más por correcciones y ajustes, ya que se necesita mayor supervisión, restando tiempo efectivo.
+                </p>
+            </div>
+            
+            <!-- Card 2: Dificultad para medir ROI -->
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <div class="flex justify-center mb-6">
+                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
+                    Dificultad para medir ROI
+                </h3>
+                <p class="text-gray-700 text-center leading-relaxed">
+                    El 40% de empresas reporta que no se puede demostrar el ROI de sus programas de capacitación, lo que hace difícil justificar presupuestos y mejora continua.
+                </p>
+            </div>
+            
+            <!-- Card 3: Barreras para crecimiento -->
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                <div class="flex justify-center mb-6">
+                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
+                    Barreras para crecimiento individual y colectivo
+                </h3>
+                <p class="text-gray-700 text-center leading-relaxed">
+                    La falta de aprovechamiento en herramientas digitales o mejoras de performance operacional, afectando la competitividad.
+                </p>
+            </div>
+            
+            <!-- Card 4: Learning Gap -->
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
+                <div class="flex justify-center mb-6">
+                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
+                    Learning Gap al capacitar equipos
+                </h3>
+                <p class="text-gray-700 text-center leading-relaxed">
+                    Baja de adopción de plataformas de aprendizaje, LMS subutilizados que se invierten pero no son utilizados.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Badge -->
+        <div class="text-center mt-12">
+            <p class="inline-block text-white/90 text-base md:text-lg bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                Capacitación empresarial para prevenir pérdidas, fortalecer el clima laboral y actualización de competencias
+            </p>
         </div>
     </div>
 </section>
@@ -199,8 +297,26 @@ get_header();
             <!-- Columna 2: Título y texto -->
             <div class="text-right opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
-                Gaming y Métodos Andragógicos
+                    CREATplay:
                 </h2>
+                <p class="text-white text-base max-w-2xl ml-auto mb-6">
+                    Metodología de capacitación basada en gaming y métodos andragógicos
+                </p>
+                <!-- Botones de cómo funciona y descarga brochure -->
+                <div class="flex flex-wrap gap-3 justify-end opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        Ver cómo funciona
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        Descargar brochure
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -209,36 +325,31 @@ get_header();
             
             <!-- Banner izquierdo: Gaming -->
             <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-96 md:h-[450px] opacity-0 scale-75 animate-on-scroll" data-delay="600">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima6.jpg" 
-                     alt="Gaming" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c4.jpg" 
+                     alt="Gaming - Capacitación empresarial" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-8">
                     <h3 class="text-white text-2xl md:text-3xl font-bold leading-tight">
-                    Gaming
+                    Capacitación empresarial a través de Gaming
                     </h3>
                     <p class="text-white text-base max-w-2xl ml-auto">
-                    Descripción de Gaming diferenciada para creatblue
-                    </p>
-                    <button class="mt-2 bg-secondary hover:bg-secondary/80 text-white px-4 py-2 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 animate-on-scroll animate-in" data-delay="400">
-                        <div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" /></svg>  <span>Ver cómo funciona CREATPLAY</span></div>
-                    </button>
+                    Dinámicas de aprendizaje gamificadas diseñandas para fortalecer habilidades e incrementar la participación.                    </p>
                 </div>
             </div>
             
             <!-- Banner derecho: Métodos Andragógicos -->
             <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-96 md:h-[450px] opacity-0 scale-75 animate-on-scroll" data-delay="800">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
-                     alt="Métodos Andragógicos" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/c5.jpg" 
+                     alt="Métodos Andragógicos - Aprendizaje generacional" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-8">
                     <h3 class="text-white text-2xl md:text-3xl font-bold leading-tight">
-                    Métodos Andragógicos
+                    Métodos Andragógicos para el aprendizaje generacional
                     </h3>
                         <p class="text-white text-base max-w-2xl ml-auto">
-                    Descripción de Métodos Andragógicos diferenciada para creatblue
-                    </p>
+                        Capacitación basada en la experiencia, la práctica y casos reales, adaptada a las necesidades del talento humano.                    </p>
                 </div>
             </div>
             
@@ -246,8 +357,238 @@ get_header();
     </div>
 </section>
 
-<!-- Sección CTA Final -->
+<!-- Sección Capacitación Presencial -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <!-- Título principal -->
+        <div class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                Capacitación Presencial para equipos operativos y directivos Creatblue® México
+            </h2>
+        </div>
+        
+        <!-- Grid de 2 columnas -->
+        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+            
+            <!-- Banner 1: Talleres empresariales -->
+            <div class="bg-gray-50 rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                <h3 class="text-xl md:text-2xl font-bold text-primary mb-6">
+                    Talleres empresariales
+                </h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Observación orientada</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Swim Lane (alineación de procesos)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Planeación estratégica</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Estrategia posicional</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Proceso de acción correctiva (8D)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Evaluación de competencias gerenciales</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Banner 2: Implementaciones y mejora continua -->
+            <div class="bg-gray-50 rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <h3 class="text-xl md:text-2xl font-bold text-primary mb-6">
+                    Implementaciones y mejora continua
+                </h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Opex (Excelencia operativa)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Implementación Lean Business System</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Visual Management</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Housekeeping (5S y 6S) - Orden, limpieza, seguridad y calidad</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Planeación y control</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Assessment gerencial a ejecutivos mandos medios</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-gray-700">
+                        <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Implementación de competencias gerenciales</span>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Sección Capacitación Online -->
 <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <!-- Título principal -->
+        <div class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                Capacitación Online para equipos operativos y directivos Creatblue® México
+            </h2>
+        </div>
+        
+        <!-- Banner: Cursos En Línea -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+            <h3 class="text-xl md:text-2xl font-bold text-primary mb-6">
+                Cursos En Línea
+            </h3>
+            <ul class="grid md:grid-cols-2 gap-x-8 gap-y-3">
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Generaciones Laborales y Diversidad e Inclusión</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Reclutamiento 4.0 / 5.0</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Coaching Ejecutivo</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Assessment Center</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Evaluación de clima laboral</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Evaluación 360 por competencias</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Implementación Integral NOM 035</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>NOM 035 para líderes</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Capacitaciones y programas formativos</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Formación de instructores</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Diseño y aplicación de assessment center</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Liderazgo resonante</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Team building "Beyond Borders"</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Accountability / Responsabilidad Personal</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Comisiones de Seguridad e Higiene NOM 019</span>
+                </li>
+                <li class="flex items-start gap-3 text-gray-700">
+                    <svg class="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Gestión de la Capacitación por Competencias y STPS</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Sección CTA Final -->
+<section class="py-20 bg-white">
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             ¿Listo para transformar tu capital humano?
