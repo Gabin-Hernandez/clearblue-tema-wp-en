@@ -24,8 +24,8 @@ function creatblue_setup_seo() {
 '
         ),
         'page-entrenamiento' => array(
-            'title' => 'Entrenamiento Industrial en México | Creatblue® México',
-            'description' => 'Modelos de entrenamiento industrial diseñados para aumentar la productividad, eficiencia operativa y desempeño del talento humano.'
+            'title' => 'TRAINING',
+            'description' => 'Hands-on safety training and forklift training with low trainer-to-student ratios. Practical, skills-focused workforce training built for real work environments.'
         ),
         'page-reclutamiento' => array(
             'title' => 'Reclutamiento y Selección de Personal en México | Creatblue® México',
@@ -44,8 +44,8 @@ function creatblue_setup_seo() {
             'description' => 'Impulsamos el desarrollo del talento humano con soluciones propias creadas para fortalecer personas, equipos y organizaciones.'
         ),
         'page-nosotros' => array(
-            'title' => 'Quiénes Somos | Creatblue® México',
-            'description' => 'Somos una empresa de origen alemán especializada en CREAR Talento Humano calificado para el sector industrial y corporativo en México.'
+            'title' => 'About Creatblue USA',
+            'description' => 'Training, compliance, and workforce solutions backed by global expertise and delivered with a people-first approach.'
         ),
         'page-contacto' => array(
             'title' => 'Habla con un especialista en talento, entrenamiento, capacitación y consultoría | Creatblue® México',

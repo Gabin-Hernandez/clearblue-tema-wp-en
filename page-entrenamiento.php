@@ -1,11 +1,11 @@
 <?php
 /**
- * Template Name: Entrenamiento MX
- * Description: Página de servicios de entrenamiento
+ * Template Name: Training
+ * Description: Safety Training and Forklift Training Services
  * 
  * SEO:
- * - Title: Entrenamiento Industrial en México | Creatblue® México
- * - Meta Description: Modelos de entrenamiento industrial diseñados para aumentar la productividad, eficiencia operativa y desempeño del talento humano.
+ * - Title: Safety Training & Forklift Training | Creatblue® USA
+ * - Meta Description: High-touch, skills-focused training taught by instructors with real in-field experience. Forklift training, MEWP, CPR/AED, and OSHA programs.
  */
 
 // SEO manejado dinámicamente desde functions.php
@@ -17,90 +17,44 @@ get_header();
     <div class="container mx-auto px-6">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             
-            <!-- Columna izquierda - Contenido de texto -->
+            <!-- Left Column - Text Content -->
             <div class="max-w-xl">
                 <!-- Badge -->
                 <div class="inline-block mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="100">
                     <span class="bg-secondary text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
-                    CB ENTRENAMIENTO
+                        SAFETY TRAINING
                     </span>
                 </div>
                 
-                <!-- Título principal -->
+                <!-- Main Title -->
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-normal text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                Entrenamiento industrial para <span class="text-secondary font-black">AUMENTAR</span> la productividad de tu equipo
+                    Safety Training & Forklift Training for Today's <span class="text-secondary font-black">Workforce</span>
                 </h1>
+                
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    High-touch, skills-focused training taught by instructors with real in-field experience.
+                </p>
                 
                 <!-- CTA Buttons -->
                 <div class="flex flex-wrap gap-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                     <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
-                        Cotizar ahora
+                        Get Started
                     </button>
                     <button class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-3">
                         <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M8 5v14l11-7z"/>
                         </svg>
-                        Ver cómo funciona
+                        See How It Works
                     </button>
                 </div>
             </div>
             
-            <!-- Columna derecha - Grid de imágenes desordenado -->
-            <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
-                <!-- Imagen 1 - Superior izquierda -->
-                <div class="absolute top-0 left-0 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="300" data-speed="0.3">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e8.webp" 
-                         alt="Trabajador 1" 
+            <!-- Right Column - Image -->
+            <div class="relative h-[500px] lg:h-[600px] opacity-0 scale-75 animate-on-scroll" data-delay="500">
+                <div class="rounded-2xl overflow-hidden shadow-2xl h-full">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                         alt="Safety Training" 
                          class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 2 - Superior derecha -->
-                <div class="absolute top-0 right-0 w-64 h-64 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="500" data-speed="0.5">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e7.webp" 
-                         alt="Trabajador 2" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
-                <div class="absolute top-60 left-24 w-60 h-72 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="700" data-speed="0.2">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
-                         alt="Trabajador 3" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Imagen 4 - Inferior derecha -->
-                <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="900" data-speed="0.4">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e6.webp" 
-                         alt="Trabajador 4" 
-                         class="w-full h-full object-cover">
-                </div>
-                
-                <!-- Elementos decorativos (cuadrados morados como en la imagen) -->
-                <div class="absolute top-64 right-32 w-20 h-20 bg-secondary rounded-lg opacity-80 z-0 particle-float" data-speed="0.6"></div>
-                <div class="absolute bottom-32 left-4 w-16 h-16 bg-primary rounded-lg opacity-60 z-0 particle-float" data-speed="0.7"></div>
-            </div>
-            
-            <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
-            <div class="grid grid-cols-2 gap-4 lg:hidden">
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e8.webp" 
-                         alt="Trabajador 1" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e7.webp" 
-                         alt="Trabajador 2" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
-                         alt="Trabajador 3" 
-                         class="w-full h-48 object-cover">
-                </div>
-                <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e6.webp" 
-                         alt="Trabajador 4" 
-                         class="w-full h-48 object-cover">
                 </div>
             </div>
             
@@ -108,325 +62,473 @@ get_header();
     </div>
 </section>
 
-<!-- Sección de Estadísticas y Gestión -->
+<!-- What We Offer Section -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Diseñamos modelos de entrenamiento profesionales, ideales para empresas que buscan optimizar, mejorar la eficiencia operativa y el desarrollo de soft skills en su equipo.
-            </h2>
-            <p>BENEFICIOS CREATBLUE®</p>
-        </div>
-        
-        <!-- Grid de 3 columnas con iconos -->
-        <div class="grid md:grid-cols-3 gap-6 mb-20">
-            <!-- Card 1: Menor tiempo -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="flex items-center gap-6">
-                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                    Mejora de productividad y eficiencia
-                    </h3>
+        <div class="max-w-6xl mx-auto">
+            <!-- Title -->
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    What We Offer
+                </h2>
+                <p class="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
+                    Creatblue® USA delivers safety training that builds capability, confidence, and safer work habits. Our programs are designed for industrial, commercial, and community environments that rely on trained, capable people to keep operations running safely and consistently.
+                </p>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="300">
+                    <svg class="w-6 h-6 text-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Forklift training and PIT operator certification</span>
+                </div>
+                
+                <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
+                    <svg class="w-6 h-6 text-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">MEWP operator training</span>
+                </div>
+                
+                <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="500">
+                    <svg class="w-6 h-6 text-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">CPR/AED & First Aid (American Red Cross certified)</span>
+                </div>
+                
+                <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="600">
+                    <svg class="w-6 h-6 text-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Safety training for new hires and experienced employees</span>
+                </div>
+                
+                <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="700">
+                    <svg class="w-6 h-6 text-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-800 text-lg">Custom workforce training designed for your equipment and standards</span>
                 </div>
             </div>
             
-            <!-- Card 2: Reclutamiento especializado -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="flex items-center gap-6">
-                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                        Entrenamiento adaptado a tu industria.
-                    </h3>
-                </div>
-            </div>
-            
-            <!-- Card 3: Procesos asistidos -->
-            <div class="bg-gradient-to-b from-white to-secondary/20 rounded-2xl px-8 py-12 shadow-xl hover:shadow-sm transition-all duration-300 border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="flex items-center gap-6">
-                    <div class="w-16 h-16 bg-gradient-to-br from-secondary/10 to-secondary/30 rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 leading-tight">
-                        Formación para operativos, mandos medios y líderes.
-                    </h3>
-                </div>
+            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                    Every program supports one essential goal: <span class="font-bold text-primary">a safer, more capable team that understands how to work confidently and responsibly on the job.</span>
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Sección ¿Te ha pasado? -->
-<section class="py-20 bg-gradient-to-br from-[#849dfa] to-[#6b7fd8]">
+<!-- Forklift Training Section -->
+<section class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            ¿Te ha pasado? Principales problemas en la operación industrial
+        <div class="grid lg:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+            <!-- Image Column -->
+            <div class="opacity-0 scale-75 animate-on-scroll" data-delay="200">
+                <div class="w-full h-[500px] rounded-2xl shadow-2xl overflow-hidden">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                         alt="Forklift Training" 
+                         class="w-full h-full object-cover">
+                </div>
+            </div>
+            
+            <!-- Text Column -->
+            <div class="space-y-6 opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">
+                    Forklift Training Built for Real Work Conditions
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Our forklift training is known for its depth, clarity, and hands-on approach. We maintain low trainer-to-student ratios, giving every operator the individual coaching needed to build real skill—not just pass a requirement.
+                </p>
+                <div class="space-y-3">
+                    <p class="text-lg font-semibold text-gray-900">Your team trains:</p>
+                    <ul class="space-y-2 text-lg text-gray-700">
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-secondary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>On real equipment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-secondary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>With real materials</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-secondary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>In real-world scenarios</span>
+                        </li>
+                        <li class="flex items-start">
+                            <svg class="w-6 h-6 text-secondary mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>With trainers who understand the demands of industrial work</span>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-lg text-gray-700 leading-relaxed font-semibold">
+                    This combination improves operator skill, reduces incidents, and supports stronger day-to-day performance across your workforce.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How We Deliver Safety Training Section -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    How We Deliver Safety Training
+                </h2>
+                <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                    Our programs are built around a simple philosophy: <span class="font-bold">people learn best when training feels relevant, clear, and supportive.</span>
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Hands-on training that builds muscle memory</h3>
+                </div>
+                
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Trainers with decades of operational and safety experience</h3>
+                </div>
+                
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Programs tailored to your standards, equipment, and workflows</h3>
+                </div>
+                
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Clear coaching for all learning styles</h3>
+                </div>
+                
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg md:col-span-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Training onsite at your facility or at our dedicated training center</h3>
+                </div>
+            </div>
+            
+            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                <p class="text-2xl font-bold text-primary">
+                    Your team leaves with real confidence, not just a card.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Safety Training Matters Section -->
+<section class="py-20 bg-gradient-to-br from-[#2f3082] to-[#0f1229]">
+    <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+            <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide mb-6">
+                Why Safety Training Matters
             </h2>
-        </div>
-        
-        <!-- Grid de 4 cards -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Card 1: Paros en línea -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="flex justify-center mb-6">
-                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                        </svg>
-                    </div>
+            <p class="text-xl text-white/90 leading-relaxed mb-8">
+                Effective safety training reduces risk, improves operational stability, and protects both people and productivity. When training is hands-on, consistent, and aligned with real work conditions, employees:
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-6 mt-12">
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                    <h3 class="text-xl font-bold text-white mb-2">Make better decisions</h3>
                 </div>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Paros en línea de producción
-                </h3>
-                <p class="text-gray-700 text-center leading-relaxed">
-                Una hora de paro en línea puede costar entre 10K y 50K USD. Dependiendo de la empresa. 
-                </p>
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                    <h3 class="text-xl font-bold text-white mb-2">Recognize hazards sooner</h3>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                    <h3 class="text-xl font-bold text-white mb-2">Use equipment more confidently</h3>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                    <h3 class="text-xl font-bold text-white mb-2">Maintain higher levels of operational performance</h3>
+                </div>
             </div>
             
-            <!-- Card 2: Daños en instalaciones -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="flex justify-center mb-6">
-                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Daños en las instalaciones
-                </h3>
-                <p class="text-gray-700 text-center leading-relaxed">
-                El 60% de los incidentes industriales se deben a malas prácticas operativas y falta de capacitación del personal.
-                </p>
-            </div>
-            
-            <!-- Card 3: Accidentes e incidentes -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="flex justify-center mb-6">
-                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Accidentes e incidentes en el área operativa
-                </h3>
-                <p class="text-gray-700 text-center leading-relaxed">
-                El 38% de los accidentes por mantenimiento generan daños a infraestructura, equipos y barreras de seguridad.
-                </p>
-            </div>
-            
-            <!-- Card 4: Scrap de materiales -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
-                <div class="flex justify-center mb-6">
-                    <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                        </svg>
-                    </div>
-                </div>
-                <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Scrap de materiales
-                </h3>
-                <p class="text-gray-700 text-center leading-relaxed">
-                El scrap puede representar entre el 2% y el 10% de los ingresos totales por ventas de una línea de producción.
-                </p>
-            </div>
-        </div>
-        <!-- BADGE Reclutamiento y selección para prevenir rotación de personal -->
-        <div class="text-center mt-12">
-            <p class="inline-block text-white/90 text-base md:text-lg bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Entrenamiento industrial para prevenir paros, accidentes y scrap de materiales
+            <p class="text-2xl font-bold text-secondary mt-12">
+                Safety becomes a daily practice, not a one-time event.
             </p>
         </div>
     </div>
 </section>
 
-<!-- Sección Entran con ganas y salen ¡Preparados! -->
-<section class="relative py-20 overflow-hidden">
-    <!-- Imagen de fondo de la sección -->
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/fdo1.jpg" 
-         alt="Background" 
-         class="absolute inset-0 w-full h-full object-cover">
-    
-    <!-- Overlay oscuro sobre la imagen -->
-    <div class="absolute inset-0 bg-gradient-to-br from-[#2f3082]/70 to-[#0f1229]/70"></div>
-    
-    <div class="container mx-auto px-6 relative z-10">
-        <div class="max-w-4xl mx-auto">
-            <!-- Badge con efecto glassmorphism -->
-            <div class="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <div class="px-6 py-8 md:px-14 md:py-14 text-center">                    
-                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight drop-shadow-2xl">
-                    Entran con ganas y salen ¡Preparados!
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Sección WORKFORCE ready to go! -->
-<section class="relative overflow-hidden py-20 bg-gradient-to-br from-[#2f3082] to-[#0f1229]">
-    <!-- Efectos de fondo -->
-    <div class="absolute inset-0 opacity-40">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-b from-[#2f3082]/30 to-primary/20 rounded-full blur-3xl"></div>
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-b from-[#2f3082]/20 to-primary/10 rounded-full blur-2xl"></div>
-    </div>
-    <div class="container mx-auto px-6 relative z-10">
-        <!-- Header -->
-        <div class="grid max-w-5xl mx-auto md:grid-cols-2 gap-8 items-center mb-16">
-            <!-- Columna 1: Logo WORKFORCE -->
-            <div class="opacity-0 translate-x-8 animate-on-scroll" data-delay="200">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/creatmap_asset.png" 
-                     alt="CREATMAP" 
-                     class="w-full max-w-[400px] h-auto">
-            </div>
-            
-            <!-- Columna 2: Título y texto -->
-            <div class="text-right opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
-                <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
-                CREATmap:
-                </h2>
-                <p class="text-white text-base max-w-2xl ml-auto mb-6">
-                modelo de entrenamiento industrial para optimizar la productividad
-                </p>
-                <!-- botones de como funciona y descarga brochure -->
-                <div class="flex flex-wrap gap-3 justify-end opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
-                        <svg class="w-5 h-5 text-secondary" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M8 5v14l11-7z"/>
-                        </svg>
-                        Ver cómo funciona
-                    </button>
-                    <button class="bg-white hover:bg-gray-100 text-primary px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-2">
-                        <svg class="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                        </svg>
-                        Descargar brochure
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- 3 Banners: Mapea, Entrena, Optimiza -->
-<section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-6">
-        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            
-            <!-- Tarjeta 1: Mapea -->
-            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <!-- Imagen -->
-                <div class="bg-gray-100">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e1.webp" 
-                         alt="Mapea - Evaluación de rendimiento" 
-                         class="w-full h-auto">
-                </div>
-                <!-- Contenido -->
-                <div class="p-6">
-                    <h3 class="text-2xl font-bold text-primary mb-3">Mapea</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Tarjeta 2: Entrena -->
-            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <!-- Imagen -->
-                <div class="bg-gray-100">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e2.webp" 
-                         alt="Entrena - Capacitación del equipo" 
-                         class="w-full h-auto">
-                </div>
-                <!-- Contenido -->
-                <div class="p-6">
-                    <h3 class="text-2xl font-bold text-primary mb-3">Entrena</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
-                    </p>
-                </div>
-            </div>
-            
-            <!-- Tarjeta 3: Optimiza -->
-            <div class="bg-white rounded-2xl shadow-xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <!-- Imagen -->
-                <div class="bg-gray-100">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e3.webp" 
-                         alt="Optimiza - Mejora del rendimiento" 
-                         class="w-full h-auto">
-                </div>
-                <!-- Contenido -->
-                <div class="p-6">
-                    <h3 class="text-2xl font-bold text-primary mb-3">Optimiza</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Cada persona del equipo es evaluada antes y después del entrenamiento utilizando medidores de rendimiento operativos.
-                    </p>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<!-- Sección LUGARES DE ENTRENAMIENTO -->
+<!-- Who We Serve Section -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <!-- Título principal -->
-        <div class="mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Modalidades de Entrenamiento Creatblue® México
-            </h2>
-        </div>
-        
-        <!-- Banner 1: CREATmobil - Ancho completo -->
-        <div class="grid lg:grid-cols-2 gap-8 items-center mb-12 bg-gray-50 rounded-3xl overflow-hidden opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-            <!-- Texto a la izquierda -->
-            <div class="p-8 lg:p-12">
-                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                    CREATmobil: entrenamiento en tus instalaciones
-                </h3>
-                <p class="text-gray-700 leading-relaxed text-lg">
-                    Llevamos todo nuestro equipo de entrenamiento directamente a tus instalaciones, adaptándonos a tus procesos y operación.
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    Who We Serve
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    We support companies across:
                 </p>
             </div>
-            <!-- Imagen a la derecha -->
-            <div class="h-64 lg:h-80">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e4.webp" 
-                     alt="CREATmobil - Entrenamiento en tus instalaciones" 
-                     class="w-full h-full object-cover">
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <h3 class="text-xl font-bold text-gray-900">Manufacturing</h3>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <h3 class="text-xl font-bold text-gray-900">Logistics and distribution</h3>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <h3 class="text-xl font-bold text-gray-900">Warehousing</h3>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <h3 class="text-xl font-bold text-gray-900">Construction</h3>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <h3 class="text-xl font-bold text-gray-900">Commercial facilities</h3>
+                </div>
+                <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                    <h3 class="text-xl font-bold text-gray-900">Gyms, studios, offices</h3>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
+                <p class="text-lg text-gray-700">
+                    EHS managers, HR leaders, and operations directors rely on Creatblue for safety training that improves real outcomes.
+                </p>
             </div>
         </div>
-        
-        <!-- Banner 2: CEC - Imagen de fondo con texto encima -->
-        <div class="relative rounded-3xl overflow-hidden mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-            <!-- Imagen de fondo -->
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/e5.webp" 
-                 alt="CEC - Centros de Entrenamiento Creatblue" 
-                 class="w-full h-64 lg:h-80 object-cover">
-            <!-- Overlay oscuro -->
-            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
-            <!-- Texto encima -->
-            <div class="absolute inset-0 flex items-center">
-                <div class="p-8 lg:p-12 max-w-2xl">
-                    <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
-                        CEC: Centros de Entrenamiento Creatblue®
+    </div>
+</section>
+
+<!-- The Creatblue Difference Section -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">
+                    The Creatblue Difference
+                </h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex items-center gap-4 bg-white rounded-xl p-6 shadow-lg opacity-0 translate-x-8 animate-on-scroll" data-delay="300">
+                    <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-900 text-lg font-semibold">Low trainer-to-student ratios</span>
+                </div>
+                
+                <div class="flex items-center gap-4 bg-white rounded-xl p-6 shadow-lg opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
+                    <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-900 text-lg font-semibold">Trainers with real in-field experience</span>
+                </div>
+                
+                <div class="flex items-center gap-4 bg-white rounded-xl p-6 shadow-lg opacity-0 translate-x-8 animate-on-scroll" data-delay="500">
+                    <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-900 text-lg font-semibold">Programs tailored to your workplace</span>
+                </div>
+                
+                <div class="flex items-center gap-4 bg-white rounded-xl p-6 shadow-lg opacity-0 translate-x-8 animate-on-scroll" data-delay="600">
+                    <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-900 text-lg font-semibold">Warm, steady instruction that supports every learner</span>
+                </div>
+                
+                <div class="flex items-center gap-4 bg-white rounded-xl p-6 shadow-lg md:col-span-2 opacity-0 translate-x-8 animate-on-scroll" data-delay="700">
+                    <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-gray-900 text-lg font-semibold">High skill development—not just certification</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Full Training and Safety Catalog Section -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+            <!-- Title -->
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    Full Training and Safety Catalog
+                </h2>
+                <p class="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
+                    Below is our complete list of hands-on training and OSHA safety programs available through Creatblue USA. All services can be delivered onsite at your facility or at our training center.
+                </p>
+            </div>
+            
+            <!-- Catalog Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Equipment Training -->
+                <div class="bg-gradient-to-b from-white to-gray-50 rounded-2xl p-8 shadow-lg border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <h3 class="text-2xl font-bold text-primary mb-6">Equipment Training</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Forklift (PIT) Operator Training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>MEWP Operator Training</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- CPR, First Aid, and Emergency Preparedness -->
+                <div class="bg-gradient-to-b from-white to-gray-50 rounded-2xl p-8 shadow-lg border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <h3 class="text-2xl font-bold text-primary mb-6">CPR, First Aid, and Emergency Preparedness</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>CPR/AED Certification (American Red Cross)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Pediatric CPR</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>First Aid Training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Bloodborne Pathogens (BBP)</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- OSHA and Safety Programs -->
+                <div class="bg-gradient-to-b from-white to-gray-50 rounded-2xl p-8 shadow-lg border border-gray-100 opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <h3 class="text-2xl font-bold text-primary mb-6">OSHA and Safety Programs</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>OSHA 10</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>OSHA 30</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>HAZWOPER</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Confined Spaces</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Lockout/Tagout</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Arc Flash</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Hot Works</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-secondary mr-2">•</span>
+                            <span>Flagger Certification</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Need more -->
+            <div class="text-center mt-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                <p class="text-lg text-gray-800 font-semibold mb-2">
+                    Need a program not listed here?
+                </p>
+                <p class="text-gray-700">
+                    We can provide additional OSHA-aligned and workplace-specific training.<br>
+                    Contact us to discuss your needs.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQs Section -->
+<section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+            <!-- Title -->
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+            
+            <!-- FAQ Items -->
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        What makes your forklift training different from other providers?
                     </h3>
-                    <p class="text-white/90 leading-relaxed text-lg">
-                        <strong>SLP Y SILAO con una capacidad de 1,050 m²</strong> — Prepara a tu equipo en nuestros Centros de Entrenamiento Creatblue®, diseñados para simular entornos operativos reales.
+                    <p class="text-gray-700 leading-relaxed">
+                        We maintain Low trainer-to-student ratios, teach on real equipment, and use instructors with real operational experience — not classroom-only backgrounds. The result is stronger operator capability and safer daily performance.
+                    </p>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Do you offer onsite training?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Yes. We can train onsite at your facility or at our dedicated Creatblue training center.
+                    </p>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Can you customize training for our equipment and workflow?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Absolutely. We specialize in custom workplace training — including plant-specific hazards, equipment, material flow, and operational needs.
+                    </p>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        How long does forklift or PIT training take?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Most programs can be completed in a single day. Refresher training is also available.
+                    </p>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Do participants receive certification?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Yes. Operators who meet all requirements receive recognized certification, along with coaching focused on real skill development.
+                    </p>
+                </div>
+                
+                <!-- FAQ 6 -->
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Do you train small groups or large groups?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Both — but our approach is always low ratio, high coaching, regardless of group size.
                     </p>
                 </div>
             </div>
@@ -434,62 +536,23 @@ get_header();
     </div>
 </section>
 
-<!-- Sección MATERIALES DE ENTRENAMIENTO -->
-<section class="py-20 bg-gray-50">
+<!-- Schedule a Free Consultation Section -->
+<section class="py-20 bg-gradient-to-b from-white to-gray-50">
     <div class="container mx-auto px-6">
-        <!-- Título principal -->
-        <div class="mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 uppercase tracking-wide opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            Materiales y Equipos de Entrenamiento Industrial
+        <div class="max-w-4xl mx-auto text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
+                Schedule a Free Consultation
             </h2>
+            <p class="text-xl text-gray-700 leading-relaxed mb-8">
+                Ready to strengthen your team?
+            </p>
+            <a href="#" class="inline-flex items-center bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+                Schedule a Free Consultation
+                <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </a>
         </div>
-        
-        <!-- Grid de 2 columnas -->
-        <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
-            
-            <!-- Elemento 1: Preparación de materiales para entrenamiento operativo -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                    Preparación de materiales para entrenamiento operativo
-                </h3>
-                <p class="text-gray-700 leading-relaxed">
-                    Diseñamos y preparamos materiales de entrenamiento para picking, kitting y simulaciones reales de operación.
-                </p>
-            </div>
-            
-            <!-- Elemento 2: Catálogo de equipo móvil industrial y operativo -->
-            <div class="bg-white p-8 rounded-2xl shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-3">
-                    Catálogo de equipo móvil industrial y operativo
-                </h3>
-                <p class="text-gray-700 leading-relaxed">
-                    Contamos con equipos móviles especializados para entrenamiento operativo adaptado a cada industria y giro empresarial
-                </p>
-                <!-- Boton de descargar catalogo-->
-                <button class="mt-4 bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-semibold text-sm shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                    </svg>
-                    Descargar catálogo
-                </button>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<!-- Sección CTA Final -->
-<section class="py-20 bg-gray-50">
-    <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            ¿Listo para transformar tu capital humano?
-        </h2>
-        <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-            Contáctanos hoy y descubre cómo podemos ayudarte a optimizar tus procesos de reclutamiento y capacitación.
-        </p>
-        <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-            Contáctanos ahora
-        </button>
     </div>
 </section>
 
