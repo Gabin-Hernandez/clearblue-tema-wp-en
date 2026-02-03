@@ -6,15 +6,15 @@
             <div>
                 <h4 class="font-black text-secondary mb-4">Acerca de nosotros</h4>
                 <ul class="space-y-2">
-                    <li><a href="<?php echo esc_url(home_url('/quienes-somos')); ?>" class="text-gray-600 hover:text-secondary transition">Quiénes somos</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/quienes-somos')); ?>" class="text-gray-600 hover:text-secondary transition">About Us</a></li>
                     <li><a href="<?php echo esc_url(home_url('/blog')); ?>" class="text-gray-600 hover:text-secondary transition">Blog</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-gray-600 hover:text-secondary transition">Contacto</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-gray-600 hover:text-secondary transition">Contact</a></li>
                 </ul>
             </div>
             
             <!-- Columna 2 -->
             <div>
-                <h4 class="font-black text-secondary mb-4">Creatblue HR</h4>
+                <h4 class="font-black text-secondary mb-4">Services</h4>
                 <?php
                 wp_nav_menu(array(
                     'theme_location' => 'footer',
@@ -23,10 +23,10 @@
                     'fallback_cb' => function() {
                         ?>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Entrenamiento</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Reclutamiento +</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Selección</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Consultoría</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Training</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Safety</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Compliance</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Consulting</a></li>
                         </ul>
                         <?php
                     },
@@ -38,28 +38,21 @@
             
             <!-- Columna 3 -->
             <div>
-                <h4 class="font-black text-secondary mb-4">Ventas</h4>
+                <h4 class="font-black text-secondary mb-4">Sales</h4>
                 <ul class="space-y-2">
                     <li>
                         <a href="mailto:info@creatblue.com" class="text-gray-600 hover:text-secondary transition">
-                            info@creatblue.com
+                            xxx@creatblue.com
                         </a>
                     </li>
                     <li>
                         <a href="tel:8001121050" class="text-gray-600 hover:text-secondary transition">
-                           800 112 1050
+                           123 456 7890
                         </a>
                     </li>
                 </ul>
             </div>
             
-            <!-- Columna 4 -->
-            <div>
-                <h4 class="font-black text-secondary mb-4">Candidatos</h4>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-gray-600 hover:text-secondary transition">Bolsa de trabajo</a></li>
-                </ul>
-            </div>
         </div>
         
         <!-- Redes sociales y logo -->
@@ -112,14 +105,14 @@
         </div>
         
         <div class="text-center mt-8 text-gray-500 text-sm">
-            <p class="font-black text-primary">Creatblue México</p>
-            <p>&copy; <?php echo date('Y'); ?> Avenida JINT #300 Parque industrial JINT. Puebla, Pue.</p>
+            <p class="font-black text-primary">Creatblue US</p>
+            <p>&copy; <?php echo date('Y'); ?> XX XXXX XX, XXXXX.</p>
             <p class="mt-3">
-                <a href="<?php echo esc_url(home_url('/politica-de-cookies')); ?>" class="hover:text-secondary transition">Política de cookies</a>
+                <a href="<?php echo esc_url(home_url('/politica-de-cookies')); ?>" class="hover:text-secondary transition">Cookie Policy</a>
                 <span class="mx-2">|</span>
-                <a href="<?php echo esc_url(home_url('/aviso-de-privacidad')); ?>" class="hover:text-secondary transition">Aviso de privacidad</a>
+                <a href="<?php echo esc_url(home_url('/aviso-de-privacidad')); ?>" class="hover:text-secondary transition">Privacy Notice</a>
                 <span class="mx-2">|</span>
-                <a href="<?php echo esc_url(home_url('/terminos-y-condiciones')); ?>" class="hover:text-secondary transition">Términos y condiciones</a>
+                <a href="<?php echo esc_url(home_url('/terminos-y-condiciones')); ?>" class="hover:text-secondary transition">Terms and Conditions</a>
             </p>
         </div>
     </div>
