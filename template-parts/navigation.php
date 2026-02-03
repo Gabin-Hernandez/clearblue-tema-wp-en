@@ -30,28 +30,26 @@
                     'items_wrap' => '%3$s',
                     'fallback_cb' => function() {
                         ?>
-                        <a href="<?php echo esc_url(home_url('/nosotros')); ?>" class="text-white hover:text-secondary transition">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/nosotros')); ?>" class="text-white hover:text-secondary transition">About Us</a>
                         
                         <!-- Dropdown: ¿Qué ofrecemos? -->
                         <div class="relative dropdown-container">
                             <button class="text-white hover:text-secondary transition flex items-center gap-1 dropdown-toggle">
-                                ¿Qué ofrecemos?
+                                Services
                                 <svg class="w-4 h-4 transition-transform dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
                             <div class="dropdown-menu absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
-                                <a href="<?php echo esc_url(home_url('/entrenamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg">Entrenamiento</a>
-                                <a href="<?php echo esc_url(home_url('/reclutamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Reclutamiento</a>
-                                <a href="<?php echo esc_url(home_url('/capacitacion')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Capacitación</a>
-                                <a href="<?php echo esc_url(home_url('/consultoria')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Consultoría</a>
-                                <a href="<?php echo esc_url(home_url('/originals')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-b-lg">Originals</a>
+                                <a href="<?php echo esc_url(home_url('/entrenamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg">Training</a>
+                                <a href="<?php echo esc_url(home_url('/reclutamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Safety</a>
+                                <a href="<?php echo esc_url(home_url('/capacitacion')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Compliance</a>
+                                <a href="<?php echo esc_url(home_url('/consultoria')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Consulting</a>
                             </div>
                         </div>
                         
-                        <a href="#" class="text-white hover:text-secondary transition">Camino zum talent</a>
-                        <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-white hover:text-secondary transition">Contacto</a>
-                        <a href="#" class="text-white hover:text-secondary transition">Bolsa de trabajo</a>
+                        <a href="#" class="text-white hover:text-secondary transition">Path to Talent</a>
+                        <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-white hover:text-secondary transition">Contact</a>
                         <?php
                     },
                     'link_before' => '<span class="text-white hover:text-secondary transition">',
