@@ -196,23 +196,49 @@ get_header();
             
             <div class="grid md:grid-cols-2 gap-6 mb-8">
                 <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Hands-on training that builds muscle memory</h3>
+                    <div class="flex items-center gap-4 mb-3">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Hands-on training that builds muscle memory</h3>
+                    </div>
                 </div>
                 
                 <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Trainers with decades of operational and safety experience</h3>
+                    <div class="flex items-center gap-4 mb-3">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Trainers with decades of operational and safety experience</h3>
+                    </div>
                 </div>
                 
                 <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Programs tailored to your standards, equipment, and workflows</h3>
+                    <div class="flex items-center gap-4 mb-3">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Programs tailored to your standards, equipment, and workflows</h3>
+                    </div>
                 </div>
                 
                 <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Clear coaching for all learning styles</h3>
+                    <div class="flex items-center gap-4 mb-3">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Clear coaching for all learning styles</h3>
+                    </div>
                 </div>
                 
-                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg md:col-span-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Training onsite at your facility or at our dedicated training center</h3>
+                <div class="bg-gradient-to-b from-white to-secondary/10 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <div class="flex items-center gap-4 mb-3">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Training onsite at your facility or at our dedicated training center</h3>
+                    </div>
                 </div>
             </div>
             
@@ -238,16 +264,37 @@ get_header();
             
             <div class="grid md:grid-cols-2 gap-6 mt-12">
                 <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                    <h3 class="text-xl font-bold text-white mb-2">Make better decisions</h3>
+                    <div class="flex items-center gap-4 mb-2">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Make better decisions</h3>
+                    </div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                    <h3 class="text-xl font-bold text-white mb-2">Recognize hazards sooner</h3>
+                    <div class="flex items-center gap-4 mb-2">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Recognize hazards sooner</h3>
+                    </div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                    <h3 class="text-xl font-bold text-white mb-2">Use equipment more confidently</h3>
+                    <div class="flex items-center gap-4 mb-2">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Use equipment more confidently</h3>
+                    </div>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-                    <h3 class="text-xl font-bold text-white mb-2">Maintain higher levels of operational performance</h3>
+                    <div class="flex items-center gap-4 mb-2">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Maintain higher levels of operational performance</h3>
+                    </div>
                 </div>
             </div>
             
@@ -273,22 +320,52 @@ get_header();
             
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
-                    <h3 class="text-xl font-bold text-gray-900">Manufacturing</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Manufacturing</h3>
+                    </div>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                    <h3 class="text-xl font-bold text-gray-900">Logistics and distribution</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Logistics and distribution</h3>
+                    </div>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                    <h3 class="text-xl font-bold text-gray-900">Warehousing</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Warehousing</h3>
+                    </div>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                    <h3 class="text-xl font-bold text-gray-900">Construction</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Construction</h3>
+                    </div>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                    <h3 class="text-xl font-bold text-gray-900">Commercial facilities</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Commercial facilities</h3>
+                    </div>
                 </div>
                 <div class="bg-gray-50 rounded-xl p-6 text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                    <h3 class="text-xl font-bold text-gray-900">Gyms, studios, offices</h3>
+                    <div class="flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Gyms, studios, offices</h3>
+                    </div>
                 </div>
             </div>
             
