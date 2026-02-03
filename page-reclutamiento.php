@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Safety
+ * Template Name: Safety.
  * Description: OSHA Safety Programs and Training Services
  */
 
