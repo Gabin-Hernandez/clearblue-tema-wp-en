@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Compliance
+ * Template Name: Compliance - US
  * Description: Workplace Compliance Programs and Training Services
  */
 
