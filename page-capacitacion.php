@@ -504,14 +504,6 @@ get_header();
                     </p>
                 </div>
                 
-                <!-- FAQ 5 -->
-                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">
-                        Do you help identify compliance requirements?
-                    </h3>
-                    <p class="text-gray-700 leading-relaxed">
-                        Yes. We can assess your facility and recommend training.
-                    </p>
                 </div>
             </div>
         </div>
@@ -519,6 +511,80 @@ get_header();
 </section>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Intersection Observer para las animaciones de scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '-50px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const element = entry.target;
+                const delay = parseInt(element.dataset.delay) || 0;
+                
+                setTimeout(() => {
+                    element.classList.add('animate-in');
+                    element.classList.remove('opacity-0', 'translate-y-8', 'translate-x-8', 'scale-75');
+                }, delay);
+                
+                observer.unobserve(element);
+            }
+        });
+    }, observerOptions);
+
+    // Observar todos los elementos con la clase animate-on-scroll
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+    animatedElements.forEach((element) => {
+        observer.observe(element);
+    });
+
+    // Efecto parallax para las partículas flotantes
+    const particles = document.querySelectorAll('.particle-float');
+    
+    window.addEventListener('scroll', () => {
+        const scrollY = window.scrollY;
+        
+        particles.forEach(particle => {
+            const speed = parseFloat(particle.dataset.speed) || 0.5;
+            const yPos = -(scrollY * speed);
+            
+            // Check if element has animate-on-scroll class and is animated in
+            if (particle.classList.contains('animate-on-scroll') && particle.classList.contains('animate-in')) {
+                // Preserve the existing transform from animation and add parallax
+                particle.style.transform = `translateY(${yPos}px)`;
+            } else if (!particle.classList.contains('animate-on-scroll')) {
+                // For elements without scroll animation, just apply parallax
+                particle.style.transform = `translateY(${yPos}px)`;
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.animate-on-scroll {
+    transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.animate-on-scroll.animate-in {
+    opacity: 1 !important;
+    /* No aplicamos transform aquí para evitar conflictos con parallax */
+}
+
+.animate-on-scroll.animate-in:not(.particle-float) {
+    transform: translateY(0) translateX(0) scale(1) !important;
+}
+
+.particle-float {
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+</style>
+
+<?php
+get_footer();
                     Los costos se elevan hasta 25% más por correcciones y ajustes, ya que se necesita mayor supervisión, restando tiempo efectivo.
                 </p>
             </div>
