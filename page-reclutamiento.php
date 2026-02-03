@@ -8,32 +8,51 @@ get_header();
 ?>
 
 <!-- Hero Section -->
-<section class="relative min-h-[70vh] bg-gradient-to-br from-gray-50 to-gray-100 pt-32 pb-20 overflow-hidden">
+<section class="relative min-h-[80vh] bg-gradient-to-br from-gray-50 to-gray-100 pt-32 pb-20 overflow-hidden">
     <div class="container mx-auto px-6">
-        <div class="max-w-4xl mx-auto text-center">
-            <!-- Badge -->
-            <div class="inline-block mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="100">
-                <span class="bg-secondary text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
-                    OSHA Safety Programs
-                </span>
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            
+            <!-- Left Column - Text Content -->
+            <div class="max-w-xl">
+                <!-- Badge -->
+                <div class="inline-block mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="100">
+                    <span class="bg-secondary text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
+                        OSHA Safety Programs
+                    </span>
+                </div>
+                
+                <!-- Main Title -->
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-normal text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                    OSHA Safety Programs That Protect People and Strengthen <span class="text-secondary font-black">Operations</span>
+                </h1>
+                
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    Clear, practical OSHA training designed for real workplace conditions.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-wrap gap-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
+                        Get Started
+                    </button>
+                    <button class="bg-white hover:bg-gray-100 text-primary px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 border-2 border-primary/20 flex items-center gap-3">
+                        <svg class="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                        See How It Works
+                    </button>
+                </div>
             </div>
             
-            <!-- Título principal -->
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                OSHA Safety Programs That Protect People and Strengthen Operations
-            </h1>
-            
-            <!-- Subheading -->
-            <p class="text-xl md:text-2xl text-gray-700 mb-8 opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
-                Clear, practical OSHA training designed for real workplace conditions.
-            </p>
-            
-            <!-- Hero Image -->
-            <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
-                     alt="OSHA Safety Training" 
-                     class="w-full h-[400px] object-cover">
+            <!-- Right Column - Image -->
+            <div class="relative h-[500px] lg:h-[600px] opacity-0 scale-75 animate-on-scroll" data-delay="500">
+                <div class="rounded-2xl overflow-hidden shadow-2xl h-full">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                         alt="OSHA Safety Training" 
+                         class="w-full h-full object-cover">
+                </div>
             </div>
+            
         </div>
     </div>
 </section>
