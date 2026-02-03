@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Contacto
- * Description: Página de contacto Creatblue México
+ * Template Name: Contact
+ * Description: Creatblue Mexico Contact Page
  */
 
 get_header();
@@ -17,25 +17,25 @@ get_header();
                 <!-- Badge -->
                 <div class="inline-block mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="100">
                     <span class="bg-secondary text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
-                    Contacto
+                    Contact
                     </span>
                 </div>
                 
-                <!-- Título principal -->
+                <!-- Main Title -->
                 <h1 class="text-3xl md:text-4xl lg:text-5xl font-normal text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                    Hablemos sobre el futuro de tu <span class="text-secondary font-black">talento</span>
+                    Let's talk about the future of your <span class="text-secondary font-black">talent</span>
                 </h1>
                 
-                <!-- Descripción -->
+                <!-- Description -->
                 <p class="text-gray-600 text-lg leading-relaxed opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
-                    En Creatblue® México trabajamos con personas y empresas para crear equipos más fuertes, productivos y preparados, a través de reclutamiento, capacitación, entrenamiento y consultoría.
+                    At Creatblue® Mexico, we work with people and companies to build stronger, more productive, and better-prepared teams through recruitment, training, coaching, and consulting.
                 </p>
             </div>
             
-            <!-- Columna derecha - Imagen única -->
+            <!-- Right Column - Single Image -->
             <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 scale-95 animate-on-scroll" data-delay="400">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/cont2.webp" 
-                     alt="Contacto a Creatblue México" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/base-creatblue.webp" 
+                     alt="Contact Creatblue Mexico" 
                      class="w-full h-auto object-cover">
             </div>
             
@@ -43,45 +43,45 @@ get_header();
     </div>
 </section>
 
-<!-- Sección ¿Cómo podemos ayudarte hoy? -->
+<!-- How Can We Help You Today Section -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <!-- Título de sección -->
+        <!-- Section Title -->
         <div class="mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                ¿Cómo podemos ayudarte hoy?
+                How can we help you today?
             </h2>
             <p class="text-gray-600 text-lg">
-                Cuéntanos qué estás buscando y te guiamos hacia la mejor solución.
+                Tell us what you're looking for, and we'll guide you to the best solution.
             </p>
         </div>
         
         <!-- Grid de 2 tarjetas -->
         <div class="grid md:grid-cols-2 gap-8">
             
-            <!-- Tarjeta 1: Perfil profesional -->
+            <!-- Card 1: Professional Profile -->
             <div class="border-2 border-gray-200 rounded-3xl p-8 md:p-10 hover:border-secondary/50 hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                 <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                    Quiero desarrollar mi perfil profesional
+                    I want to develop my professional profile
                 </h3>
                 <p class="text-gray-600 text-base mb-8">
-                    Si estás buscando nuevas oportunidades laborales, aquí puedes descubrir nuestra variedad de vacantes desde posiciones operativas hasta directivas.
+                    If you're looking for new job opportunities, here you can discover our variety of positions, from operational to executive roles.
                 </p>
                 <a href="<?php echo esc_url(home_url('/vacantes')); ?>" class="inline-block bg-secondary hover:bg-secondary/80 text-white px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
-                    Descubre tu nuevo trabajo
+                    Discover Your New Job
                 </a>
             </div>
             
-            <!-- Tarjeta 2: Soluciones para organización -->
+            <!-- Card 2: Organization Solutions -->
             <div class="border-2 border-gray-200 rounded-3xl p-8 md:p-10 hover:border-secondary/50 hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
-                    Busco soluciones para mi organización
+                    I'm looking for solutions for my organization
                 </h3>
                 <p class="text-gray-600 text-base mb-8">
-                    Ayudamos a las empresas a atraer talento, fortalecer equipos y mejorar su operación con soluciones estratégicas a la medida.
+                    We help companies attract talent, strengthen teams, and improve operations with customized strategic solutions.
                 </p>
                 <a href="<?php echo esc_url(home_url('/cotizar')); ?>" class="inline-block bg-primary hover:bg-primary/80 text-white px-8 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
-                    Cuéntanos más
+                    Tell Us More
                 </a>
             </div>
             
@@ -89,90 +89,90 @@ get_header();
     </div>
 </section>
 
-<!-- Formulario de Contacto y WhatsApp -->
+<!-- Contact Form and WhatsApp -->
 <section class="bg-white py-20">
     <div class="container mx-auto px-6">
         <div class="grid lg:grid-cols-3 gap-12">
 
-            <!-- Columna del Formulario -->
+            <!-- Form Column -->
             <div class="lg:col-span-2">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Cuéntanos sobre tu necesidad</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Tell us about your needs</h2>
                 
                 <form action="#" method="POST" class="space-y-6">
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
-                            <label for="nombre" class="sr-only">Nombre</label>
-                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="nombre" class="sr-only">First Name</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="First Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                         <div>
-                            <label for="apellido" class="sr-only">Apellido</label>
-                            <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="apellido" class="sr-only">Last Name</label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Last Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                     </div>
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
-                            <label for="correo" class="sr-only">Correo empresarial</label>
-                            <input type="email" name="correo" id="correo" placeholder="Correo empresarial" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="correo" class="sr-only">Business Email</label>
+                            <input type="email" name="correo" id="correo" placeholder="Business Email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                         <div>
-                            <label for="empresa" class="sr-only">Empresa</label>
-                            <input type="text" name="empresa" id="empresa" placeholder="Empresa" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="empresa" class="sr-only">Company</label>
+                            <input type="text" name="empresa" id="empresa" placeholder="Company" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                     </div>
                     <div>
-                        <label for="estado" class="sr-only">Estado</label>
-                        <input type="text" name="estado" id="estado" placeholder="Estado" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                        <label for="estado" class="sr-only">State</label>
+                        <input type="text" name="estado" id="estado" placeholder="State" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                     </div>
                     <div class="grid sm:grid-cols-2 gap-6">
                         <div>
-                            <label for="codigo-postal" class="sr-only">Código postal</label>
-                            <input type="text" name="codigo-postal" id="codigo-postal" placeholder="Código postal" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="codigo-postal" class="sr-only">Zip Code</label>
+                            <input type="text" name="codigo-postal" id="codigo-postal" placeholder="Zip Code" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                         <div>
-                            <label for="telefono" class="sr-only">Teléfono</label>
-                            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                            <label for="telefono" class="sr-only">Phone</label>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                         </div>
                     </div>
                     <div>
-                        <label for="solucion" class="sr-only">Qué solución te interesa o requieres</label>
-                        <input type="text" name="solucion" id="solucion" placeholder="Qué solución te interesa o requieres" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
+                        <label for="solucion" class="sr-only">What solution are you interested in or need</label>
+                        <input type="text" name="solucion" id="solucion" placeholder="What solution are you interested in or need" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary">
                     </div>
                     <div>
-                        <label for="detalles" class="sr-only">Platícanos un poco más de los detalles a considerar en la cotización</label>
-                        <textarea name="detalles" id="detalles" rows="4" placeholder="Platícanos un poco más de los detalles a considerar en la cotización" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary"></textarea>
+                        <label for="detalles" class="sr-only">Tell us more about the details to consider in the quote</label>
+                        <textarea name="detalles" id="detalles" rows="4" placeholder="Tell us more about the details to consider in the quote" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-secondary focus:border-secondary"></textarea>
                     </div>
                     <div class="space-y-4">
                         <div class="flex items-start">
                             <input id="consentimiento" name="consentimiento" type="checkbox" class="h-4 w-4 text-secondary border-gray-300 rounded focus:ring-secondary mt-1">
                             <div class="ml-3 text-sm">
-                                <label for="consentimiento" class="text-gray-600">Doy mi consentimiento y acepto <a href="#" class="font-bold text-gray-800 hover:underline">POLÍTICAS DE COOKIES, AVISO DE PRIVACIDAD, TÉRMINOS Y CONDICIONES</a></label>
+                                <label for="consentimiento" class="text-gray-600">I give my consent and accept the <a href="#" class="font-bold text-gray-800 hover:underline">COOKIE POLICIES, PRIVACY NOTICE, TERMS AND CONDITIONS</a></label>
                             </div>
                         </div>
                         <div class="flex items-start">
                             <input id="marketing" name="marketing" type="checkbox" class="h-4 w-4 text-secondary border-gray-300 rounded focus:ring-secondary mt-1">
                             <div class="ml-3 text-sm">
-                                <label for="marketing" class="text-gray-600">Mantenme informado sobre noticias, eventos, promociones y actividad de marketing de Creatblue® México.</label>
+                                <label for="marketing" class="text-gray-600">Keep me informed about news, events, promotions, and marketing activities from Creatblue® Mexico.</label>
                             </div>
                         </div>
                     </div>
                     <div>
                         <button type="submit" class="w-full sm:w-auto bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-primary/80 transition-colors">
-                            Enviar
+                            Submit
                         </button>
                     </div>
                 </form>
             </div>
 
-            <!-- Columna de WhatsApp -->
+            <!-- WhatsApp Column -->
             <div class="lg:col-span-1">
                 <div class="bg-gray-50 border-2 border-green-500 rounded-2xl p-8 text-center sticky top-28">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-3">¿Prefieres una conversación directa?</h3>
-                    <p class="text-gray-600 mb-6">Nuestro equipo está disponible vía WhatsApp Business para atenderte rápidamente.</p>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Prefer a direct conversation?</h3>
+                    <p class="text-gray-600 mb-6">Our team is available via WhatsApp Business to assist you quickly.</p>
                     <a href="https://wa.me/5215512345678" target="_blank" class="inline-block bg-green-500 text-white px-10 py-4 rounded-lg font-bold hover:bg-green-600 transition-colors">
-                        Escríbenos por WhatsApp
+                        Contact us on WhatsApp
                     </a>
                 </div>
-                <p class="text-gray-600 mt-6 text-center lg:text-left">Creemos en el talento bien preparado y en organizaciones que apuestan por el desarrollo continuo. ¡Hablemos!</p>
+                <p class="text-gray-600 mt-6 text-center lg:text-left">We believe in well-prepared talent and organizations that invest in continuous development. Let's talk!</p>
             </div>
 
         </div>
