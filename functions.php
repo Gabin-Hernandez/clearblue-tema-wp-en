@@ -36,8 +36,8 @@ function creatblue_setup_seo() {
             'description' => 'Workplace compliance programs built around real-world risks. OSHA, HAZWOPER, confined spaces, lockout/tagout, arc flash, and more.'
         ),
         'page-consultoria' => array(
-            'title' => 'Consultoría Empresarial en Talento y Productividad | Creatblue® México',
-            'description' => 'Consultoría especializada en seguridad, calidad, operación y recursos humanos para industria automotriz, industria textil, industria alimentaria, industria de bienestar, logística, entre otras industrias.'
+            'title' => 'Safety Consulting & Workforce Consulting for Stronger, Safer Operations',
+            'description' => 'Safety consulting and workforce consulting from experienced in-field experts. Site safety audits, compliance support, logistics, material handling, and more.'
         ),
         'page-originals' => array(
             'title' => 'Creatblue® Originals | Modelos propios para el desarrollo del talento humano',
