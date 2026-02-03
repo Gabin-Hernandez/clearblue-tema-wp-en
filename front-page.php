@@ -24,7 +24,7 @@ get_header();
     </div>
     
     <!-- Overlay oscuro -->
-    <div class="absolute inset-0 bg-black/50"></div>
+    <div class="absolute inset-0 bg-black/80"></div>
     
     <!-- Hero Content -->
     <div class="relative z-10 container mx-auto px-6 flex items-center" style="min-height: 100vh; padding-top: 80px;">
