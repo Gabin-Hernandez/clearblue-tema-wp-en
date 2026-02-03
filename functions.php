@@ -24,12 +24,12 @@ function creatblue_setup_seo() {
 '
         ),
         'page-entrenamiento' => array(
-            'title' => 'TRAINING',
+            'title' => 'Safety Training & Forklift Training | Hands-On Workforce Training | Creatblue USA',
             'description' => 'Hands-on safety training and forklift training with low trainer-to-student ratios. Practical, skills-focused workforce training built for real work environments.'
         ),
         'page-reclutamiento' => array(
-            'title' => 'Reclutamiento y Selección de Personal en México | Creatblue® México',
-            'description' => 'Reclutamiento especializado con IA para cubrir posiciones clave en el menor tiempo posible.'
+            'title' => 'OSHA Safety Programs | OSHA Training & Workplace Safety | Creatblue USA',
+            'description' => 'OSHA safety programs developed by in-field instructors. Practical OSHA training for safer, more capable teams.'
         ),
         'page-capacitacion' => array(
             'title' => 'Capacitación Empresarial y E-learning | Creatblue® México',
