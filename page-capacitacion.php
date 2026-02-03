@@ -143,7 +143,7 @@ get_header();
                     </div>
                 </div>
                 
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg md:col-span-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1100">
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="1100">
                     <div class="flex items-center gap-4">
                         <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
