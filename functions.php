@@ -32,8 +32,8 @@ function creatblue_setup_seo() {
             'description' => 'OSHA safety programs developed by in-field instructors. Practical OSHA training for safer, more capable teams.'
         ),
         'page-capacitacion' => array(
-            'title' => 'Capacitación Empresarial y E-learning | Creatblue® México',
-            'description' => 'Capacitación empresarial con métodos andragógicos y plataformas e-learning diseñadas para el desarrollo continuo.'
+            'title' => 'Workplace Compliance Programs | OSHA & Safety Compliance | Creatblue USA',
+            'description' => 'Workplace compliance programs built around real-world risks. OSHA, HAZWOPER, confined spaces, lockout/tagout, arc flash, and more.'
         ),
         'page-consultoria' => array(
             'title' => 'Consultoría Empresarial en Talento y Productividad | Creatblue® México',
