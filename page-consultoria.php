@@ -58,111 +58,107 @@ get_header();
 </section>
 
 <!-- Sección de Estadísticas y Gestión -->
-<!-- Section: What We Offer --><section class="py-20 bg-white">
+<!-- Section: What We Offer -->
+<section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="max-w-3xl mx-auto text-center mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What We Offer</h2>
-            <p class="text-gray-600 text-lg">
-                Creatblue® USA provides safety consulting and workforce consulting services that help companies strengthen safety, reinforce compliance, and improve workforce capability.
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll col-span-1" data-delay="400">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Site Safety Reviews</h3>
-                <p class="text-gray-600">In-depth walkthroughs and risk assessments tailored to your facility and workforce.</p>
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    What We Offer
+                </h2>
+                <p class="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                    Creatblue® USA provides safety consulting and workforce consulting services that help companies strengthen safety, reinforce compliance, and improve workforce capability.
+                </p>
             </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                    </svg>
+            
+            <div class="grid md:grid-cols-2 gap-6 mb-8">
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Site Safety Reviews</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Compliance Evaluations</h3>
-                <p class="text-gray-600">OSHA, DOT, EPA, and other regulatory guidance to help you stay audit-ready.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Compliance Evaluations</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">HAZMAT Guidance</h3>
-                <p class="text-gray-600">Support for safe handling, storage, and documentation of hazardous materials.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">HAZMAT Guidance</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Active Shooter Preparedness</h3>
-                <p class="text-gray-600">Planning and drills to help your team respond to workplace security threats.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Active Shooter Preparedness</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Workforce Capability Assessments</h3>
-                <p class="text-gray-600">Evaluate employee readiness and identify skill gaps to strengthen your team.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Workforce Capability Assessments</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Logistics & Material Handling Consulting</h3>
-                <p class="text-gray-600">Optimize processes for safer, more efficient operations.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Logistics & Material Handling Consulting</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">New Initiative Support</h3>
-                <p class="text-gray-600">Guidance for launching new projects, equipment, or processes the right way.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1100">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">New Initiative Support</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Corrective Action Planning</h3>
-                <p class="text-gray-600">Structured response to incidents or audit findings, with clear follow-through.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1200">
-                <div class="w-16 h-16 bg-[#2f3082]/10 rounded-2xl flex items-center justify-center mb-6">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-                    </svg>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Corrective Action Planning</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Training Program Development</h3>
-                <p class="text-gray-600">Custom training design to align with your operational needs and workforce goals.</p>
+                
+                <div class="bg-gray-50 rounded-xl p-6 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="1100">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-8 h-8 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                        <h3 class="text-lg font-bold text-gray-900">Training Program Development</h3>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="max-w-3xl mx-auto text-center mt-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="1300">
-            <p class="text-gray-700 text-lg">
-                Our consultants work directly with your team to address real challenges with practical, actionable solutions.
-            </p>
+            
+            <div class="text-center mt-8 opacity-0 translate-y-8 animate-on-scroll" data-delay="1200">
+                <p class="text-lg text-gray-700 font-semibold">
+                    Our consultants work directly with your team to address real challenges with practical, actionable solutions.
+                </p>
+            </div>
         </div>
     </div>
 </section>
@@ -255,154 +251,163 @@ get_header();
 <!-- Section: Why Consulting Matters -->
 <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="max-w-3xl mx-auto text-center mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Why Consulting Matters</h2>
-            <p class="text-gray-600 text-lg">
-                Investing in expert guidance pays off—in stronger teams, fewer incidents, and greater operational confidence.
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Improved Safety Performance</h3>
-                <p class="text-gray-600">Reduce incidents and near-misses with targeted, expert-led improvements.</p>
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide mb-6">
+                    Why Consulting Matters
+                </h2>
+                <p class="text-xl text-gray-700 leading-relaxed">
+                    Investing in expert guidance pays off—in stronger teams, fewer incidents, and greater operational confidence.
+                </p>
             </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                    </svg>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Improved Safety Performance</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Stronger Workforce Capability</h3>
-                <p class="text-gray-600">Build employee skill, confidence, and accountability at every level.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
-                    </svg>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Stronger Workforce Capability</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Greater Operational Consistency</h3>
-                <p class="text-gray-600">Standardize practices across shifts, locations, and job functions.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                    </svg>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Greater Operational Consistency</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Compliance Readiness</h3>
-                <p class="text-gray-600">Stay audit-ready with processes and documentation aligned to regulations.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
-                    </svg>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Compliance Readiness</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Proactive Risk Management</h3>
-                <p class="text-gray-600">Identify and address vulnerabilities before they become costly problems.</p>
-            </div>
-
-            <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
-                <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-                    <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"/>
-                    </svg>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Proactive Risk Management</h3>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-3">Increased Employee Confidence</h3>
-                <p class="text-gray-600">Workers feel safer and more competent when supported by solid systems.</p>
-            </div>
-
-            <div class="md:col-span-2 lg:col-span-3 bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
-                <div class="flex items-start gap-6">
-                    <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                        <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-900">Increased Employee Confidence</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
+                    <div class="flex flex-col items-center text-center gap-4">
+                        <svg class="w-12 h-12 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                         </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Leadership Alignment & Accountability</h3>
-                        <p class="text-gray-600">Create clear expectations and consistent follow-through from top to bottom.</p>
+                        <h3 class="text-xl font-bold text-gray-900">Leadership Alignment & Accountability</h3>
                     </div>
                 </div>
+            </div>
+            
+            <div class="text-center mt-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
+                <p class="text-2xl font-bold text-primary">
+                    Companies choose Creatblue for consulting services that strengthen both safety and performance.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Section: Who We Serve -->
-<section class="py-20 bg-white">
+<section class="py-20 bg-gradient-to-br from-[#2f3082] to-[#0f1229]">
     <div class="container mx-auto px-6">
-        <div class="max-w-3xl mx-auto text-center mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Who We Serve</h2>
-            <p class="text-gray-600 text-lg">
-                We work with companies across industries who are committed to safety, workforce development, and operational excellence.
-            </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-bold text-gray-900">Industrial Manufacturers</h3>
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-white uppercase tracking-wide mb-6">
+                    Who We Serve
+                </h2>
+                <p class="text-xl text-white/90 leading-relaxed">
+                    We work with companies across industries:
+                </p>
             </div>
-
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
-                    </svg>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Industrial Manufacturers</h3>
+                    </div>
                 </div>
-                <h3 class="text-lg font-bold text-gray-900">Warehousing & Logistics</h3>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Warehousing & Logistics</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Commercial Facilities</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Construction & Contractors</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Community Organizations</h3>
+                    </div>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                    <div class="flex items-center gap-4">
+                        <svg class="w-10 h-10 text-secondary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                        <h3 class="text-xl font-bold text-white">Companies Preparing for Audits, Expansions, or Change</h3>
+                    </div>
+                </div>
             </div>
-
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-bold text-gray-900">Commercial Facilities</h3>
-            </div>
-
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-bold text-gray-900">Construction & Contractors</h3>
-            </div>
-
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-bold text-gray-900">Community Organizations</h3>
-            </div>
-
-            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
-                <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-                    </svg>
-                </div>
-                <h3 class="text-lg font-bold text-gray-900">Companies Preparing for Audits, Expansions, or Change</h3>
+            
+            <div class="text-center mt-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="900">
+                <p class="text-2xl font-bold text-secondary">
+                    Anywhere safety and workforce development matter, we support excellence.
+                </p>
             </div>
         </div>
     </div>
@@ -493,23 +498,21 @@ get_header();
 </section>
 
 <!-- Section: Schedule a Free Consultation -->
-<section class="py-20 bg-primary">
-    <div class="container mx-auto px-6 text-center">
-        <div class="max-w-3xl mx-auto opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+<section class="py-20 bg-gradient-to-b from-white to-gray-50">
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">
                 Schedule a Free Consultation
             </h2>
-            <p class="text-white/90 text-lg mb-8">
+            <p class="text-xl text-gray-700 leading-relaxed mb-8">
                 Strengthen your workforce and your operation with expert consulting that's grounded in real experience and delivered with real respect.
             </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="" class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
-                    Get Started
-                </a>
-                <a href="" class="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-md hover:shadow-lg transform hover:scale-105">
-                    Request a Quote
-                </a>
-            </div>
+            <a href="#" class="inline-flex items-center bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+                Schedule a Free Consultation
+                <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </a>
         </div>
     </div>
 </section>
@@ -517,55 +520,59 @@ get_header();
 <!-- Section: FAQ -->
 <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="max-w-3xl mx-auto text-center mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">FAQ — Safety Consulting & Workforce Consulting</h2>
-        </div>
-
-        <div class="max-w-4xl mx-auto space-y-6">
-            <details class="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <summary class="px-8 py-6 font-bold text-lg text-gray-900 cursor-pointer hover:text-primary transition-colors">
-                    What's included in a typical consulting engagement?
-                </summary>
-                <div class="px-8 pb-6 text-gray-600">
-                    <p>Every project is customized, but most include an initial assessment, a collaborative planning session, implementation guidance, and follow-up review. We tailor the scope and timeline to your needs and budget.</p>
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary uppercase tracking-wide">
+                    FAQ — Safety Consulting & Workforce Consulting
+                </h2>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="300">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        What's included in a typical consulting engagement?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Every project is customized, but most include an initial assessment, a collaborative planning session, implementation guidance, and follow-up review. We tailor the scope and timeline to your needs and budget.
+                    </p>
                 </div>
-            </details>
-
-            <details class="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
-                <summary class="px-8 py-6 font-bold text-lg text-gray-900 cursor-pointer hover:text-primary transition-colors">
-                    Can we work with you before an upcoming audit or inspection?
-                </summary>
-                <div class="px-8 pb-6 text-gray-600">
-                    <p>Absolutely. Many clients engage us to strengthen their readiness before audits, inspections, or expansions. We help identify gaps, organize documentation, and improve processes so you can approach the audit with confidence.</p>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Can we work with you before an upcoming audit or inspection?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Absolutely. Many clients engage us to strengthen their readiness before audits, inspections, or expansions. We help identify gaps, organize documentation, and improve processes so you can approach the audit with confidence.
+                    </p>
                 </div>
-            </details>
-
-            <details class="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <summary class="px-8 py-6 font-bold text-lg text-gray-900 cursor-pointer hover:text-primary transition-colors">
-                    We recently had a safety incident. Can you help us respond?
-                </summary>
-                <div class="px-8 pb-6 text-gray-600">
-                    <p>Yes. We provide post-incident support, including root cause analysis, corrective action planning, and training to prevent recurrence. Our goal is to help you learn, improve, and move forward safely.</p>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="500">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        We recently had a safety incident. Can you help us respond?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Yes. We provide post-incident support, including root cause analysis, corrective action planning, and training to prevent recurrence. Our goal is to help you learn, improve, and move forward safely.
+                    </p>
                 </div>
-            </details>
-
-            <details class="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
-                <summary class="px-8 py-6 font-bold text-lg text-gray-900 cursor-pointer hover:text-primary transition-colors">
-                    Do you work with our existing staff, or bring in outside people?
-                </summary>
-                <div class="px-8 pb-6 text-gray-600">
-                    <p>We work with your team. Our approach is collaborative—we partner with your supervisors, managers, and employees to build solutions that fit your culture and operation. We don't take over; we empower.</p>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Do you work with our existing staff, or bring in outside people?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        We work with your team. Our approach is collaborative—we partner with your supervisors, managers, and employees to build solutions that fit your culture and operation. We don't take over; we empower.
+                    </p>
                 </div>
-            </details>
-
-            <details class="bg-white rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <summary class="px-8 py-6 font-bold text-lg text-gray-900 cursor-pointer hover:text-primary transition-colors">
-                    Can consulting be customized for our specific industry?
-                </summary>
-                <div class="px-8 pb-6 text-gray-600">
-                    <p>Yes. We adapt our approach to your industry, workforce, and regulatory environment. Whether you're in manufacturing, construction, logistics, or community services, we tailor recommendations to your reality.</p>
+                
+                <div class="bg-white rounded-2xl p-8 shadow-lg opacity-0 translate-y-8 animate-on-scroll" data-delay="700">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">
+                        Can consulting be customized for our specific industry?
+                    </h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Yes. We adapt our approach to your industry, workforce, and regulatory environment. Whether you're in manufacturing, construction, logistics, or community services, we tailor recommendations to your reality.
+                    </p>
                 </div>
-            </details>
+            </div>
         </div>
     </div>
 </section>
