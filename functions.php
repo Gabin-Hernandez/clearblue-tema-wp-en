@@ -19,8 +19,9 @@ function creatblue_setup_seo() {
     // Configuración de SEO por página
     $seo_config = array(
         'front-page' => array(
-            'title' => 'Creatblue® México | Entrenamiento Industrial, Reclutamiento, Capacitación y Consultoría Empresarial',
-            'description' => 'Incrementamos la productividad de las empresas en México con entrenamiento industrial, reclutamiento especializado y consultoría estratégica en talento humano.'
+            'title' => 'Safety Training, OSHA Programs, and Workforce Support',
+            'description' => 'Industrial safety training and workforce solutions that improve performance, strengthen operations, and support your team where it matters most.
+'
         ),
         'page-entrenamiento' => array(
             'title' => 'Entrenamiento Industrial en México | Creatblue® México',
