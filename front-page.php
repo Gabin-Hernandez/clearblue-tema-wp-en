@@ -269,10 +269,10 @@ get_header();
             
             <!-- Training -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <div class="h-48 overflow-hidden bg-gray-100">
+                <div class="h-64 overflow-hidden">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" 
                          alt="Training Services" 
-                         class="w-full h-full object-contain transform hover:scale-110 transition-transform duration-500">
+                         class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-8">
                     <div class="flex items-center gap-3 mb-4">
@@ -297,10 +297,10 @@ get_header();
             
             <!-- Safety -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="h-48 overflow-hidden bg-gray-100">
+                <div class="h-64 overflow-hidden">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" 
                          alt="Safety Programs" 
-                         class="w-full h-full object-contain transform hover:scale-110 transition-transform duration-500">
+                         class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-8">
                     <div class="flex items-center gap-3 mb-4">
@@ -325,10 +325,10 @@ get_header();
             
             <!-- Compliance -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="h-48 overflow-hidden bg-gray-100">
+                <div class="h-64 overflow-hidden">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" 
                          alt="Compliance Services" 
-                         class="w-full h-full object-contain transform hover:scale-110 transition-transform duration-500">
+                         class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-8">
                     <div class="flex items-center gap-3 mb-4">
@@ -353,10 +353,10 @@ get_header();
             
             <!-- Consulting -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                <div class="h-48 overflow-hidden bg-gray-100">
+                <div class="h-64 overflow-hidden">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" 
                          alt="Consulting Services" 
-                         class="w-full h-full object-contain transform hover:scale-110 transition-transform duration-500">
+                         class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-8">
                     <div class="flex items-center gap-3 mb-4">
