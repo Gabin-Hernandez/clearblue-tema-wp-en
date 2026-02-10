@@ -52,7 +52,7 @@ get_header();
             <!-- Right Column - Image -->
             <div class="relative h-[500px] lg:h-[600px] opacity-0 scale-75 animate-on-scroll" data-delay="500">
                 <div class="rounded-2xl overflow-hidden shadow-2xl h-full">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" 
                          alt="Safety Training" 
                          class="w-full h-full object-cover">
                 </div>
@@ -130,7 +130,7 @@ get_header();
             <!-- Image Column -->
             <div class="opacity-0 scale-75 animate-on-scroll" data-delay="200">
                 <div class="w-full h-[500px] rounded-2xl shadow-2xl overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/forklift.webp" 
                          alt="Forklift Training" 
                          class="w-full h-full object-cover">
                 </div>
