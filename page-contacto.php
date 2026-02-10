@@ -34,7 +34,7 @@ get_header();
             
             <!-- Right Column - Single Image -->
             <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 scale-95 animate-on-scroll" data-delay="400">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/contact.webp" 
                      alt="Contact Creatblue Mexico" 
                      class="w-full h-auto object-cover">
             </div>

@@ -47,7 +47,7 @@ get_header();
             <!-- Right Column - Image -->
             <div class="relative h-[500px] lg:h-[600px] opacity-0 scale-75 animate-on-scroll" data-delay="500">
                 <div class="rounded-2xl overflow-hidden shadow-2xl h-full">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" 
                          alt="Workplace Compliance Training" 
                          class="w-full h-full object-cover">
                 </div>
