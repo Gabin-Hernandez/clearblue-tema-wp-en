@@ -55,7 +55,7 @@ get_header();
             <!-- Image Column -->
             <div class="opacity-0 scale-75 animate-on-scroll" data-delay="600">
                 <div class="w-full h-[500px] rounded-2xl shadow-2xl overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/about.webp" 
                          alt="Who We Are - Creatblue USA" 
                          class="w-full h-full object-cover">
                 </div>
@@ -87,7 +87,7 @@ get_header();
             <!-- Image Column -->
             <div class="opacity-0 scale-75 animate-on-scroll" data-delay="400">
                 <div class="w-full h-[500px] rounded-2xl shadow-2xl overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/importance.webp" 
                          alt="The Importance of Creatblue for Companies" 
                          class="w-full h-full object-cover">
                 </div>
@@ -151,7 +151,7 @@ get_header();
 <!-- The Creatblue Promise Section -->
 <section class="relative py-20 overflow-hidden">
     <!-- Background Image -->
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back.webp" 
          alt="Background" 
          class="absolute inset-0 w-full h-full object-cover">
     
