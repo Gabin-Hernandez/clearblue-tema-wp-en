@@ -17,7 +17,7 @@ get_header();
     <!-- Background Image -->
     <div class="absolute inset-0">
         <img 
-            src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+            src="<?php echo get_stylesheet_directory_uri(); ?>/public/home.webp" 
             alt="Safety Training Background" 
             class="w-full h-full object-cover"
         >
@@ -245,8 +245,10 @@ get_header();
             </p>
             <div class="flex flex-wrap justify-center items-center gap-12 md:gap-16">
                 <!-- Placeholder for logos - replace with actual logos later -->
-                <div class="w-32 h-32 bg-gray-200 rounded-xl flex items-center justify-center">
-                    <span class="text-gray-500 text-sm text-center px-2">Partner Logo 1</span>
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center p-4">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/images/vw.webp" 
+                         alt="Volkswagen" 
+                         class="w-full h-full object-contain">
                 </div>
                 <div class="w-32 h-32 bg-gray-200 rounded-xl flex items-center justify-center">
                     <span class="text-gray-500 text-sm text-center px-2">Partner Logo 2</span>
@@ -268,7 +270,7 @@ get_header();
             <!-- Training -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                 <div class="h-48 overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" 
                          alt="Training Services" 
                          class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
@@ -296,7 +298,7 @@ get_header();
             <!-- Safety -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                 <div class="h-48 overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" 
                          alt="Safety Programs" 
                          class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
@@ -324,7 +326,7 @@ get_header();
             <!-- Compliance -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 <div class="h-48 overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" 
                          alt="Compliance Services" 
                          class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
@@ -352,7 +354,7 @@ get_header();
             <!-- Consulting -->
             <div class="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
                 <div class="h-48 overflow-hidden">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" 
                          alt="Consulting Services" 
                          class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500">
                 </div>
@@ -418,7 +420,7 @@ get_header();
             <!-- Image -->
             <div class="relative h-[400px] opacity-0 scale-75 animate-on-scroll" data-delay="400">
                 <div class="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/back_image.webp" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/service.webp" 
                          alt="Service Area Map" 
                          class="w-full h-full object-cover">
                 </div>
