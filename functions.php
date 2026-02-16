@@ -168,4 +168,86 @@ function creatblue_setup() {
         'flex-width'  => true,
     ) );
 }
+
+/**
+ * ============================================
+ * BLOG CONFIGURATION
+ * ============================================
+ * Configuration for blog system (home.php, single.php, archive.php, search.php)
+ * Added: February 16, 2026
+ */
+
+/**
+ * Configure posts per page for blog
+ * Only applies to main blog page (home.php)
+ * Doesn't affect other custom post types or queries
+ */
+add_action('pre_get_posts', 'theme_posts_per_page');
+function theme_posts_per_page($query) {
+    // Only modify the main query on the front-end (not in admin)
+    if (!is_admin() && $query->is_main_query()) {
+        // Set 7 posts per page for the blog home page
+        if (is_home() && !is_front_page()) {
+            $query->set('posts_per_page', 7);
+        }
+    }
+}
+
+/**
+ * Add custom image sizes for blog
+ * blog-card: Used in grid layouts (home.php, archive.php, search.php)
+ * blog-hero: Used in single post hero section (single.php)
+ */
+add_action('after_setup_theme', 'theme_custom_image_sizes');
+function theme_custom_image_sizes() {
+    // Card size for blog listings (600x400, cropped)
+    add_image_size('blog-card', 600, 400, true);
+    
+    // Hero size for single posts (1920x800, cropped)
+    add_image_size('blog-hero', 1920, 800, true);
+}
+
+/**
+ * Customize excerpt length to 30 words
+ * Applied to all excerpts across the blog
+ */
+add_filter('excerpt_length', 'theme_excerpt_length', 999);
+function theme_excerpt_length($length) {
+    return 30;
+}
+
+/**
+ * Customize excerpt "read more" string
+ * Changes default [...] to ellipsis
+ */
+add_filter('excerpt_more', 'theme_excerpt_more');
+function theme_excerpt_more($more) {
+    return '...';
+}
+
+/**
+ * Add custom body classes for blog pages
+ * Useful for styling specific blog templates
+ */
+add_filter('body_class', 'theme_blog_body_classes');
+function theme_blog_body_classes($classes) {
+    if (is_home() && !is_front_page()) {
+        $classes[] = 'blog-home';
+    }
+    if (is_single() && get_post_type() === 'post') {
+        $classes[] = 'blog-single';
+    }
+    if (is_archive()) {
+        $classes[] = 'blog-archive';
+    }
+    if (is_search()) {
+        $classes[] = 'blog-search';
+    }
+    return $classes;
+}
+
+/**
+ * END BLOG CONFIGURATION
+ * ============================================
+ */
 ?>
