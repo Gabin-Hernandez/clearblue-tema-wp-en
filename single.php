@@ -126,7 +126,7 @@ get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
 
 <!-- Hero Section with Featured Image -->
-<section class="relative h-[500px] md:h-[600px] overflow-hidden">
+<section class="relative h-[400px] md:h-[500px] overflow-hidden">
     <?php if (has_post_thumbnail()) : ?>
         <?php the_post_thumbnail('blog-hero', array(
             'class' => 'absolute inset-0 w-full h-full object-cover',

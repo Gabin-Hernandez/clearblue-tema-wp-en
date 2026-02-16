@@ -48,6 +48,7 @@
                             </div>
                         </div>
                         
+                        <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>" class="text-white hover:text-secondary transition">Blog</a>
                         <a href="#" class="text-white hover:text-secondary transition">Path to Talent</a>
                         <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-white hover:text-secondary transition">Contact</a>
                         <?php
@@ -96,6 +97,7 @@
                             </div>
                         </div>
                         
+                        <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>" class="block text-white hover:text-secondary transition py-2">Blog</a>
                         <a href="#" class="block text-white hover:text-secondary transition py-2">Camino zum talent</a>
                         <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="block text-white hover:text-secondary transition py-2">Contacto</a>
                         <a href="#" class="block text-white hover:text-secondary transition py-2">Bolsa de trabajo</a>

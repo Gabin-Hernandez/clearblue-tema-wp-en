@@ -123,7 +123,7 @@ get_header(); ?>
 </style>
 
 <!-- Hero Section -->
-<section class="relative bg-gradient-to-br from-primary via-[#252947] to-secondary py-24 md:py-32 overflow-hidden">
+<section class="relative bg-gradient-to-br from-primary via-[#252947] to-secondary py-16 md:py-24 overflow-hidden">
     <!-- Animated background elements -->
     <div class="absolute inset-0 opacity-10">
         <div class="absolute top-10 left-10 w-72 h-72 bg-secondary rounded-full filter blur-3xl animate-pulse"></div>
