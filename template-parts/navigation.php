@@ -30,7 +30,7 @@
                     'items_wrap' => '%3$s',
                     'fallback_cb' => function() {
                         ?>
-                        <a href="<?php echo esc_url(home_url('/nosotros')); ?>" class="text-white hover:text-secondary transition">About Us</a>
+                        <a href="<?php echo esc_url(home_url('/about')); ?>" class="text-white hover:text-secondary transition">About Us</a>
                         
                         <!-- Dropdown: ¿Qué ofrecemos? -->
                         <div class="relative dropdown-container">
@@ -41,16 +41,16 @@
                                 </svg>
                             </button>
                             <div class="dropdown-menu absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
-                                <a href="<?php echo esc_url(home_url('/entrenamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg">Training</a>
-                                <a href="<?php echo esc_url(home_url('/reclutamiento')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Safety</a>
-                                <a href="<?php echo esc_url(home_url('/capacitacion')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Compliance</a>
-                                <a href="<?php echo esc_url(home_url('/consultoria')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Consulting</a>
+                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg">Training</a>
+                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Safety</a>
+                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Compliance</a>
+                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Consulting</a>
                             </div>
                         </div>
                         
                         <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>" class="text-white hover:text-secondary transition">Blog</a>
                         <a href="#" class="text-white hover:text-secondary transition">Path to Talent</a>
-                        <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-white hover:text-secondary transition">Contact</a>
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="text-white hover:text-secondary transition">Contact</a>
                         <?php
                     },
                     'link_before' => '<span class="text-white hover:text-secondary transition">',
