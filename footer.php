@@ -41,13 +41,13 @@
                 <h4 class="font-black text-secondary mb-4">Sales</h4>
                 <ul class="space-y-2">
                     <li>
-                        <a href="mailto:info@creatblue.com" class="text-gray-600 hover:text-secondary transition">
-                            xxx@creatblue.com
+                        <a href="mailto:hello.cb@creatblue.com" class="text-gray-600 hover:text-secondary transition">
+                            hello.cb@creatblue.com
                         </a>
                     </li>
                     <li>
-                        <a href="tel:8001121050" class="text-gray-600 hover:text-secondary transition">
-                           123 456 7890
+                        <a href="tel:+14238004483" class="text-gray-600 hover:text-secondary transition">
+                           423 800 4483
                         </a>
                     </li>
                 </ul>
