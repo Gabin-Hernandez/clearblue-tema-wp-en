@@ -245,7 +245,7 @@ get_header();
             </p>
             <div class="flex flex-wrap justify-center items-center gap-12 md:gap-16">
                 <!-- Placeholder for logos - replace with actual logos later -->
-                <div class="w-32 h-32 rounded-xl flex items-center justify-center">
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/vw.webp" 
                          alt="Volkswagen" 
                          class="w-full h-full object-contain">
