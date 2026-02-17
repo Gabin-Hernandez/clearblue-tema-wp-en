@@ -405,7 +405,7 @@ get_header();
             <p class="text-xl text-gray-700 leading-relaxed mb-8">
                 Whether you need training, compliance support, or help stabilizing your workforce, we're here to walk with you.
             </p>
-            <a href="#" class="inline-flex items-center bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+            <a href="<?php echo home_url('/contact'); ?>" class="inline-flex items-center bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
                 Schedule a Free Consultation
                 <svg class="w-6 h-6 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
