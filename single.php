@@ -394,8 +394,9 @@ if ($categories) {
 }
 ?>
 
-<!-- Comments Section -->
+<!-- Comments Section - Hidden temporarily -->
 <?php
+/*
 if (comments_open() || get_comments_number()) :
 ?>
     <section class="py-16 bg-white">
@@ -406,6 +407,8 @@ if (comments_open() || get_comments_number()) :
         </div>
     </section>
 <?php endif; ?>
+*/
+?>
 
 <?php endwhile; ?>
 
