@@ -6,9 +6,9 @@
             <div>
                 <h4 class="font-black text-secondary mb-4">Acerca de nosotros</h4>
                 <ul class="space-y-2">
-                    <li><a href="<?php echo esc_url(home_url('/quienes-somos')); ?>" class="text-gray-600 hover:text-secondary transition">About Us</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/about')); ?>" class="text-gray-600 hover:text-secondary transition">About Us</a></li>
                     <li><a href="<?php echo esc_url(home_url('/blog')); ?>" class="text-gray-600 hover:text-secondary transition">Blog</a></li>
-                    <li><a href="<?php echo esc_url(home_url('/contacto')); ?>" class="text-gray-600 hover:text-secondary transition">Contact</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/contact')); ?>" class="text-gray-600 hover:text-secondary transition">Contact</a></li>
                 </ul>
             </div>
             
@@ -23,10 +23,10 @@
                     'fallback_cb' => function() {
                         ?>
                         <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Training</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Safety</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Compliance</a></li>
-                            <li><a href="#" class="text-gray-600 hover:text-secondary transition">Consulting</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/training')); ?>" class="text-gray-600 hover:text-secondary transition">Training</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/safety')); ?>" class="text-gray-600 hover:text-secondary transition">Safety</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/compliance')); ?>" class="text-gray-600 hover:text-secondary transition">Compliance</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/consulting')); ?>" class="text-gray-600 hover:text-secondary transition">Consulting</a></li>
                         </ul>
                         <?php
                     },
