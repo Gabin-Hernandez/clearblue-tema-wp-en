@@ -32,7 +32,7 @@
                         ?>
                         <a href="<?php echo esc_url(home_url('/about')); ?>" class="text-white hover:text-secondary transition">About Us</a>
                         
-                        <!-- Dropdown: ¿Qué ofrecemos? -->
+                        <!-- Dropdown: Services -->
                         <div class="relative dropdown-container">
                             <button class="text-white hover:text-secondary transition flex items-center gap-1 dropdown-toggle">
                                 Services
