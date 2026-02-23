@@ -426,17 +426,31 @@ get_header();
                 Trusted by Industry Leaders
             </p>
             <div class="flex flex-wrap justify-center items-center gap-12 md:gap-16">
-                <!-- Placeholder for logos - replace with actual logos later -->
+                <!-- Partner Logos -->
                 <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/vw.webp" 
                          alt="Volkswagen" 
                          class="w-full h-full object-contain">
                 </div>
-                <div class="w-32 h-32 bg-gray-200 rounded-xl flex items-center justify-center">
-                    <span class="text-gray-500 text-sm text-center px-2">Partner Logo 2</span>
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/motherson.webp" 
+                         alt="Motherson" 
+                         class="w-full h-full object-contain">
                 </div>
-                <div class="w-32 h-32 bg-gray-200 rounded-xl flex items-center justify-center">
-                    <span class="text-gray-500 text-sm text-center px-2">Partner Logo 3</span>
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/mb.webp" 
+                         alt="Mercedes-Benz" 
+                         class="w-full h-full object-contain">
+                </div>
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/op.webp" 
+                         alt="OP" 
+                         class="w-full h-full object-contain">
+                </div>
+                <div class="w-32 h-32 rounded-xl flex items-center justify-center overflow-hidden shadow-lg">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/adtech.webp" 
+                         alt="Adtech" 
+                         class="w-full h-full object-contain">
                 </div>
             </div>
         </div>
