@@ -14,13 +14,17 @@ get_header();
 
 <!-- Hero Section with Background Image -->
 <section class="relative min-h-screen overflow-hidden">
-    <!-- Background Image -->
+    <!-- Background Video -->
     <div class="absolute inset-0">
-        <img 
-            src="<?php echo get_stylesheet_directory_uri(); ?>/public/home.webp" 
-            alt="Safety Training Background" 
+        <video 
+            autoplay 
+            muted 
+            loop 
+            playsinline
             class="w-full h-full object-cover"
         >
+            <source src="<?php echo get_stylesheet_directory_uri(); ?>/public/home.mp4" type="video/mp4">
+        </video>
     </div>
     
     <!-- Overlay oscuro -->
