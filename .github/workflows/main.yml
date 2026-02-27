@@ -1,4 +1,4 @@
-name: Deploy a Hostinger
+name: Deploy a Cliente USA (SFTP)
 
 on:
   push:
@@ -7,26 +7,21 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy USA
     runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Obtener código más reciente
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
-    - name: 📂 Sincronizar archivos FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        # IP extraída de tu imagen "Cuentas FTP" (darkseagreen...)
-        server: 195.35.33.109
-        
-        # Usuario específico que aparece en tu imagen (termina en 'en')
-        username: u947001429.gabopruebaen
-        
-        # ¡IMPORTANTE! Tienes que crear el secreto FTP_PASSWORD en este repositorio también
-        password: ${{ secrets.FTP_PASSWORD }}
-        
-        # RUTA: Al usar el usuario 'gabopruebaen', tu raíz ya es public_html.
-        # Solo asegúrate de cambiar "child-theme" por el nombre real de tu carpeta.
-        server-dir: ./wp-content/themes/child-theme/
+    steps:
+      - name: 🚚 Obtener código más reciente
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📂 Sincronizar archivos SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: access-5015726610.ud-webspace.de
+          username: a124214
+          password: (Cr3at3b1u3.MX!!)
+          port: 22
+          # Apuntamos a la carpeta USA sin la "/" inicial
+          remote_path: CreatblueDemoUsa/wp-content/themes/child-theme/
