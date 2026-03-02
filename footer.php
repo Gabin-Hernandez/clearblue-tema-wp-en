@@ -92,6 +92,8 @@
         
         <div class="text-center mt-8 text-gray-500 text-sm">
             <p class="font-black text-primary">Creatblue US</p>
+            <?php 
+            /*
             <p>&copy; <?php echo date('Y'); ?> XX XXXX XX, XXXXX.</p>
             <p class="mt-3">
                 <a href="<?php echo esc_url(home_url('/politica-de-cookies')); ?>" class="hover:text-secondary transition">Cookie Policy</a>
@@ -100,6 +102,8 @@
                 <span class="mx-2">|</span>
                 <a href="<?php echo esc_url(home_url('/terminos-y-condiciones')); ?>" class="hover:text-secondary transition">Terms and Conditions</a>
             </p>
+            */
+            ?>
         </div>
     </div>
 </footer>
