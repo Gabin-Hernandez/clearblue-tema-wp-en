@@ -40,11 +40,23 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
-                            <div class="dropdown-menu absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
-                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg">Training</a>
-                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Safety</a>
-                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Compliance</a>
-                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="block px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition">Consulting</a>
+                            <div class="dropdown-menu absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
+                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="flex items-center gap-3 px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-t-lg group">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" alt="Training" class="w-10 h-10 object-cover rounded">
+                                    <span class="font-medium">Training</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="flex items-center gap-3 px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition group">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" alt="Safety" class="w-10 h-10 object-cover rounded">
+                                    <span class="font-medium">Safety</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="flex items-center gap-3 px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition group">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" alt="Compliance" class="w-10 h-10 object-cover rounded">
+                                    <span class="font-medium">Compliance</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="flex items-center gap-3 px-4 py-3 text-gray-800 hover:bg-secondary hover:text-white transition rounded-b-lg group">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" alt="Consulting" class="w-10 h-10 object-cover rounded">
+                                    <span class="font-medium">Consulting</span>
+                                </a>
                             </div>
                         </div>
                         
@@ -88,11 +100,23 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
-                            <div class="mobile-dropdown-menu hidden pl-4 pt-2 space-y-2">
-                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Training</a>
-                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Safety</a>
-                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Compliance</a>
-                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Consulting</a>
+                            <div class="mobile-dropdown-menu hidden pl-2 pt-2 space-y-2">
+                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" alt="Training" class="w-8 h-8 object-cover rounded">
+                                    <span>Training</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" alt="Safety" class="w-8 h-8 object-cover rounded">
+                                    <span>Safety</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" alt="Compliance" class="w-8 h-8 object-cover rounded">
+                                    <span>Compliance</span>
+                                </a>
+                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" alt="Consulting" class="w-8 h-8 object-cover rounded">
+                                    <span>Consulting</span>
+                                </a>
                             </div>
                         </div>
                         
