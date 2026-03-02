@@ -78,29 +78,27 @@
                 'fallback_cb' => function() {
                     ?>
                     <div class="space-y-3">
-                        <a href="<?php echo esc_url(home_url('/nosotros')); ?>" class="block text-white hover:text-secondary transition py-2">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/about')); ?>" class="block text-white hover:text-secondary transition py-2">About Us</a>
                         
-                        <!-- Dropdown móvil: ¿Qué ofrecemos? -->
+                        <!-- Dropdown móvil: Services -->
                         <div class="mobile-dropdown">
                             <button class="w-full flex items-center justify-between text-white hover:text-secondary transition py-2 mobile-dropdown-toggle">
-                                ¿Qué ofrecemos?
+                                Services
                                 <svg class="w-4 h-4 transition-transform mobile-dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
                             <div class="mobile-dropdown-menu hidden pl-4 pt-2 space-y-2">
-                                <a href="<?php echo esc_url(home_url('/entrenamiento')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Entrenamiento</a>
-                                <a href="<?php echo esc_url(home_url('/reclutamiento')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Reclutamiento</a>
-                                <a href="<?php echo esc_url(home_url('/capacitacion')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Capacitación</a>
-                                <a href="<?php echo esc_url(home_url('/consultoria')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Consultoría</a>
-                                <a href="<?php echo esc_url(home_url('/originals')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Originals</a>
+                                <a href="<?php echo esc_url(home_url('/training')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Training</a>
+                                <a href="<?php echo esc_url(home_url('/safety')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Safety</a>
+                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Compliance</a>
+                                <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="block text-white/80 hover:text-secondary transition py-1">Consulting</a>
                             </div>
                         </div>
                         
                         <?php /* <a href="<?php echo esc_url(get_permalink(get_option('page_for_posts'))); ?>" class="block text-white hover:text-secondary transition py-2">Blog</a> */ ?>
-                        <?php /* <a href="#" class="block text-white hover:text-secondary transition py-2">Camino zum talent</a> */ ?>
-                        <a href="<?php echo esc_url(home_url('/contacto')); ?>" class="block text-white hover:text-secondary transition py-2">Contacto</a>
-                        <a href="#" class="block text-white hover:text-secondary transition py-2">Bolsa de trabajo</a>
+                        <?php /* <a href="#" class="block text-white hover:text-secondary transition py-2">Path to Talent</a> */ ?>
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="block text-white hover:text-secondary transition py-2">Contact</a>
                     </div>
                     <?php
                 },
