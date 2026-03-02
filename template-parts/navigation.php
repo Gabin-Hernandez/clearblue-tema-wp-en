@@ -111,7 +111,7 @@
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" alt="Safety" class="w-12 h-12 object-cover rounded">
                                     <span>Safety</span>
                                 </a>
-                                <a href="<?php echo ecs_url(home_url('/compliance')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
+                                <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="flex items-center gap-3 text-white/80 hover:text-secondary transition py-2 px-2 rounded hover:bg-white/10">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" alt="Compliance" class="w-12 h-12 object-cover rounded">
                                     <span>Compliance</span>
                                 </a>
