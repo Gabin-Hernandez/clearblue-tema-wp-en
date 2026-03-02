@@ -40,24 +40,26 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
-                            <div class="dropdown-menu absolute top-full left-1/2 -translate-x-1/2 mt-2 w-screen max-w-4xl bg-white rounded-lg shadow-2xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
-                                <div class="grid grid-cols-4 gap-6 p-6">
-                                    <a href="<?php echo esc_url(home_url('/training')); ?>" class="flex flex-col items-center gap-3 p-4 text-gray-800 hover:bg-secondary hover:text-white transition rounded-lg group">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" alt="Training" class="w-20 h-20 object-cover rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                                        <span class="font-semibold text-center">Training</span>
-                                    </a>
-                                    <a href="<?php echo esc_url(home_url('/safety')); ?>" class="flex flex-col items-center gap-3 p-4 text-gray-800 hover:bg-secondary hover:text-white transition rounded-lg group">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" alt="Safety" class="w-20 h-20 object-cover rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                                        <span class="font-semibold text-center">Safety</span>
-                                    </a>
-                                    <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="flex flex-col items-center gap-3 p-4 text-gray-800 hover:bg-secondary hover:text-white transition rounded-lg group">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" alt="Compliance" class="w-20 h-20 object-cover rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                                        <span class="font-semibold text-center">Compliance</span>
-                                    </a>
-                                    <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="flex flex-col items-center gap-3 p-4 text-gray-800 hover:bg-secondary hover:text-white transition rounded-lg group">
-                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" alt="Consulting" class="w-20 h-20 object-cover rounded-lg shadow-md group-hover:scale-105 transition-transform">
-                                        <span class="font-semibold text-center">Consulting</span>
-                                    </a>
+                            <div class="dropdown-menu absolute top-full left-0 right-0 mt-2 w-screen bg-white rounded-lg shadow-2xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
+                                <div class="container mx-auto px-6 py-10">
+                                    <div class="grid grid-cols-4 gap-8">
+                                        <a href="<?php echo esc_url(home_url('/training')); ?>" class="flex flex-col items-center gap-4 p-6 text-gray-800 hover:bg-secondary hover:text-white transition rounded-xl group">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/training.webp" alt="Training" class="w-full h-48 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform">
+                                            <span class="font-bold text-xl text-center">Training</span>
+                                        </a>
+                                        <a href="<?php echo esc_url(home_url('/safety')); ?>" class="flex flex-col items-center gap-4 p-6 text-gray-800 hover:bg-secondary hover:text-white transition rounded-xl group">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/safety.webp" alt="Safety" class="w-full h-48 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform">
+                                            <span class="font-bold text-xl text-center">Safety</span>
+                                        </a>
+                                        <a href="<?php echo esc_url(home_url('/compliance')); ?>" class="flex flex-col items-center gap-4 p-6 text-gray-800 hover:bg-secondary hover:text-white transition rounded-xl group">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/compliance.webp" alt="Compliance" class="w-full h-48 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform">
+                                            <span class="font-bold text-xl text-center">Compliance</span>
+                                        </a>
+                                        <a href="<?php echo esc_url(home_url('/consulting')); ?>" class="flex flex-col items-center gap-4 p-6 text-gray-800 hover:bg-secondary hover:text-white transition rounded-xl group">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/consulting.webp" alt="Consulting" class="w-full h-48 object-cover rounded-lg shadow-lg group-hover:scale-105 transition-transform">
+                                            <span class="font-bold text-xl text-center">Consulting</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
