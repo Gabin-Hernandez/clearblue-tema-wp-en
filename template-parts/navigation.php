@@ -40,7 +40,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </button>
-                            <div class="dropdown-menu absolute top-full left-0 right-0 mt-2 w-screen bg-white rounded-lg shadow-2xl opacity-0 invisible transition-all duration-200 transform translate-y-2">
+                            <div class="dropdown-menu fixed left-0 right-0 mt-2 bg-white shadow-2xl opacity-0 invisible transition-all duration-200 transform translate-y-2" style="top: 100%;">
                                 <div class="container mx-auto px-6 py-10">
                                     <div class="grid grid-cols-4 gap-8">
                                         <a href="<?php echo esc_url(home_url('/training')); ?>" class="flex flex-col items-center gap-4 p-6 text-gray-800 hover:bg-secondary hover:text-white transition rounded-xl group">
