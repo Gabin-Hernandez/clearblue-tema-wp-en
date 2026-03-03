@@ -304,10 +304,10 @@ get_header();
 
             <!-- Image -->
             <div class="relative h-[500px] opacity-0 scale-75 animate-on-scroll" data-delay="600">
-                <div class="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
+                <div class="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center bg-gray-100">
                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/home.webp" 
                          alt="Safety Training" 
-                         class="w-full h-full object-cover">
+                         class="w-full h-full object-contain">
                 </div>
             </div>
         </div>
