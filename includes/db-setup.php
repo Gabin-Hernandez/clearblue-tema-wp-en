@@ -10,20 +10,20 @@ function creatblue_create_contacts_table()
     $table_name = $wpdb->prefix . 'creatblue_contacts';
     $charset_collate = $wpdb->get_charset_collate();
 
-    $sql = "CREATE TABLE IF NOT EXISTS $table_name (
+    $sql = "CREATE TABLE $table_name (
         id bigint(20) NOT NULL AUTO_INCREMENT,
         fecha datetime DEFAULT '0000-00-00 00:00:00' NOT NULL,
         nombre varchar(255) NOT NULL,
         apellido varchar(255) NOT NULL,
         correo varchar(255) NOT NULL,
-        empresa varchar(255) DEFAULT '',
-        estado varchar(255) DEFAULT '',
-        codigo_postal varchar(50) DEFAULT '',
-        telefono varchar(50) DEFAULT '',
-        solucion varchar(255) DEFAULT '',
-        detalles text DEFAULT '',
-        consentimiento tinyint(1) DEFAULT 0,
-        marketing tinyint(1) DEFAULT 0,
+        empresa varchar(255) DEFAULT '' NOT NULL,
+        estado varchar(255) DEFAULT '' NOT NULL,
+        codigo_postal varchar(50) DEFAULT '' NOT NULL,
+        telefono varchar(50) DEFAULT '' NOT NULL,
+        solucion varchar(255) DEFAULT '' NOT NULL,
+        detalles longtext NOT NULL,
+        consentimiento tinyint(1) DEFAULT 0 NOT NULL,
+        marketing tinyint(1) DEFAULT 0 NOT NULL,
         PRIMARY KEY  (id)
     ) $charset_collate;";
 

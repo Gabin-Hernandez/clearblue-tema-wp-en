@@ -42,6 +42,14 @@ function creatblue_procesar_contacto()
     $table_name = $wpdb->prefix . 'creatblue_contacts';
     $fecha = current_time('mysql');
 
+    // Comprobar existencia directa para no fallar si no hemos entrado a wp-admin
+    if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
+        if (!function_exists('creatblue_create_contacts_table')) {
+            require_once get_stylesheet_directory() . '/includes/db-setup.php';
+        }
+        creatblue_create_contacts_table();
+    }
+
     $inserted = $wpdb->insert(
         $table_name,
         array(
