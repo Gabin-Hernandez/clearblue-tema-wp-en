@@ -31,7 +31,7 @@ get_header();
                 <!-- Description -->
                 <p class="text-gray-600 text-lg leading-relaxed opacity-0 translate-y-8 animate-on-scroll"
                     data-delay="300">
-                    At Creatblue®, we work with people and companies to build stronger, more productive, and
+                    At Creatblue® US, we work with people and companies to build stronger, more productive, and
                     better-prepared teams through recruitment, training, coaching, and consulting.
                 </p>
             </div>
@@ -39,7 +39,7 @@ get_header();
             <!-- Right Column - Single Image -->
             <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 scale-95 animate-on-scroll" data-delay="400">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/contact.webp"
-                    alt="Contact Creatblue" class="w-full h-auto object-cover">
+                    alt="Contact Creatblue US" class="w-full h-auto object-cover">
             </div>
 
         </div>
@@ -170,8 +170,7 @@ get_header();
                                 class="h-4 w-4 text-secondary border-gray-300 rounded focus:ring-secondary mt-1">
                             <div class="ml-3 text-sm">
                                 <label for="consentimiento" class="text-gray-600">I give my consent and accept the <a
-                                        href="#" class="font-bold text-gray-800 hover:underline">COOKIE POLICIES,
-                                        PRIVACY NOTICE, TERMS AND CONDITIONS</a></label>
+                                        href="#" class="font-bold text-gray-800 hover:underline">PRIVACY NOTICE</a></label>
                             </div>
                         </div>
                         <div class="flex items-start">
@@ -179,7 +178,7 @@ get_header();
                                 class="h-4 w-4 text-secondary border-gray-300 rounded focus:ring-secondary mt-1">
                             <div class="ml-3 text-sm">
                                 <label for="marketing" class="text-gray-600">Keep me informed about news, events,
-                                    promotions, and marketing activities from Creatblue®.</label>
+                                    promotions, and marketing activities from Creatblue® US.</label>
                             </div>
                         </div>
                     </div>
@@ -201,7 +200,7 @@ get_header();
                 </form>
             </div>
 
-            <!-- WhatsApp Column -->
+            <!-- WhatsApp Column
             <div class="lg:col-span-1">
                 <div class="bg-gray-50 border-2 border-green-500 rounded-2xl p-8 text-center sticky top-28">
                     <h3 class="text-2xl font-bold text-gray-900 mb-3">Prefer a direct conversation?</h3>
@@ -213,7 +212,7 @@ get_header();
                 </div>
                 <p class="text-gray-600 mt-6 text-center lg:text-left">We believe in well-prepared talent and
                     organizations that invest in continuous development. Let's talk!</p>
-            </div>
+            </div>-->
 
         </div>
     </div>
