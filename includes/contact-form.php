@@ -11,7 +11,7 @@ function creatblue_procesar_contacto()
 {
     // 1. Validar el nonce obligatorio para máxima seguridad
     if (!isset($_POST['contacto_nonce']) || !wp_verify_nonce($_POST['contacto_nonce'], 'enviar_contacto')) {
-        wp_send_json_error('Error de seguridad. Por favor recarga la página e inténtalo de nuevo.');
+        wp_send_json_error('Security error. Please reload the page and try again.');
     }
 
     // 2. Sanitizar todas las variables enviadas
@@ -30,11 +30,11 @@ function creatblue_procesar_contacto()
     $marketing = isset($_POST['marketing']) ? 1 : 0;
 
     if (!$consentimiento) {
-        wp_send_json_error('Debes aceptar las políticas de privacidad y condiciones para continuar.');
+        wp_send_json_error('You must accept the privacy policies and conditions to continue.');
     }
 
     if (empty($nombre) || empty($apellido) || empty($correo)) {
-        wp_send_json_error('Por favor completa al menos los campos obligatorios (Nombre, Apellido, Correo).');
+        wp_send_json_error('Please fill in at least the required fields (First Name, Last Name, Email).');
     }
 
     // 3. Insertar el registro exitosamente en la base de datos
@@ -64,7 +64,7 @@ function creatblue_procesar_contacto()
     );
 
     if (!$inserted) {
-        wp_send_json_error('Hubo un error al guardar el registro en la base de datos. Inténtalo de nuevo más tarde.');
+        wp_send_json_error('There was an error saving the record to the database. Please try again later.');
     }
 
     // 4. Enviar el correo usando Resend (wp_remote_post)
@@ -81,21 +81,21 @@ function creatblue_procesar_contacto()
     $api_key = 're_7XJ2un3S_547Kjap8vUEEwvnY2ce1HSvn';
     $url = 'https://api.resend.com/emails';
 
-    $html_content = "<h2>Nuevo contacto desde sitio web Creatblue</h2>";
-    $html_content .= "<p><strong>Nombre completo:</strong> {$nombre} {$apellido}</p>";
-    $html_content .= "<p><strong>Correo electrónico:</strong> {$correo}</p>";
-    $html_content .= "<p><strong>Empresa:</strong> " . ($empresa ?: 'No especificado') . "</p>";
-    $html_content .= "<p><strong>Estado:</strong> " . ($estado ?: 'No especificado') . "</p>";
-    $html_content .= "<p><strong>Código Postal:</strong> " . ($codigo_postal ?: 'No especificado') . "</p>";
-    $html_content .= "<p><strong>Teléfono:</strong> " . ($telefono ?: 'No especificado') . "</p>";
-    $html_content .= "<p><strong>Solución Requerida:</strong> " . ($solucion ?: 'No especificado') . "</p>";
-    $html_content .= "<p><strong>Detalles:</strong><br/>" . nl2br(esc_html($detalles ?: 'Ninguno')) . "</p>";
-    $html_content .= "<p><strong>Aceptó Marketing:</strong> " . ($marketing ? 'Sí' : 'No') . "</p>";
+    $html_content = "<h2>New contact from Creatblue website</h2>";
+    $html_content .= "<p><strong>Full Name:</strong> {$nombre} {$apellido}</p>";
+    $html_content .= "<p><strong>Email:</strong> {$correo}</p>";
+    $html_content .= "<p><strong>Company:</strong> " . ($empresa ?: 'Not specified') . "</p>";
+    $html_content .= "<p><strong>State:</strong> " . ($estado ?: 'Not specified') . "</p>";
+    $html_content .= "<p><strong>Zip Code:</strong> " . ($codigo_postal ?: 'Not specified') . "</p>";
+    $html_content .= "<p><strong>Phone:</strong> " . ($telefono ?: 'Not specified') . "</p>";
+    $html_content .= "<p><strong>Required Solution:</strong> " . ($solucion ?: 'Not specified') . "</p>";
+    $html_content .= "<p><strong>Details:</strong><br/>" . nl2br(esc_html($detalles ?: 'None')) . "</p>";
+    $html_content .= "<p><strong>Accepted Marketing:</strong> " . ($marketing ? 'Yes' : 'No') . "</p>";
 
     $body = array(
         'from' => 'Creatblue <noreply@email.jhernandez.mx>',
         'to' => $destinos_array,
-        'subject' => 'Nuevo registro de contacto - ' . $nombre . ' ' . $apellido,
+        'subject' => 'New contact record - ' . $nombre . ' ' . $apellido,
         'html' => $html_content,
         'reply_to' => $correo
     );
@@ -115,19 +115,19 @@ function creatblue_procesar_contacto()
     // 5. Retornar un wp_send_json_success o error según resultado de Resend
     if (is_wp_error($response)) {
         // Registro fue guardado, pero correo falló (error de WP)
-        wp_send_json_error('Registro guardado exitosamente, pero hubo un error de conexión al enviar el correo a los administradores. Contactaremos contigo.');
+        wp_send_json_error('Record saved successfully, but there was a connection error sending the email to administrators. We will contact you.');
     }
     else {
         $response_code = wp_remote_retrieve_response_code($response);
         if ($response_code >= 200 && $response_code < 300) {
-            wp_send_json_success('¡Tu mensaje y solicitud han sido enviados exitosamente! Te contactaremos pronto.');
+            wp_send_json_success('Your message and request have been sent successfully! We will contact you soon.');
         }
         else {
             // Registro fue guardado, pero API de Resend retornó error
             $response_body = wp_remote_retrieve_body($response);
             $err_msg = json_decode($response_body);
-            $msg = $err_msg->message ?? 'Falló el envío de notificación';
-            wp_send_json_error('Registro guardado exitosamente, pero falló la notificación (Código ' . $response_code . ': ' . $msg . ').');
+            $msg = $err_msg->message ?? 'Failed to send notification';
+            wp_send_json_error('Record saved successfully, but the notification failed (Code ' . $response_code . ': ' . $msg . ').');
         }
     }
 }

@@ -223,81 +223,68 @@ get_header();
 
 <!-- Script para animaciones -->
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Intersection Observer para las animaciones de scroll
-        const observerOptions = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.1
+        document.addEventListener('DOMContentLoaded', func tion         
+        // Intersection Observer para las animaciones d        roll
+        const observe             = {
+                   t: null,
+                      rgin: '0px',
+                      reshold: 0.1
         };
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const delay = entry.target.dataset.delay || 0;
-                    setTimeout(() => {
-                        entry.target.classList.remove('opacity-0', 'translate-y-8', 'scale-95');
-                        entry.target.classList.add('opacity-100', 'translate-y-0', 'scale-100');
-                    }, delay);
-                    observer.unobserve(entry.target);
+        const observer = new Int            nObserver((entries) => {
+                  tries.forEach(entry => {
+                       (entry.isIntersecting) {
+                    co                    y.target.dataset.de                                  setTimeout(() => {
+                        entry.target.classLi                        ', 'translate-y-8', 'scale-95');
+                        entry.target.cla                    ity-100', '                    'scale-100');
+                                                               observer.unobserve(en        target);
                 }
             });
-        }, observerOptions);
+        }, observerO        ns);
 
-        // Observar todos los elementos con la clase animate-on-scroll
-        document.querySelectorAll('.animate-on-scroll').forEach(el => {
-            el.classList.add('transition-all', 'duration-700', 'ease-out');
+        // Observar todos los elementos con la clase anima            roll
+        document.querySelectorAll('.animate-on-scroll').for            => {
+            el.cl        ist.    add('    transition-all', 'duration-700'    , 'ease-out');
             observer.observe(el);
         });
-    });
+        });
 
     // Formulario de Contacto AJAX
-    const contactForm = document.getElementById('contacto-form');
-    const btn = document.getElementById('submit-btn');
+    cons    t contactForm = document.getElementById('contacto-for    m');
+    const btn = document.getElementById('submit-btn');    
     const btnText = document.getElementById('btn-text');
-    const btnSpinner = document.getElementById('btn-spinner');
-    const formMessage = document.getElementById('form-message');
-
-    if (contactForm) {
-        contactForm.addEventListener('submit', async function (e) {
+        const btnSpinner =         ment.getElementById('btn-spinner');
+    const formMes sage =            t.getElementById('fog              if (contactForm) {
+        contactForm            tListener('submit', a            ction (e) {
             e.preventDefault();
 
-            // Deshabilitar botón y mostrar spinner
-            btn.disabled = true;
-            btn.classList.add('opacity-75', 'cursor-not-allowed');
-            btnText.textContent = 'Enviando...';
-            btnSpinner.classList.remove('hidden');
+                      habilitar botón y mostrar spinner
+                btn.disabled = true;
+            btn.c.            city-75', 'cursor-not-allowe                     btnText.textContent = 'Sending...';
+            btnSpinner.classLis(            );
 
             // Limpiar mensajes previos
-            formMessage.className = 'hidden mt-4 p-4 rounded-lg font-bold text-center';
+             essage                 'hidden mt-4 p-4 rounded-lg font-bold text-center';
 
-            const formData = new FormData(contactForm);
+            const formD                    ta(contactForm);                    y {
+                           espof                echo admin_url("admin-ajax.php"); ?>                 method: 'POST',
+                    body                               });
 
-            try {
-                const response = await fetch('<?php echo admin_url("admin-ajax.php"); ?>', {
-                    method: 'POST',
-                    body: formData
-                });
+                    const data = await response.json();
 
-                const data = await response.json();
-
-                formMessage.classList.remove('hidden');
-                if (data.success) {
-                    formMessage.classList.add('bg-green-100', 'text-green-800');
-                    formMessage.textContent = data.data;
+                formMess                    move('hidden');
+                if (d                                       fo                assList.a                    ', 'text-green-800');
+                    formMessage.tex                    data;
                     contactForm.reset();
                 } else {
-                    formMessage.classList.add('bg-red-100', 'text-red-800');
-                    formMessage.textContent = data.data || 'Ocurrió un error al procesar tu solicitud.';
+                             es            ssList.add('bg-red                -red-800');
+                    formMess                ent = data.data || 'An error occurred while processing yo                ;
                 }
             } catch (error) {
-                formMessage.classList.remove('hidden');
-                formMessage.classList.add('bg-red-100', 'text-red-800');
-                formMessage.textContent = 'Hubo un error de conexión. Inténtelo de nuevo más tarde.';
-            } finally {
-                // Restaurar botón
-                btn.disabled = false;
-                btn.classList.remove('opacity-75', 'cursor-not-allowed');
+                formMessage.classLis            ('hidden');
+                    formMessage.cla                bg-red-100', 'text-red                            formMessage.textContent = 'There was a connect                lease try again later.';
+                       ly {
+                // Restaurar bo                                bt              btn.classList.remove('opacity-75', 'cursor-not-allowed');
                 btnText.textContent = 'Submit';
                 btnSpinner.classList.add('hidden');
             }
