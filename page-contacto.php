@@ -31,7 +31,7 @@ get_header();
                 <!-- Description -->
                 <p class="text-gray-600 text-lg leading-relaxed opacity-0 translate-y-8 animate-on-scroll"
                     data-delay="300">
-                    At Creatblue® Mexico, we work with people and companies to build stronger, more productive, and
+                    At Creatblue®, we work with people and companies to build stronger, more productive, and
                     better-prepared teams through recruitment, training, coaching, and consulting.
                 </p>
             </div>
@@ -39,7 +39,7 @@ get_header();
             <!-- Right Column - Single Image -->
             <div class="rounded-3xl overflow-hidden shadow-2xl opacity-0 scale-95 animate-on-scroll" data-delay="400">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/contact.webp"
-                    alt="Contact Creatblue Mexico" class="w-full h-auto object-cover">
+                    alt="Contact Creatblue" class="w-full h-auto object-cover">
             </div>
 
         </div>
@@ -179,7 +179,7 @@ get_header();
                                 class="h-4 w-4 text-secondary border-gray-300 rounded focus:ring-secondary mt-1">
                             <div class="ml-3 text-sm">
                                 <label for="marketing" class="text-gray-600">Keep me informed about news, events,
-                                    promotions, and marketing activities from Creatblue® Mexico.</label>
+                                    promotions, and marketing activities from Creatblue®.</label>
                             </div>
                         </div>
                     </div>

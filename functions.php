@@ -50,8 +50,8 @@ function creatblue_setup_seo()
             'description' => 'Training, compliance, and workforce solutions backed by global expertise and delivered with a people-first approach.'
         ),
         'page-contacto' => array(
-            'title' => 'Habla con un especialista en talento, entrenamiento, capacitación y consultoría | Creatblue® México',
-            'description' => 'Contáctanos si buscas empleo o talento con soluciones de reclutamiento, capacitación, entrenamiento y consultoría empresarial. En Creatblue conectamos talento con oportunidades reales.'
+            'title' => 'Contact Creatblue USA | Workforce Solutions & Safety Training',
+            'description' => 'Get in touch with Creatblue USA for workforce solutions, safety training, and consulting services. We’re here to support your team’s success.'
         ),
     );
 
