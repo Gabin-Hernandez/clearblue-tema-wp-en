@@ -123,7 +123,7 @@ function creatblue_procesar_contacto()
     // 5. Retornar un wp_send_json_success o error según resultado de Resend
     if (is_wp_error($response)) {
         // Registro fue guardado, pero correo falló (error de WP)
-        wp_send_json_error('Record saved successfully, but there was a connection error sending the email to administrators. We will contact you.');
+        wp_send_json_error('Record saved successfully, but there was a connection error sending the email to administrators: ' . $response->get_error_message());
     }
     else {
         $response_code = wp_remote_retrieve_response_code($response);
