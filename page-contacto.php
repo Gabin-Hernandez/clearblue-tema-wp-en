@@ -46,10 +46,10 @@ get_header();
     </div>
 </section>
 
-<!-- How Can We Help You Today Section -->
+<!-- SECCIÓN TEMPORALMENTE OCULTA - How Can We Help You Today Section -->
+<!-- 
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <!-- Section Title -->
         <div class="mb-12 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 How can we help you today?
@@ -59,10 +59,8 @@ get_header();
             </p>
         </div>
 
-        <!-- Grid de 2 tarjetas -->
         <div class="grid md:grid-cols-2 gap-8">
 
-            <!-- Card 1: Professional Profile -->
             <div class="border-2 border-gray-200 rounded-3xl p-8 md:p-10 hover:border-secondary/50 hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll"
                 data-delay="400">
                 <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
@@ -78,7 +76,6 @@ get_header();
                 </a>
             </div>
 
-            <!-- Card 2: Organization Solutions -->
             <div class="border-2 border-gray-200 rounded-3xl p-8 md:p-10 hover:border-secondary/50 hover:shadow-lg transition-all duration-300 opacity-0 translate-y-8 animate-on-scroll"
                 data-delay="600">
                 <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
@@ -97,6 +94,8 @@ get_header();
         </div>
     </div>
 </section>
+-->
+<!-- FIN SECCIÓN OCULTA -->
 
 <!-- Contact Form and WhatsApp -->
 <section class="bg-white py-20">
