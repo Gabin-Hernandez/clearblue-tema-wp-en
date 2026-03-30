@@ -166,7 +166,7 @@ get_header();
         <div class="mb-16 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
             <p class="text-secondary uppercase tracking-wide text-2xl font-black mb-3">Creatblue Differentiator</p>
             <p class="text-gray-700 text-lg max-w-2xl leading-relaxed">
-            At Creatblue Mexico, we stand out for increasing the profitability of those who trust in our services — without compromising the quality and value of their businesses.
+            At Creatblue, we stand out for increasing the profitability of those who trust in our services — without compromising the quality and value of their businesses.
             </p>
         </div>
         
