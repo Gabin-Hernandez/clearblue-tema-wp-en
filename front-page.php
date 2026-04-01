@@ -42,9 +42,9 @@ get_header();
             <h2 class="text-white text-xl md:text-2xl font-normal leading-relaxed mb-8 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 Industrial safety training and workforce solutions that improve performance, strengthen operations, and support your team where it matters most.
             </h2>
-            <button class="bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
-                Get a Quote
-            </button>
+            <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="inline-block bg-secondary hover:bg-secondary/80 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
+                Contact Us
+            </a>
         </div>
     </div>
 </section>
