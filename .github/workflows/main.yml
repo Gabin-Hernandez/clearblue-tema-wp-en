@@ -24,4 +24,4 @@ jobs:
           password: (Cr3at3b1u3.MX!!)
           port: 22
           # Apuntamos a la carpeta USA sin la "/" inicial
-          remote_path: CreatblueDemoUsa/wp-content/themes/child-theme/
+          remote_path: creatblue.com/us/wp-content/themes/child-theme/
