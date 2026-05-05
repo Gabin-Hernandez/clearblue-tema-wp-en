@@ -29,7 +29,7 @@ get_header();
         <div class="max-w-3xl">
             <p class="text-secondary uppercase tracking-[0.2em] text-xl font-black mb-4 opacity-0 translate-y-8 animate-on-scroll"
                 data-delay="200">
-                Workforce Reinvented prueba Ale
+                Workforce Reinvented
             </p>
             <h1 class="text-white text-5xl md:text-6xl font-bold leading-tight mb-6 opacity-0 translate-y-8 animate-on-scroll"
                 data-delay="400">
